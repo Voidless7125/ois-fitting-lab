@@ -197,7 +197,8 @@ const STAT_DEFS = {
   generator: [['out', 'Output', (m, E) => stat(m.generationrate * E, 'kW', true)]],
   solar: [['out', 'Output in full sun', (m, E, I, c) => stat(m.generationrate * E * m.range * c.sun, 'kW', true)],
     ['range', 'Sunlight gain', (m) => stat(m.range, 'x', true)]],
-  battery: [['cap', 'Capacity', (m, E) => stat(m.maxpowercontent * E, '', true, 1)]],
+  battery: [['cap', 'Capacity', (m, E) => stat(m.maxpowercontent * E, '', true, 1)],
+    ['rech', 'Recharge', (m, E) => stat((m.generationrate || 0) * E, 'kW', true, 3)]],
   nav: [['boot', 'Boot time', (m, E, I) => stat(m.boottime * I, 'time', false)], ['sw', 'Software', (m) => stat(m.softwareversion, 'v', true, 0)]],
   helm: [['boot', 'Boot time', (m, E, I) => stat(m.boottime * I * 0.5, 'time', false)]],
   sensor: [['q', 'Signal strength', (m, E) => stat(m.sensorquality * E, '', true)], ['sw', 'Software', (m) => stat(m.softwareversion, 'v', true, 0)]],
@@ -254,7 +255,7 @@ function perfTerms(mod, ev, ctx) {
   switch (t) {
     case 'generator': return [[s.out.v, 1]];
     case 'solar': return [[s.out.v, 1]];
-    case 'battery': return [[s.cap.v, 1]];
+    case 'battery': return [[s.cap.v, 0.8], [s.rech.v, 0.2]];
     case 'nav': return [[-s.boot.v, 1]];
     case 'helm': return [[-s.boot.v, 1]];
     case 'sensor': return [[s.q.v, 1]];
@@ -488,7 +489,7 @@ function summarize(fit, ctx) {
     S.emIdle += em.idle; S.emHigh += em.high; S.sturd += ev.sturd;
     if (m.t === 'generator') S.gen += st.out.v;
     if (m.t === 'solar') S.solar += st.out.v;
-    if (m.t === 'battery') S.cap += st.cap.v;
+    if (m.t === 'battery') { S.cap += st.cap.v; S.gen += st.rech.v; }   // a battery's own generationrate feeds the grid like a reactor's
   });
   const byType = {};
   for (const r of rows) (byType[r.mod.t] = byType[r.mod.t] || []).push(r);

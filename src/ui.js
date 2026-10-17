@@ -559,7 +559,7 @@ function renderSaved() {
 /* ====================== HOW IT WORKS ====================== */
 function renderHow() {
   const rows = [
-    ['Reactor', 'power output', 'generationrate x e'], ['Solar wing', 'power output', 'generationrate x e x range x sunlight'], ['Battery', 'capacity', 'maxpowercontent x e'],
+    ['Reactor', 'power output', 'generationrate x e'], ['Solar wing', 'power output', 'generationrate x e x range x sunlight'], ['Battery', 'capacity; recharge', 'maxpowercontent x e; generationrate x e'],
     ['Nav computer', 'boot time', 'boottime x (2 - e)'], ['Helm', 'boot time', 'boottime x (2 - e) x 0.5'], ['Sensors', 'signal strength', 'sensorquality x e'],
     ['Ladar', 'range (radius is fixed)', 'ladarrange x e'], ['Comms', 'sync time', 'synctime x (2 - e) x 0.5'], ['Main drive', 'thrust', 'thrust x e'],
     ['RCS', 'rotation rate', 'rotationrate x e'], ['Jump drive', 'range and spin-up', 'jumpdistance x e; spinuptime x (2 - e)'],

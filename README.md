@@ -5,7 +5,7 @@ Pick a hull and a goal (stealth runner, combat corvette, explorer and others) an
 efficiency, power, emissions and price maths, reads your own save to show every part and its wear, and switches between
 the base game and the bugfix patcher's behaviour.
 
-**Live page:** `https://Voidless7125.github.io/ois-fitting-lab/`
+**Live page:** `https://<your-user>.github.io/<repo-name>/`
 
 ## Use it
 

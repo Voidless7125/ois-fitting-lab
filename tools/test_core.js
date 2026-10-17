@@ -20,6 +20,8 @@ const sp=C.MOD.spl9s; const ev=C.evalBuild(sp,C.buildFrom(sp,'eff',{}));
 console.log('spl9s eff',ev.eff,'spin base',C.modStats(sp,ev,{patch:0,sun:1}).spin.v.toFixed(2),'patched',C.modStats(sp,ev,{patch:2,sun:1}).spin.v.toFixed(2));
 // 6. warnings
 const pc=C.MOD.pcm9; console.log('pcm9 boost warn',C.warnings(pc,C.evalBuild(pc,C.presetIds(pc,'boost'))).length);
+// 6b. battery recharge: only r100/x100/eb30 define generationrate; it scales with efficiency like a reactor's output
+for(const [id,rate] of [['x100',0.2],['eb30',0.2],['r100',0.1],['t100',0]]){ const bm=C.MOD[id]; const be=C.evalBuild(bm,C.presetIds(bm,'new')); const r=C.modStats(bm,be,ctx).rech.v; ok(Math.abs(r-rate*be.eff/100)<1e-9,`${id} recharge ${r} != ${rate*be.eff/100}`); }
 // 7. rank + autofit
 const G=Object.fromEntries(C.GOAL_PRESETS.map(p=>[p.id,p]));
 for(const gid of ['stealth','combat','spec','hauler']){
