@@ -70,7 +70,7 @@ function modOptions(group, only, sel) {
   return h;
 }
 const STRAT_OPTS = [['auto', 'Parts: best for goal'], ['new', 'Parts: stock'], ['eff', 'Parts: max efficiency'], ['quiet', 'Parts: quietest'],
-  ['frugal', 'Parts: lowest power'], ['tough', 'Parts: toughest'], ['cheap', 'Parts: cheapest'], ['bal0.5', 'Parts: balanced'], ['custom', 'Parts: custom']];
+['frugal', 'Parts: lowest power'], ['tough', 'Parts: toughest'], ['cheap', 'Parts: cheapest'], ['bal0.5', 'Parts: balanced'], ['custom', 'Parts: custom']];
 function keyStats(r, n) {
   const defs = STAT_DEFS[r.mod.t];
   return defs.slice(0, n || 2).map(([k, l]) => {
@@ -287,7 +287,7 @@ function renderModules() {
     { k: 'name', l: 'Module', get: r => r.m.name, txt: true },
     { k: 'price', l: 'Price', get: r => r.m.price, d: 0, hi: false },
     { k: 'eff', l: 'Eff %', get: r => r.ev.eff, d: 0, hi: true },
-    ...defs.map(([k, l, , ]) => ({ k: 's:' + k, l, get: r => r.st[k].v, d: r => r.st[k].d, hi: r => r.st[k].hi })),
+    ...defs.map(([k, l, ,]) => ({ k: 's:' + k, l, get: r => r.st[k].v, d: r => r.st[k].d, hi: r => r.st[k].hi })),
     { k: 'pi', l: 'Power idle', get: r => r.dr.shownIdle, d: 2, hi: false },
     { k: 'ph', l: 'Power active', get: r => r.dr.shownHigh, d: 1, hi: false },
     { k: 'ei', l: 'Emis. idle', get: r => r.em.idle, d: 1, hi: false },
@@ -411,7 +411,7 @@ function parseSave(buf) {
   const version = u32();
   if (version !== 12) throw new Error('This save is version ' + version + '. Only version 12 saves (game 1.0.x) can be read.');
   const o = { version, game: str(), title: str(), meta: {} };
-  for (;;) { const tag = i32(), t = u8(); const v = t === 0 ? u32() : str(); if (tag === -9999) break; o.meta[tag] = v; }
+  for (; ;) { const tag = i32(), t = u8(); const v = t === 0 ? u32() : str(); if (tag === -9999) break; o.meta[tag] = v; }
   o.difficulty = u32(); u32(); p += 3;
   const nf = u32(); o.flags = []; for (let i = 0; i < nf; i++) o.flags.push(str());
   o.classval = u32();
@@ -478,7 +478,7 @@ function renderShip() {
   const hulls = sh.hull.map(([i, v]) => HULL_NAMES[i] + ' ' + fmt(v, 0)).join(', ');
   const hullDamaged = sh.hull.some(([, v]) => v > 0);
   const info = [['Pilot', m[1001]], ['Ship', (m[1003] || sh.strings[1]) + ' (' + sh.strings[2] + ')'], ['Hull', ship.name], ['Credits', m[1002] != null ? money(m[1002]) : '-'],
-    ['Docked at', m[1009] || 'in space'], ['Saved', m[1006] || '-'], ['In-game date', m[1007] || '-'], ['Game version', m[1010] || '-'], ['Hull damage', hullDamaged ? hulls : 'none recorded']];
+  ['Docked at', m[1009] || 'in space'], ['Saved', m[1006] || '-'], ['In-game date', m[1007] || '-'], ['Game version', m[1010] || '-'], ['Hull damage', hullDamaged ? hulls : 'none recorded']];
   const kv = info.map(([k, v]) => '<div class="kv"><span>' + esc(k) + '</span><b>' + esc(v) + '</b></div>').join('');
   // damage accounting
   let rows = '', worst = [];

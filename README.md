@@ -5,7 +5,7 @@ Pick a hull and a goal (stealth runner, combat corvette, explorer and others) an
 efficiency, power, emissions and price maths, reads your own save to show every part and its wear, and switches between
 the base game and the bugfix patcher's behaviour.
 
-**Live page:** `https://<your-user>.github.io/<repo-name>/`
+**Live page:** `https://Voidless7125.github.io/ois-fitting-lab/`
 
 ## Use it
 
@@ -17,7 +17,7 @@ is read in your browser only). Fonts come from Google Fonts and fall back to sys
 `game-data/` holds the game's own text files, copied from the game's `assets` folder:
 
 | Files | Used for |
-|---|---|
+| --- | --- |
 | `components.txt`, `compinterfaces.txt` | Parts, their efficiency/power/emission modifiers, and each module's slot chains |
 | `modules_*.txt` | Every purchasable module |
 | `modules_npc.txt` | Three NPC-only modules offered as "NPC kit": AP-RCS1, RM-SNS, Probe Sensor |

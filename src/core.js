@@ -196,9 +196,9 @@ function stat(v, u, hi, d) { return { v, u, hi, d: d == null ? 2 : d }; }
 const STAT_DEFS = {
   generator: [['out', 'Output', (m, E) => stat(m.generationrate * E, 'kW', true)]],
   solar: [['out', 'Output in full sun', (m, E, I, c) => stat(m.generationrate * E * m.range * c.sun, 'kW', true)],
-    ['range', 'Sunlight gain', (m) => stat(m.range, 'x', true)]],
+  ['range', 'Sunlight gain', (m) => stat(m.range, 'x', true)]],
   battery: [['cap', 'Capacity', (m, E) => stat(m.maxpowercontent * E, '', true, 1)],
-    ['rech', 'Recharge', (m, E) => stat((m.generationrate || 0) * E, 'kW', true, 3)]],
+  ['rech', 'Recharge', (m, E) => stat((m.generationrate || 0) * E, 'kW', true, 3)]],
   nav: [['boot', 'Boot time', (m, E, I) => stat(m.boottime * I, 'time', false)], ['sw', 'Software', (m) => stat(m.softwareversion, 'v', true, 0)]],
   helm: [['boot', 'Boot time', (m, E, I) => stat(m.boottime * I * 0.5, 'time', false)]],
   sensor: [['q', 'Signal strength', (m, E) => stat(m.sensorquality * E, '', true)], ['sw', 'Software', (m) => stat(m.softwareversion, 'v', true, 0)]],
@@ -207,14 +207,14 @@ const STAT_DEFS = {
   maindrive: [['thrust', 'Thrust', (m, E) => stat(m.thrust * E, '', true)]],
   rcs: [['rot', 'Rotation rate', (m, E) => stat(m.rotationrate * E, 'deg/s', true, 1)]],
   jumpdrive: [['range', 'Jump range', (m, E) => stat(m.jumpdistance * E, '', true, 0)],
-    ['spin', 'Spin-up', (m, E, I) => stat(m.spinuptime * I, 'time', false, 1)],
-    ['calc', 'Calc time', (m) => stat(m.calctime, 'time', false, 0)]],
+  ['spin', 'Spin-up', (m, E, I) => stat(m.spinuptime * I, 'time', false, 1)],
+  ['calc', 'Calc time', (m) => stat(m.calctime, 'time', false, 0)]],
   weapon: [['tubes', 'Tubes', (m) => stat(m.tubes, '', true, 0)],
-    ['spin', 'Tube spin-up', (m, E, I, c) => stat(m.spinuptime * (c.patch >= 2 ? I : E) * 0.5, 'time', false, 1)]],
+  ['spin', 'Tube spin-up', (m, E, I, c) => stat(m.spinuptime * (c.patch >= 2 ? I : E) * 0.5, 'time', false, 1)]],
   pds: [['range', 'Range', (m, E) => stat(m.range * E, '', true, 1)],
-    ['reload', 'Reload', (m, E, I) => stat(m.reloadtime * I, 'time', false)],
-    ['hit', 'Hit chance', (m) => stat(m.hit ? 1 - 1 / m.hit : 0, '', true, 2)],
-    ['hps', 'Hits per time', (m, E, I) => stat(I > 0 ? (m.hit ? 1 - 1 / m.hit : 0) / (m.reloadtime * I) : 0, '', true)]],
+  ['reload', 'Reload', (m, E, I) => stat(m.reloadtime * I, 'time', false)],
+  ['hit', 'Hit chance', (m) => stat(m.hit ? 1 - 1 / m.hit : 0, '', true, 2)],
+  ['hps', 'Hits per time', (m, E, I) => stat(I > 0 ? (m.hit ? 1 - 1 / m.hit : 0) / (m.reloadtime * I) : 0, '', true)]],
   cm: [['tubes', 'Countermeasures', (m) => stat(m.tubes, '', true, 0)], ['reload', 'Reload', (m, E, I) => stat(m.reloadtime * I * 0.5, 'time', false)]],
   hack: [['range', 'Hack range', (m) => stat(m.hackrange, '', true, 0)], ['time', 'Hack time', (m, E, I) => stat(m.hacktime * I, 'time', false)]],
   arm: [['time', 'Grapple time', (m, E, I) => stat(m.grappletime * I, 'time', false)]]
@@ -546,26 +546,44 @@ function shoppingList(fit) {
 
 /* ---------- presets ---------- */
 const GOAL_PRESETS = [
-  { id: 'stealth', name: 'Stealth runner', blurb: 'Quiet reactor, solar help, small signature.',
-    w: { power: 4, speed: 5, jump: 6, sensing: 6, combat: 1, comms: 4, salvage: 0, stealth: 10, econ: 6, thrift: 2, tough: 0 }, solar: 2 },
-  { id: 'combat', name: 'Combat corvette', blurb: 'Launchers, point defence, countermeasures, hard-hitting power.',
-    w: { power: 7, speed: 8, jump: 3, sensing: 7, combat: 10, comms: 2, salvage: 0, stealth: 1, econ: 1, thrift: 0, tough: 6 }, solar: 0 },
-  { id: 'explorer', name: 'Long-haul explorer', blurb: 'Jump range, sensors, a thrifty power budget.',
-    w: { power: 7, speed: 4, jump: 10, sensing: 9, combat: 1, comms: 3, salvage: 2, stealth: 3, econ: 6, thrift: 2, tough: 1 }, solar: 2 },
-  { id: 'hauler', name: 'Cheap hauler', blurb: 'Low price, modest power, nothing fancy.',
-    w: { power: 4, speed: 3, jump: 2, sensing: 2, combat: 0, comms: 1, salvage: 3, stealth: 1, econ: 5, thrift: 10, tough: 1 }, solar: 0 },
-  { id: 'hacker', name: 'Infiltrator', blurb: 'Long-range hacking, quiet, fast comms.',
-    w: { power: 4, speed: 5, jump: 3, sensing: 5, combat: 0, comms: 10, salvage: 0, stealth: 8, econ: 5, thrift: 2, tough: 0 }, solar: 1 },
-  { id: 'salvage', name: 'Salvager', blurb: 'Fast grapple, good sensors and ladar.',
-    w: { power: 4, speed: 5, jump: 2, sensing: 8, combat: 1, comms: 1, salvage: 10, stealth: 2, econ: 4, thrift: 4, tough: 1 }, solar: 1 },
-  { id: 'spec', name: 'Best of everything', blurb: 'Pure performance; ignores price, power and noise.',
-    w: { power: 10, speed: 10, jump: 10, sensing: 10, combat: 10, comms: 10, salvage: 10, stealth: 0, econ: 0, thrift: 0, tough: 0 }, solar: 0 },
-  { id: 'budget', name: 'Bargain bin', blurb: 'The cheapest set that still does its jobs.',
-    w: { power: 3, speed: 3, jump: 3, sensing: 3, combat: 3, comms: 3, salvage: 3, stealth: 0, econ: 2, thrift: 10, tough: 0 }, solar: 0 }
+  {
+    id: 'stealth', name: 'Stealth runner', blurb: 'Quiet reactor, solar help, small signature.',
+    w: { power: 4, speed: 5, jump: 6, sensing: 6, combat: 1, comms: 4, salvage: 0, stealth: 10, econ: 6, thrift: 2, tough: 0 }, solar: 2
+  },
+  {
+    id: 'combat', name: 'Combat corvette', blurb: 'Launchers, point defence, countermeasures, hard-hitting power.',
+    w: { power: 7, speed: 8, jump: 3, sensing: 7, combat: 10, comms: 2, salvage: 0, stealth: 1, econ: 1, thrift: 0, tough: 6 }, solar: 0
+  },
+  {
+    id: 'explorer', name: 'Long-haul explorer', blurb: 'Jump range, sensors, a thrifty power budget.',
+    w: { power: 7, speed: 4, jump: 10, sensing: 9, combat: 1, comms: 3, salvage: 2, stealth: 3, econ: 6, thrift: 2, tough: 1 }, solar: 2
+  },
+  {
+    id: 'hauler', name: 'Cheap hauler', blurb: 'Low price, modest power, nothing fancy.',
+    w: { power: 4, speed: 3, jump: 2, sensing: 2, combat: 0, comms: 1, salvage: 3, stealth: 1, econ: 5, thrift: 10, tough: 1 }, solar: 0
+  },
+  {
+    id: 'hacker', name: 'Infiltrator', blurb: 'Long-range hacking, quiet, fast comms.',
+    w: { power: 4, speed: 5, jump: 3, sensing: 5, combat: 0, comms: 10, salvage: 0, stealth: 8, econ: 5, thrift: 2, tough: 0 }, solar: 1
+  },
+  {
+    id: 'salvage', name: 'Salvager', blurb: 'Fast grapple, good sensors and ladar.',
+    w: { power: 4, speed: 5, jump: 2, sensing: 8, combat: 1, comms: 1, salvage: 10, stealth: 2, econ: 4, thrift: 4, tough: 1 }, solar: 1
+  },
+  {
+    id: 'spec', name: 'Best of everything', blurb: 'Pure performance; ignores price, power and noise.',
+    w: { power: 10, speed: 10, jump: 10, sensing: 10, combat: 10, comms: 10, salvage: 10, stealth: 0, econ: 0, thrift: 0, tough: 0 }, solar: 0
+  },
+  {
+    id: 'budget', name: 'Bargain bin', blurb: 'The cheapest set that still does its jobs.',
+    w: { power: 3, speed: 3, jump: 3, sensing: 3, combat: 3, comms: 3, salvage: 3, stealth: 0, econ: 2, thrift: 10, tough: 0 }, solar: 0
+  }
 ];
 const GLOBAL_AXES = [['stealth', 'Stealth (low emissions)'], ['econ', 'Power economy'], ['thrift', 'Low price'], ['tough', 'Toughness']];
 
 if (typeof module !== 'undefined') {
-  module.exports = { TYPES, PARTS_BY_CLASS, CLASS_LABEL, MOD, MODS_BY_TYPE, COMP, SHIP, SHIPS, evalBuild, candidates, modStats, drawOf, emisOf, rankType, bestBuild, autoFit, emptyFit, summarize,
-    GOAL_PRESETS, slotPlan, buildFrom, presetIds, warnings, fitToCode, fitFromCode, configLine, shoppingList, normFor, DATA, PRESET_NAMES };
+  module.exports = {
+    TYPES, PARTS_BY_CLASS, CLASS_LABEL, MOD, MODS_BY_TYPE, COMP, SHIP, SHIPS, evalBuild, candidates, modStats, drawOf, emisOf, rankType, bestBuild, autoFit, emptyFit, summarize,
+    GOAL_PRESETS, slotPlan, buildFrom, presetIds, warnings, fitToCode, fitFromCode, configLine, shoppingList, normFor, DATA, PRESET_NAMES
+  };
 }
