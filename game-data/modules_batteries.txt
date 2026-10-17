@@ -1,0 +1,261 @@
+begin module
+type=battery
+id=t100
+name=T100
+shortname=Batt.
+manufacturer=Beaumont
+description=A regular battery.
+damagethreshold=80
+destroyedthreshold=10
+
+maxpowercontent=45
+emissionstrength=1
+emissionfrequency=708
+
+basevalue=2400
+#configuration=-1,-2,-3,-1,-2,-3,3,1,2,1,2,3,2,1,3,0
+#base
+configuration=new,30,30,30,20,20,20,50,50,50,20,20,20,50,50,50,-1
+#stealth
+configuration=stealth,35,-1,-1,24,-1,-1,-1,54,-1,24,-1,-1,-1,54,-1,-1
+#health
+configuration=defence,34,34,34,23,23,23,53,53,53,23,23,23,53,53,53,73
+#p.draw
+configuration=lowpoweruse,33,-1,-1,22,-1,-1,-1,52,-1,22,-1,-1,-1,52,-1,-1
+#eff.
+configuration=boost,33,33,33,24,24,24,52,52,52,24,24,24,52,52,52,72
+
+email=Thank you for your purchase of a Beaumont T100 battery.^^This battery stores 50 kw of power, and is a reliable addition to any good ship! Add multiple if you find yourself with many power-hungry modules in use at once.^^On a standard Ceres class light freighter, the vertical power bars in the top-centre of the bridge will give you a good indication of how much power your ship is using. The right-hand bar shows your power gain or loss, while the left hand shows the total amount of energy stored in your good old-fashioned Beaumont batteries.^^Important consumer information: if you have a damaged battery, some Ceres class ships might never register that it is at full storage, and will not move on to charge second and third batteries. If you think you're storing less power than you should, try disconnecting a damaged battery.^^Thank you for your purchase!
+end module
+
+begin module
+type=battery
+id=r100
+name=R100
+shortname=Batt.
+manufacturer=Beaumont
+description=A regular battery.
+damagethreshold=80
+destroyedthreshold=10
+
+maxpowercontent=45
+emissionstrength=2
+emissionfrequency=704
+generationrate=0.1
+
+basevalue=2160
+#configuration=-1,-2,-3,-1,-2,-3,3,1,2,1,2,3,0,2,1,3
+#base
+configuration=new,30,30,30,20,20,20,50,50,50,20,20,20,-1,20,20,20
+#stealth
+configuration=stealth,35,-1,-1,24,-1,-1,-1,54,-1,24,-1,-1,-1,-1,24,-1
+#health
+configuration=defence,34,34,34,23,23,23,53,53,53,23,23,23,73,23,23,23
+#p.draw
+configuration=lowpoweruse,33,-1,-1,22,-1,-1,-1,52,-1,22,-1,-1,-1,-1,22,-1
+#eff.
+configuration=boost,33,33,33,24,24,24,52,52,52,24,24,24,-1,24,24,24
+
+email=Thank you for your purchase of a Beaumont R100 battery.^^This battery stores 50 kw of power, and is a reliable addition to any good ship! Add multiple if you find yourself with many power-hungry modules in use at once.^^On a standard Ceres class light freighter, the vertical power bars in the top-centre of the bridge will give you a good indication of how much power your ship is using. The right-hand bar shows your power gain or loss, while the left hand shows the total amount of energy stored in your good old-fashioned Beaumont batteries.^^Important consumer information: if you have a damaged battery, some Ceres class ships might never register that it is at full storage, and will not move on to charge second and third batteries. If you think you're storing less power than you should, try disconnecting a damaged battery.^^Thank you for your purchase!
+
+end module
+
+begin module
+type=battery
+id=x100
+name=X100
+shortname=Batt.
+manufacturer=Beaumont
+description=A regular battery.
+damagethreshold=80
+destroyedthreshold=10
+
+maxpowercontent=54
+emissionstrength=3
+emissionfrequency=706
+generationrate=0.2
+
+basevalue=2160
+#configuration=-1,-2,-3,-1,-2,-3,1,2,3,0,2,1,3,2,1,3
+#base
+configuration=new,30,30,30,20,20,20,20,20,20,-1,20,20,20,20,20,20
+#stealth
+configuration=stealth,35,-1,-1,24,-1,-1,24,-1,-1,-1,-1,24,-1,-1,24,-1
+#health
+configuration=defence,34,34,34,23,23,23,23,23,23,73,23,23,23,23,23,23
+#p.draw
+configuration=lowpoweruse,33,-1,-1,22,-1,-1,22,-1,-1,-1,-1,22,-1,-1,22,-1
+#eff.
+configuration=boost,33,33,33,24,24,24,24,24,24,-1,24,24,24,24,24,24
+end module
+
+begin module
+type=battery
+id=eb10
+name=EB10
+shortname=Batt.
+manufacturer=Edison
+description=A regular battery.
+damagethreshold=80
+destroyedthreshold=10
+
+maxpowercontent=58
+emissionstrength=2.5
+emissionfrequency=700
+
+basevalue=2400
+#configuration=-2,-1,2,1,0,1,2
+#base
+configuration=new,30,30,50,50,-1,20,20
+#stealth
+configuration=stealth,-1,35,-1,54,-1,24,-1
+#health
+configuration=defence,34,34,53,53,73,23,23
+#p.draw
+configuration=lowpoweruse,-1,33,-1,52,-1,22,-1
+#eff.
+configuration=boost,33,33,52,52,-1,22,22
+end module
+
+begin module
+type=battery
+id=eb20
+name=EB20
+shortname=Batt.
+manufacturer=Edison
+description=A regular battery.
+damagethreshold=80
+destroyedthreshold=10
+
+maxpowercontent=60
+emissionstrength=3.5
+emissionfrequency=702
+
+basevalue=2904
+#configuration=-2,-1,2,1,0,1,2
+#base
+configuration=new,30,30,50,50,-1,50,50
+#stealth
+configuration=stealth,-1,35,-1,54,-1,54,-1
+#health
+configuration=defence,34,34,53,53,73,53,53
+#p.draw
+configuration=lowpoweruse,-1,33,-1,52,-1,52,-1
+#eff.
+configuration=boost,33,33,52,52,-1,52,52
+
+end module
+
+begin module
+type=battery
+id=eb30
+name=EB30
+shortname=Batt.
+manufacturer=Edison
+description=A regular battery.
+damagethreshold=80
+destroyedthreshold=10
+
+maxpowercontent=66
+emissionstrength=4.5
+emissionfrequency=698
+generationrate=0.2
+
+basevalue=2640
+#configuration=-2,-1,2,1,0,1,2,-1,-2
+#base
+configuration=new,30,30,50,50,-1,20,20,30,30
+#stealth
+configuration=stealth,-1,35,-1,54,-1,24,-1,35,-1
+#health
+configuration=defence,34,34,53,53,73,23,23,34,34
+#p.draw
+configuration=lowpoweruse,-1,33,-1,52,-1,22,-1,33,-1
+#eff.
+configuration=boost,33,33,52,52,-1,22,22,33,33
+
+end module
+
+begin module
+type=battery
+id=gg8
+name=GG8
+shortname=Batt.
+manufacturer=Sukarno
+description=A regular battery.
+damagethreshold=80
+destroyedthreshold=10
+
+maxpowercontent=20
+emissionstrength=2
+emissionfrequency=697
+
+basevalue=1800
+#configuration=0,0,2,1,-2,-1,2,1,-1,-2,0
+#base
+configuration=new,30,30,50,50,50,50,20,20,20,20,-1
+#stealth
+configuration=stealth,35,35,-1,54,-1,54,-1,24,24,-1,-1
+#health
+configuration=defence,34,34,53,53,53,53,23,23,23,23,73
+#p.draw
+configuration=lowpoweruse,33,33,-1,52,-1,52,-1,22,22,-1,-1
+#eff.
+configuration=boost,33,33,52,52,52,52,22,22,22,22,-1
+end module
+
+begin module
+type=battery
+id=gg10
+name=GG10
+shortname=Batt.
+manufacturer=Sukarno
+description=A regular battery.
+damagethreshold=80
+destroyedthreshold=10
+
+maxpowercontent=30
+emissionstrength=2.5
+emissionfrequency=696
+
+basevalue=1782
+#configuration=0,0,2,1,-2,-1,2,1,-1,-2,0,3,3,-3,-3
+#base
+configuration=new,30,30,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,10,10,10
+#stealth
+configuration=stealth,35,35,-1,-1,-1,-1,-1,-1,-1,-1,-1,15,15,15,15
+#health
+configuration=defence,34,34,53,53,53,53,23,23,23,23,73,14,14,14,14
+#p.draw
+configuration=lowpoweruse,33,33,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11
+#eff.
+configuration=boost,33,33,52,52,52,52,22,22,22,22,-1,13,13,13,13
+end module
+
+begin module
+type=battery
+id=rs8
+name=RS8
+shortname=Batt.
+manufacturer=Sukarno
+description=A regular battery.
+damagethreshold=80
+destroyedthreshold=10
+
+maxpowercontent=39
+emissionstrength=3
+emissionfrequency=695
+
+basevalue=1782
+#configuration=2,1,-2,-1,2,1,-1,-2,0,3,3,-3,-3,0,0
+#base
+configuration=new,50,50,50,50,20,20,20,20,-1,10,10,10,10,40,40
+#stealth
+configuration=stealth,-1,-1,-1,-1,-1,-1,-1,-1,-1,15,15,15,15,44,44
+#health
+configuration=defence,53,53,53,53,23,23,23,23,73,10,14,14,14,43,43
+#p.draw
+configuration=lowpoweruse,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,43,43
+#eff.
+configuration=boost,52,52,52,52,22,22,22,22,-1,13,13,13,13,43,43
+end module

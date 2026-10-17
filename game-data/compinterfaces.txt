@@ -1,0 +1,3955 @@
+
+begin componentinterface
+	id=dummyinterface
+	background=CB_01_A_2
+	componentslot=clusterm,32,44,1
+	componentslot=tasconverter,96,44,1
+	componentslot=clusterm,32,128,2
+	componentslot=tasconverter,96,128,2
+	componentslot=clusterm,32,212,3
+	componentslot=tasconverter,96,212,3
+	componentslot=microcomp,160,128,0
+	componentslot=roaut,224,128,0
+	componentslot=hapnode,296,128,0
+	componentslot=buffer,284,28,0,true
+	line=32,44,96,44,1
+	line=96,44,160,84,1
+	line=32,128,96,128,2
+	line=96,128,160,128,2
+	line=32,212,96,212,3
+	line=96,212,160,172,3
+	line=160,128,212,128,0
+	line=212,128,296,128,0
+	asets=0,0
+	bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=t100
+	background=CB_01_D_2
+	componentslot=roaut,50,188,-1
+	componentslot=roaut,50,128,-2
+	componentslot=roaut,50,68,-3
+	componentslot=clusterm,110,188,-1
+	componentslot=clusterm,110,128,-2
+	componentslot=clusterm,110,68,-3
+	componentslot=tasconverter,190,68,3
+	componentslot=tasconverter,190,188,1
+	componentslot=tasconverter,190,128,2
+	componentslot=clusterm,230,188,1
+	componentslot=clusterm,230,128,2
+	componentslot=clusterm,230,68,3
+	componentslot=tasconverter,270,128,2
+	componentslot=tasconverter,270,188,1
+	componentslot=tasconverter,270,68,3
+	componentslot=buffer,150,38,0,true
+    line=50,188,110,188,-1
+    line=50,128,110,128,-2
+    line=50,68,110,68,-3
+    line=110,188,150,128,-1
+    line=110,128,150,128,-2
+    line=110,68,150,128,-3
+    line=150,128,190,188,1
+    line=150,128,190,128,2
+    line=150,128,190,68,3
+    line=190,188,270,188,1
+    line=190,128,270,128,2
+    line=190,68,270,68,3
+asets=2,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=r100
+	background=CB_01_D_2
+	componentslot=roaut,50,188,-1
+	componentslot=roaut,50,128,-2
+	componentslot=roaut,50,68,-3
+	componentslot=clusterm,110,188,-1
+	componentslot=clusterm,110,128,-2
+	componentslot=clusterm,110,68,-3
+	componentslot=tasconverter,190,68,3
+	componentslot=tasconverter,190,188,1
+	componentslot=tasconverter,190,128,2
+	componentslot=clusterm,230,188,1
+	componentslot=clusterm,230,128,2
+	componentslot=clusterm,230,68,3
+	componentslot=buffer,150,38,0,true
+	componentslot=clusterm,270,128,2
+	componentslot=clusterm,270,188,1
+	componentslot=clusterm,270,68,3
+line=50,188,110,188,-1
+line=50,128,110,128,-2
+line=50,68,110,68,-3
+line=110,188,150,128,-1
+line=110,128,150,128,-2
+line=110,68,150,128,-3
+line=150,128,190,188,1
+line=150,128,190,128,2
+line=150,128,190,68,3
+line=190,188,270,188,1
+line=190,128,270,128,2
+line=190,68,270,68,3
+asets=2,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=x100
+	background=CB_01_D_2
+	componentslot=roaut,50,188,-1
+	componentslot=roaut,50,128,-2
+	componentslot=roaut,50,68,-3
+	componentslot=clusterm,110,188,-1
+	componentslot=clusterm,110,128,-2
+	componentslot=clusterm,110,68,-3
+	componentslot=clusterm,230,188,1
+	componentslot=clusterm,230,128,2
+	componentslot=clusterm,230,68,3
+	componentslot=buffer,150,38,0,true
+	componentslot=clusterm,270,128,2
+	componentslot=clusterm,270,188,1
+	componentslot=clusterm,270,68,3
+	componentslot=clusterm,190,128,2
+	componentslot=clusterm,190,188,1
+	componentslot=clusterm,190,68,3
+line=50,188,110,188,-1
+line=50,128,110,128,-2
+line=50,68,110,68,-3
+line=110,188,150,128,-1
+line=110,128,150,128,-2
+line=110,68,150,128,-3
+line=150,128,190,188,1
+line=150,128,190,128,2
+line=150,128,190,68,3
+line=190,188,270,188,1
+line=190,128,270,128,2
+line=190,68,270,68,3
+asets=2,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=eb10
+	background=CB_07_D_4
+	componentslot=roaut,40,88,-2
+	componentslot=roaut,40,140,-1
+	componentslot=tasconverter,140,88,2
+	componentslot=tasconverter,140,140,1
+	componentslot=buffer,250,128,0,true
+	componentslot=clusterm,90,140,1
+	componentslot=clusterm,90,88,2
+    line=40,88,65,113,-2
+    line=40,140,65,113,-1
+    line=65,113,90,140,1
+    line=65,113,90,88,2
+    line=90,140,140,140,1
+    line=90,88,140,88,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=eb20
+	background=CB_07_D_4
+	componentslot=roaut,40,88,-2
+	componentslot=roaut,40,140,-1
+	componentslot=tasconverter,140,88,2
+	componentslot=tasconverter,140,140,1
+	componentslot=buffer,250,128,0,true
+	componentslot=tasconverter,90,140,1
+	componentslot=tasconverter,90,88,2
+line=40,88,65,113,-2
+line=40,140,65,113,-1
+line=65,113,90,140,1
+line=65,113,90,88,2
+line=90,140,140,140,1
+line=90,88,140,88,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=eb30
+	background=CB_03_D_4
+	componentslot=roaut,110,88,-2
+	componentslot=roaut,110,142,-1
+	componentslot=tasconverter,210,88,2
+	componentslot=tasconverter,210,142,1
+	componentslot=buffer,250,128,0,true
+	componentslot=clusterm,160,142,1
+	componentslot=clusterm,160,88,2
+	componentslot=roaut,60,142,-1
+	componentslot=roaut,60,88,-2
+    line=60,142,110,142,-1
+    line=60,88,110,88,-2
+    line=110,88,135,113,-2
+    line=110,142,135,113,-1
+    line=135,113,160,142,1
+    line=135,113,160,88,2
+    line=160,142,210,142,1
+    line=160,88,210,88,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=gg8
+	background=CB_02_C_6
+	componentslot=roaut,140,128,0
+	componentslot=roaut,180,128,0
+	componentslot=tasconverter,240,68,2
+	componentslot=tasconverter,240,178,1
+	componentslot=tasconverter,80,68,-2
+	componentslot=tasconverter,80,178,-1
+	componentslot=clusterm,270,68,2
+	componentslot=clusterm,270,178,1
+	componentslot=clusterm,50,178,-1
+	componentslot=clusterm,50,68,-2
+	componentslot=buffer,160,48,0,true
+    line=50,178,80,178,-1
+    line=50,68,80,68,-2
+    line=80,178,140,128,-1
+    line=80,68,140,128,-2
+    line=140,128,180,128,0
+    line=180,128,240,178,1
+    line=240,178,270,178,1
+    line=180,128,240,68,2
+    line=240,68,270,68,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=rs8
+	background=CB_02_C_6
+	componentslot=tasconverter,240,128,2
+	componentslot=tasconverter,240,198,1
+	componentslot=tasconverter,80,128,-2
+	componentslot=tasconverter,80,198,-1
+	componentslot=clusterm,270,128,2
+	componentslot=clusterm,270,198,1
+	componentslot=clusterm,50,198,-1
+	componentslot=clusterm,50,128,-2
+	componentslot=buffer,160,48,0,true
+	componentslot=hapnode,240,58,3
+	componentslot=hapnode,270,58,3
+	componentslot=hapnode,80,58,-3
+	componentslot=hapnode,50,58,-3
+	componentslot=shp1,140,128,0
+	componentslot=shp1,180,128,0
+    line=50,198,80,198,-1
+    line=50,128,80,128,-2
+    line=50,58,80,58,-3
+    line=80,198,140,128,-1
+    line=80,128,140,128,-2
+    line=80,58,140,128,-3
+    line=140,128,180,128,0
+    line=180,128,240,198,1
+    line=180,128,240,128,2
+    line=180,128,240,58,3
+    line=240,198,270,198,1
+    line=240,128,270,128,2
+    line=240,58,270,58,3
+asets=2,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=gg10
+	background=CB_02_C_6
+	componentslot=roaut,140,128,0
+	componentslot=roaut,180,128,0
+	componentslot=tasconverter,240,128,2
+	componentslot=tasconverter,240,198,1
+	componentslot=tasconverter,80,128,-2
+	componentslot=tasconverter,80,198,-1
+	componentslot=clusterm,270,128,2
+	componentslot=clusterm,270,198,1
+	componentslot=clusterm,50,198,-1
+	componentslot=clusterm,50,128,-2
+	componentslot=buffer,160,48,0,true
+	componentslot=hapnode,240,58,3
+	componentslot=hapnode,270,58,3
+	componentslot=hapnode,80,58,-3
+	componentslot=hapnode,50,58,-3
+line=50,198,80,198,-1
+line=50,128,80,128,-2
+line=50,58,80,58,-3
+line=80,198,140,128,-1
+line=80,128,140,128,-2
+line=80,58,140,128,-3
+line=140,128,180,128,0
+line=180,128,240,198,1
+line=180,128,240,128,2
+line=180,128,240,58,3
+line=240,198,270,198,1
+line=240,128,270,128,2
+line=240,58,270,58,3
+asets=2,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=ae35
+	background=CB_05_A_1
+	componentslot=emrelay,270,148,0
+	componentslot=roaut,270,38,0
+	componentslot=hapnode,210,38,0
+	componentslot=hapnode,210,108,0
+	componentslot=tasconverter,160,108,0
+	componentslot=clusterm,110,108,0
+	componentslot=clusterm,60,108,0
+	componentslot=buffer,170,215,0,true
+    line=60,108,210,108,0
+    line=210,108,210,38,0
+    line=210,38,270,38,0
+    line=270,38,270,148,0
+	asets=0,0
+	bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=ae38
+	background=CB_05_A_1
+	componentslot=emrelay,270,148,0
+	componentslot=roaut,270,38,0
+	componentslot=hapnode,210,38,0
+	componentslot=hapnode,210,108,0
+	componentslot=tasconverter,160,108,0
+	componentslot=clusterm,110,108,0
+	componentslot=buffer,170,220,0,true
+	componentslot=hapnode,60,109,0
+line=60,108,210,108,0
+line=210,108,210,38,0
+line=210,38,270,38,0
+line=270,38,270,148,0
+	asets=0,0
+	bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=ar20
+	background=CB_05_A_1
+	componentslot=emrelay,270,148,0
+	componentslot=roaut,270,38,0
+	componentslot=hapnode,210,38,0
+	componentslot=hapnode,210,108,0
+	componentslot=tasconverter,160,108,0
+	componentslot=clusterm,110,108,0
+	componentslot=buffer,170,215,0,true
+	componentslot=tasconverter,57,107,0
+line=60,108,210,108,0
+line=210,108,210,38,0
+line=210,38,270,38,0
+line=270,38,270,148,0
+	asets=0,0
+	bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mk11
+	background=CB_05_A_5
+	componentslot=emrelay,280,55,2
+	componentslot=emrelay,280,180,1
+	componentslot=roaut,230,50,2
+	componentslot=roaut,230,180,1
+	componentslot=tasconverter,140,140,-1
+	componentslot=tasconverter,140,85,-2
+	componentslot=clusterm,100,140,-1
+	componentslot=clusterm,100,86,-2
+	componentslot=buffer,26,85,0,true
+    line=100,140,140,140,-1
+    line=100,85,140,85,-2
+    line=140,140,230,50,-1
+    line=140,85,230,180,-2
+    line=230,50,280,50,2
+    line=230,180,280,180,1
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=ol08
+	background=CB_05_A_5
+	componentslot=emrelay,280,58,2
+	componentslot=emrelay,280,180,1
+	componentslot=tasconverter,140,140,-1
+	componentslot=tasconverter,140,85,-2
+	componentslot=clusterm,100,140,-1
+	componentslot=clusterm,100,85,-2
+	componentslot=buffer,26,85,0,true
+	componentslot=tasconverter,240,180,1
+	componentslot=tasconverter,240,50,2
+	componentslot=clusterm,200,50,2
+	componentslot=clusterm,200,180,1
+line=100,140,140,140,-1
+line=100,85,140,85,-2
+line=140,140,200,50,-1
+line=140,85,200,180,-2
+line=230,50,280,50,2
+line=230,180,280,180,1
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mk22
+	background=CB_05_A_5
+	componentslot=emrelay,280,62,2
+	componentslot=emrelay,280,180,1
+	componentslot=tasconverter,140,140,-1
+	componentslot=tasconverter,140,85,-2
+	componentslot=clusterm,100,140,-1
+	componentslot=clusterm,100,85,-2
+	componentslot=buffer,26,85,0,true
+	componentslot=clusterm,200,180,1
+	componentslot=roaut,240,180,1
+	componentslot=roaut,240,50,2
+	componentslot=clusterm,200,50,2
+line=100,140,140,140,-1
+line=100,85,140,85,-2
+line=140,140,200,50,-1
+line=140,85,200,180,-2
+line=230,50,280,50,2
+line=230,180,280,180,1
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=lp02
+	background=CB_03_C
+	componentslot=emrelay,260,120,1
+	componentslot=tasconverter,140,150,-1
+	componentslot=tasconverter,140,85,-2
+	componentslot=clusterm,90,150,-1
+	componentslot=clusterm,90,85,-2
+	componentslot=buffer,46,45,0,true
+	componentslot=roaut,210,120,1
+    line=90,150,140,150,-1
+    line=90,85,140,85,-2
+    line=140,150,210,120,-1
+    line=140,85,210,120,-2
+    line=210,120,260,120,0
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=lp04
+	background=CB_03_C
+	componentslot=emrelay,260,120,1
+	componentslot=tasconverter,117,150,-1
+	componentslot=tasconverter,117,85,-2
+	componentslot=clusterm,70,150,-1
+	componentslot=clusterm,70,85,-2
+	componentslot=buffer,46,45,0,true
+	componentslot=roaut,210,120,1
+	componentslot=clusterm,165,150,-1
+	componentslot=clusterm,165,85,-2
+line=70,150,165,150,-1
+line=70,85,165,85,-2
+line=165,150,210,120,-1
+line=165,85,210,120,-2
+line=210,120,260,120,0
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=lps
+	background=CB_03_C
+	componentslot=emrelay,260,120,1
+	componentslot=tasconverter,117,150,-1
+	componentslot=tasconverter,117,85,-2
+	componentslot=clusterm,70,150,-1
+	componentslot=clusterm,70,85,-2
+	componentslot=buffer,46,45,0,true
+	componentslot=clusterm,165,150,-1
+	componentslot=clusterm,165,85,-2
+	componentslot=shp1,213,119,1
+line=70,150,165,150,-1
+line=70,85,165,85,-2
+line=165,150,210,120,-1
+line=165,85,210,120,-2
+line=210,120,260,120,0
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=cml2
+	background=CB_04_B_1
+	componentslot=microcomp,200,63,-2
+	componentslot=microcomp,155,172,-1
+	componentslot=clusterm,85,163,-1
+	componentslot=clusterm,85,54,-2
+	componentslot=tasconverter,45,150,-1
+	componentslot=tasconverter,45,54,-2
+	componentslot=hapnode,250,160,0
+	componentslot=hapnode,290,100,0
+	componentslot=hapnode,250,100,0
+	componentslot=hapnode,290,160,0
+	componentslot=buffer,200,210,0,true
+    line=45,150,155,195,-1
+    line=45,54,200,63,-2
+    line=155,195,250,100,0
+    line=200,63,250,160,0
+    line=250,100,250,160,0
+    line=250,100,290,100,0
+    line=290,100,290,160,0
+    line=250,160,290,160,0
+	asets=1,0
+	bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=cml3
+	background=CB_04_B_1
+	componentslot=microcomp,200,63,-2
+	componentslot=microcomp,155,170,-1
+	componentslot=clusterm,85,158,-1
+	componentslot=clusterm,85,54,-2
+	componentslot=tasconverter,45,150,-1
+	componentslot=tasconverter,45,54,-2
+	componentslot=buffer,85,210,0,true
+	componentslot=clusterm,290,160,0
+	componentslot=clusterm,250,160,0
+	componentslot=clusterm,290,100,0
+	componentslot=clusterm,250,100,0
+line=45,150,155,185,-1
+line=45,54,200,63,-2
+line=155,185,250,100,0
+line=200,63,250,160,0
+line=250,100,250,160,0
+line=250,100,290,100,0
+line=290,100,290,160,0
+line=250,160,290,160,0
+asets=1,0
+bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=cm42
+	background=CB_04_B_1
+	componentslot=microcomp,200,63,-2
+	componentslot=microcomp,145,175,-1
+	componentslot=clusterm,85,165,-1
+	componentslot=clusterm,85,54,-2
+	componentslot=tasconverter,45,150,-1
+	componentslot=tasconverter,45,54,-2
+	componentslot=buffer,85,215,0,true
+	componentslot=clusterm,290,160,0
+	componentslot=clusterm,290,100,0
+	componentslot=roaut,250,100,0
+	componentslot=roaut,250,160,0
+line=45,150,145,200,-1
+line=45,54,195,63,-2
+line=145,200,250,100,0
+line=195,63,250,160,0
+line=250,100,250,160,0
+line=250,100,290,100,0
+line=290,100,290,160,0
+line=250,160,290,160,0
+asets=1,0
+bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=pcm9
+	background=CB_01_B_6
+	componentslot=microcomp,213,63,-3
+	componentslot=microcomp,160,120,-2
+	componentslot=clusterm,65,180,-1
+	componentslot=clusterm,65,24,-3
+	componentslot=tasconverter,30,180,-1
+	componentslot=tasconverter,30,24,-3
+	componentslot=buffer,285,32,0,true
+	componentslot=clusterm,300,190,0
+	componentslot=clusterm,300,130,0
+	componentslot=roaut,270,130,0
+	componentslot=roaut,270,190,0
+	componentslot=microcomp,111,177,-1
+	componentslot=tasconverter,30,100,-2
+	componentslot=clusterm,65,100,-2
+    line=30,24,65,24,-3
+    line=65,24,213,62,-3
+    line=30,100,65,100,-2
+    line=65,100,160,120,-2
+    line=30,180,65,180,-1
+    line=65,180,111,177,-1
+    line=111,177,225,220,-1
+    line=160,120,225,220,-2
+    line=213,63,225,220,-3
+    line=225,220,270,190,0
+    line=225,220,270,130,0
+    line=270,190,270,130,0
+    line=270,190,300,190,0
+    line=270,130,300,130,0
+    line=300,130,300,190,0
+	asets=2,0
+	bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=pcm9s
+	background=CB_01_B_6
+	componentslot=microcomp,213,63,-3
+	componentslot=microcomp,160,120,-2
+	componentslot=clusterm,65,180,-1
+	componentslot=clusterm,65,24,-3
+	componentslot=tasconverter,28,180,-1
+	componentslot=tasconverter,28,24,-3
+	componentslot=buffer,285,32,0,true
+	componentslot=clusterm,300,190,0
+	componentslot=clusterm,300,130,0
+	componentslot=microcomp,111,177,-1
+	componentslot=tasconverter,28,100,-2
+	componentslot=clusterm,65,100,-2
+	componentslot=shp1,270,190,0
+	componentslot=shp1,270,130,0
+line=28,24,65,24,-3
+line=65,24,213,62,-3
+line=28,100,65,100,-2
+line=65,100,160,120,-2
+line=28,180,65,180,-1
+line=65,180,111,180,-1
+line=111,180,225,220,-1
+line=160,120,225,220,-2
+line=213,63,225,220,-3
+line=225,220,270,190,0
+line=225,220,270,130,0
+line=270,190,270,130,0
+line=270,190,300,190,0
+line=270,130,300,130,0
+line=300,130,300,190,0
+asets=2,0
+bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=pcm9g
+	background=CB_01_B_6
+	componentslot=microcomp,213,63,-3
+	componentslot=microcomp,160,120,-2
+	componentslot=clusterm,65,180,-1
+	componentslot=clusterm,65,24,-3
+	componentslot=tasconverter,28,180,-1
+	componentslot=tasconverter,28,24,-3
+	componentslot=buffer,285,32,0,true
+	componentslot=microcomp,111,177,-1
+	componentslot=tasconverter,28,100,-2
+	componentslot=clusterm,65,100,-2
+	componentslot=shp1,269,190,0
+	componentslot=shp1,269,130,0
+	componentslot=shp1,300,190,0
+	componentslot=shp1,300,130,0
+line=28,24,65,24,-3
+line=65,24,213,62,-3
+line=28,100,65,100,-2
+line=65,100,160,120,-2
+line=28,180,65,180,-1
+line=65,180,111,177,-1
+line=111,177,225,220,-1
+line=160,120,225,220,-2
+line=213,63,225,220,-3
+line=225,220,270,190,0
+line=225,220,270,130,0
+line=270,190,270,130,0
+line=270,190,300,190,0
+line=270,160,300,160,0
+line=300,160,300,190,0
+asets=2,0
+bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=scm4
+	background=CB_04_A_3
+	componentslot=microcomp,190,160,0
+	componentslot=microcomp,130,160,0
+	componentslot=roaut,245,83,2
+	componentslot=roaut,245,154,1
+	componentslot=tasconverter,34,153,-1
+	componentslot=tasconverter,34,83,-2
+	componentslot=clusterm,71,83,-2
+	componentslot=clusterm,71,154,-1
+	componentslot=buffer,160,37,0,true
+    line=34,153,130,153,-1
+    line=34,83,71,83,-2
+    line=71,83,130,153,-2
+    line=130,153,190,153,0
+    line=190,153,245,153,1
+    line=190,153,245,83,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=scm2
+	background=CB_04_A_3
+	componentslot=microcomp,190,160,0
+	componentslot=microcomp,130,160,0
+	componentslot=tasconverter,34,153,-1
+	componentslot=tasconverter,34,83,-2
+	componentslot=clusterm,71,83,-2
+	componentslot=clusterm,71,154,-1
+	componentslot=buffer,160,37,0,true
+	componentslot=clusterm,245,83,2
+	componentslot=clusterm,245,154,1
+line=34,153,130,153,-1
+line=34,83,71,83,-2
+line=71,83,130,153,-2
+line=130,153,190,153,0
+line=190,153,245,153,1
+line=190,153,245,83,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=sc90
+	background=CB_04_A_3
+	componentslot=microcomp,190,160,0
+	componentslot=microcomp,130,160,0
+	componentslot=tasconverter,34,153,-1
+	componentslot=tasconverter,34,83,-2
+	componentslot=clusterm,71,83,-2
+	componentslot=clusterm,71,154,-1
+	componentslot=buffer,160,37,0,true
+	componentslot=clusterm,285,83,2
+	componentslot=clusterm,285,154,1
+	componentslot=tasconverter,245,83,2
+	componentslot=tasconverter,245,154,1
+line=34,153,130,153,-1
+line=34,83,71,83,-2
+line=71,83,130,153,-2
+line=130,153,190,153,0
+line=190,153,285,153,1
+line=190,153,285,83,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=gra
+	background=CB_06_C_3
+	componentslot=clusterm,292,130,0
+	componentslot=roaut,40,210,-1
+	componentslot=roaut,100,130,-2
+	componentslot=roaut,40,45,-3
+	componentslot=tasconverter,145,130,-2
+	componentslot=tasconverter,85,210,-1
+	componentslot=tasconverter,85,45,-3
+	componentslot=buffer,290,80,0,true
+    line=40,210,85,210,-1
+    line=85,210,292,130,-1
+    line=100,130,292,130,-2
+    line=40,45,85,45,-3
+    line=85,45,292,130,-3
+	asets=2,0
+	bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=gra5
+	background=CB_06_C_3
+	componentslot=clusterm,292,130,0
+	componentslot=roaut,40,210,-1
+	componentslot=roaut,67,155,-2
+	componentslot=roaut,40,45,-4
+	componentslot=tasconverter,115,155,-2
+	componentslot=tasconverter,82,210,-1
+	componentslot=tasconverter,82,45,-4
+	componentslot=buffer,290,78,0,true
+	componentslot=roaut,67,101,-3
+	componentslot=tasconverter,115,101,-3
+line=40,210,82,210,-1
+line=82,210,292,130,-1
+line=67,155,115,155,-2
+line=115,155,292,130,-2
+    line=67,101,115,101,-3
+    line=115,101,292,130,-3
+line=40,45,82,45,-4
+line=82,45,292,130,-4
+asets=2,0
+bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=drak
+	background=CB_05_B_2
+	componentslot=roaut,40,130,0
+	componentslot=tasconverter,190,200,1
+	componentslot=tasconverter,190,130,2
+	componentslot=tasconverter,190,60,3
+	componentslot=clusterm,290,200,1
+	componentslot=clusterm,240,130,2
+	componentslot=clusterm,240,60,3
+	componentslot=clusterm,290,60,3
+	componentslot=clusterm,240,200,1
+	componentslot=clusterm,290,130,2
+	componentslot=buffer,40,97,0,true
+    line=40,130,190,200,0
+    line=40,130,190,130,0
+    line=40,130,190,60,0
+    line=190,200,290,200,1
+    line=190,130,290,130,2
+    line=190,60,290,60,3
+	asets=0,0
+	bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=drak2
+	background=CB_05_B_2
+	componentslot=roaut,40,130,0
+	componentslot=tasconverter,190,200,1
+	componentslot=tasconverter,190,130,2
+	componentslot=tasconverter,190,60,3
+	componentslot=clusterm,240,130,2
+	componentslot=clusterm,240,60,3
+	componentslot=clusterm,240,200,1
+	componentslot=buffer,40,97,0,true
+	componentslot=roaut,290,200,1
+	componentslot=roaut,290,130,2
+	componentslot=roaut,290,60,3
+line=40,130,190,200,0
+line=40,130,190,130,0
+line=40,130,190,60,0
+line=190,200,290,200,1
+line=190,130,290,130,2
+line=190,60,290,60,3
+asets=0,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=dacomm
+	background=CB_03_A_1
+	componentslot=emrelay,130,130,0
+	componentslot=emrelay,190,130,0
+	componentslot=clusterm,30,200,-1
+	componentslot=clusterm,30,50,-2
+	componentslot=clusterm,290,200,0
+	componentslot=roaut,250,200,0
+	componentslot=buffer,290,50,0,true
+    line=30,200,130,130,-1
+    line=30,50,130,130,-2
+    line=130,130,190,130,0
+    line=190,130,250,200,0
+    line=250,200,290,200,0
+	asets=1,0
+	bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=datcomm
+	background=CB_03_A_1
+	componentslot=emrelay,130,130,0
+	componentslot=emrelay,190,130,0
+	componentslot=clusterm,290,200,0
+	componentslot=roaut,250,200,0
+	componentslot=buffer,290,50,0,true
+	componentslot=hapnode,30,200,-1
+	componentslot=hapnode,30,50,-2
+line=30,200,130,130,-1
+line=30,50,130,130,-2
+line=130,130,190,130,0
+line=190,130,250,200,0
+line=250,200,290,200,0
+asets=1,0
+bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=oths
+	background=CB_04_A_5
+	componentslot=emrelay,160,73,2
+	componentslot=emrelay,130,180,1
+	componentslot=clusterm,250,170,1
+	componentslot=buffer,230,110,0,true
+	componentslot=clusterm,210,170,1
+	componentslot=clusterm,210,50,2
+	componentslot=clusterm,250,50,2
+	componentslot=clusterm,70,170,-1
+	componentslot=clusterm,70,50,-1
+    line=70,170,100,115,-1
+    line=70,50,100,115,-2
+    line=100,115,130,170,1
+    line=100,115,160,50,2
+    line=130,170,250,170,1
+    line=160,50,250,50,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=oth3s
+	background=CB_04_A_5
+	componentslot=emrelay,160,75,2
+	componentslot=emrelay,130,180,1
+	componentslot=clusterm,250,170,1
+	componentslot=buffer,230,110,0,true
+	componentslot=clusterm,250,50,2
+	componentslot=clusterm,70,170,-1
+	componentslot=clusterm,70,50,-1
+	componentslot=roaut,210,50,2
+	componentslot=roaut,210,170,1
+line=70,170,100,115,-1
+line=70,50,100,115,-2
+line=100,115,130,170,1
+line=100,115,160,60,2
+line=130,170,250,170,1
+line=160,60,250,60,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=lp92
+	background=CB_06_F
+	componentslot=emrelay,110,55,2
+	componentslot=emrelay,110,180,1
+	componentslot=buffer,20,130,0,true
+	componentslot=roaut,260,94,2
+	componentslot=roaut,260,147,1
+	componentslot=tasconverter,60,170,-1
+	componentslot=tasconverter,60,41,-2
+	componentslot=hapnode,170,147,1
+	componentslot=hapnode,170,97,2
+    line=60,170,80,115,-1
+    line=60,41,80,115,-2
+    line=80,115,110,180,1
+    line=80,115,110,51,2
+    line=110,180,170,147,1
+    line=110,51,170,97,2
+    line=170,147,260,147,1
+    line=170,97,260,96,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=lp9100
+	background=CB_06_F
+	componentslot=emrelay,110,46,2
+	componentslot=emrelay,110,180,1
+	componentslot=buffer,290,97,0,true
+	componentslot=tasconverter,60,170,-1
+	componentslot=tasconverter,60,41,-2
+	componentslot=hapnode,170,147,1
+	componentslot=hapnode,170,97,2
+	componentslot=clusterm,210,147,1
+	componentslot=clusterm,210,93,2
+line=60,170,80,115,-1
+line=60,41,80,115,-2
+line=80,115,110,180,1
+line=80,115,110,51,2
+line=110,180,170,147,1
+line=110,51,170,97,2
+line=170,147,210,147,1
+line=170,97,210,96,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=chlm1
+	background=CB_01_A_6
+	componentslot=microcomp,200,65,2
+	componentslot=microcomp,135,173,1
+	componentslot=clusterm,40,130,-1
+	componentslot=clusterm,40,34,-2
+	componentslot=tasconverter,70,34,-2
+	componentslot=tasconverter,70,130,-1
+	componentslot=hapnode,250,100,2
+	componentslot=hapnode,250,180,1
+	componentslot=shp1,280,180,1
+	componentslot=shp1,280,100,2
+	componentslot=buffer,278,24,0,true
+    line=40,130,70,130,-1
+    line=40,34,70,34,-2
+    line=70,130,100,100,-1
+    line=70,34,100,100,-2
+    line=100,100,135,180,1
+    line=100,100,280,100,2
+    line=135,180,280,180,1
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=ch440
+	background=CB_01_A_6
+	componentslot=microcomp,185,80,2
+	componentslot=microcomp,135,173,1
+	componentslot=clusterm,50,120,-1
+	componentslot=clusterm,50,50,-2
+	componentslot=tasconverter,80,50,-2
+	componentslot=tasconverter,80,120,-1
+	componentslot=hapnode,250,100,2
+	componentslot=hapnode,250,180,1
+	componentslot=shp1,280,180,1
+	componentslot=shp1,280,100,2
+	componentslot=buffer,278,24,0,true
+	componentslot=tasconverter,20,50,-2
+	componentslot=tasconverter,20,120,-1
+line=20,120,80,120,-1
+line=20,50,80,50,-2
+line=80,120,100,100,-1
+line=80,50,100,100,-2
+line=100,100,135,180,1
+line=100,100,280,100,2
+line=135,180,280,180,1
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=dh10
+	background=CB_06_A_1
+	componentslot=microcomp,125,166,0
+	componentslot=clusterm,50,160,-1
+	componentslot=tasconverter,50,70,-1
+	componentslot=hapnode,190,130,0
+	componentslot=shp1,240,130,0
+	componentslot=buffer,125,24,0,true
+	componentslot=hapnode,290,130,0
+    line=50,70,50,160,0
+    line=50,160,125,166,0
+    line=125,166,190,130,0
+    line=190,130,290,130,0
+	asets=0,0
+	bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=thlm4
+	background=CB_03_C_2
+	componentslot=clusterm,30,30,-2
+	componentslot=tasconverter,60,30,-2
+	componentslot=hapnode,250,190,1
+	componentslot=shp1,280,190,1
+	componentslot=buffer,225,130,0,true
+	componentslot=hapnode,250,30,2
+	componentslot=shp1,280,30,2
+	componentslot=microcomp,120,120,0
+	componentslot=clusterm,30,190,-1
+	componentslot=tasconverter,60,190,-1
+    line=30,190,60,190,-1
+    line=60,190,120,120,-1
+    line=30,30,60,30,-2
+    line=60,30,120,120,-1
+    line=120,120,250,190,1
+    line=250,190,280,190,1
+    line=120,120,250,30,2
+    line=250,30,280,30,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=dh30
+	background=CB_06_A_1
+	componentslot=microcomp,125,166,0
+	componentslot=clusterm,50,160,-1
+	componentslot=tasconverter,50,70,-1
+	componentslot=hapnode,190,140,1
+	componentslot=shp1,240,140,1
+	componentslot=buffer,125,24,0,true
+	componentslot=hapnode,190,90,2
+	componentslot=shp1,240,90,2
+line=50,70,50,160,0
+line=50,160,125,166,0
+line=125,166,190,140,1
+line=125,166,190,90,2
+    line=190,140,240,140,1
+    line=190,90,240,90,2
+	asets=0,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=thlm8
+	background=CB_03_C_2
+	componentslot=clusterm,30,30,-2
+	componentslot=tasconverter,60,30,-2
+	componentslot=hapnode,230,210,1
+	componentslot=shp1,260,210,1
+	componentslot=buffer,160,40,0,true
+	componentslot=hapnode,230,160,2
+	componentslot=shp1,260,160,2
+	componentslot=microcomp,120,120,0
+	componentslot=clusterm,30,190,-1
+	componentslot=tasconverter,60,190,-1
+	componentslot=shp1,260,110,0
+	componentslot=hapnode,230,110,0
+line=30,190,60,190,-1
+line=60,190,120,120,-1
+line=30,30,60,30,-2
+line=60,30,120,120,-1
+line=120,120,230,210,1
+line=120,120,230,160,2
+line=120,120,230,110,3
+line=230,210,260,210,1
+line=230,160,260,160,2
+line=230,110,260,110,3
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=dvjd400
+	background=CB_03_A_4
+	componentslot=magnode,160,130,0
+	componentslot=hapnode,230,90,2
+	componentslot=hapnode,290,50,2
+	componentslot=hapnode,230,160,1
+	componentslot=hapnode,290,200,1
+	componentslot=hapnode,30,200,4
+	componentslot=hapnode,90,160,4
+	componentslot=hapnode,90,90,3
+	componentslot=hapnode,30,50,3
+	componentslot=tasconverter,260,70,2
+	componentslot=tasconverter,260,180,1
+	componentslot=tasconverter,60,180,4
+	componentslot=tasconverter,60,70,3
+	componentslot=buffer,160,45,0,true
+    line=160,120,30,200,4
+    line=160,120,290,200,1
+    line=160,140,290,50,2
+    line=160,140,30,50,3
+	asets=0,0
+	bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=dvjd450
+	background=CB_03_A_4
+	componentslot=magnode,160,130,0
+	componentslot=hapnode,230,90,2
+	componentslot=hapnode,230,160,1
+	componentslot=hapnode,90,160,4
+	componentslot=hapnode,90,90,3
+	componentslot=tasconverter,260,70,2
+	componentslot=tasconverter,260,180,1
+	componentslot=tasconverter,60,180,4
+	componentslot=tasconverter,60,70,3
+	componentslot=buffer,160,45,0,true
+	componentslot=clusterm,290,50,2
+	componentslot=clusterm,290,200,1
+	componentslot=clusterm,30,200,4
+	componentslot=clusterm,30,50,3
+line=160,120,30,200,4
+line=160,120,290,200,1
+line=160,140,290,50,2
+line=160,140,30,50,3
+asets=0,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=dvjd500
+	background=CB_03_A_4
+	componentslot=magnode,160,130,0
+	componentslot=tasconverter,260,70,2
+	componentslot=tasconverter,260,180,1
+	componentslot=tasconverter,60,180,4
+	componentslot=tasconverter,60,70,3
+	componentslot=buffer,160,45,0,true
+	componentslot=clusterm,290,50,2
+	componentslot=clusterm,290,200,1
+	componentslot=clusterm,30,200,4
+	componentslot=clusterm,30,50,3
+	componentslot=clusterm,230,160,1
+	componentslot=clusterm,230,90,2
+	componentslot=clusterm,90,90,3
+	componentslot=clusterm,90,160,4
+line=160,120,30,200,4
+line=160,120,290,200,1
+line=160,140,290,50,2
+line=160,140,30,50,3
+asets=0,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=dvjd600
+	background=CB_03_A_4
+	componentslot=magnode,160,130,0
+	componentslot=buffer,160,45,0,true
+	componentslot=clusterm,290,50,2
+	componentslot=clusterm,290,200,1
+	componentslot=clusterm,30,200,4
+	componentslot=clusterm,30,50,3
+	componentslot=clusterm,260,180,1
+	componentslot=clusterm,260,70,2
+	componentslot=clusterm,60,70,3
+	componentslot=clusterm,60,180,4
+	componentslot=hapnode,230,160,1
+	componentslot=hapnode,230,90,2
+	componentslot=hapnode,90,90,3
+	componentslot=hapnode,90,160,4
+line=160,120,30,200,4
+line=160,120,290,200,1
+line=160,140,290,50,2
+line=160,140,30,50,3
+asets=0,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=kijd10
+	background=CB_03_B_2
+	componentslot=magnode,160,130,0
+	componentslot=hapnode,280,40,2
+	componentslot=hapnode,280,210,1
+	componentslot=hapnode,40,210,4
+	componentslot=hapnode,40,40,3
+	componentslot=tasconverter,240,80,2
+	componentslot=tasconverter,240,170,1
+	componentslot=tasconverter,80,170,4
+	componentslot=tasconverter,80,80,3
+	componentslot=buffer,160,40,0,true
+    line=40,210,120,130,4
+    line=200,130,280,210,1
+    line=200,130,280,40,2
+    line=120,130,40,40,3
+	asets=0,0
+	bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=kijd140
+	background=CB_03_B_2
+	componentslot=magnode,160,130,0
+	componentslot=tasconverter,240,80,2
+	componentslot=tasconverter,240,170,1
+	componentslot=tasconverter,80,170,4
+	componentslot=tasconverter,80,80,3
+	componentslot=buffer,160,40,0,true
+	componentslot=roaut,280,210,1
+	componentslot=roaut,280,40,2
+	componentslot=roaut,40,40,3
+	componentslot=roaut,40,210,4
+line=40,210,120,130,4
+line=200,130,280,210,1
+line=200,130,280,40,2
+line=120,130,40,40,3
+asets=0,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=kijd20
+	background=CB_03_B_2
+	componentslot=magnode,160,130,0
+	componentslot=tasconverter,240,80,2
+	componentslot=tasconverter,240,170,1
+	componentslot=tasconverter,80,170,4
+	componentslot=tasconverter,80,80,3
+	componentslot=buffer,160,40,0,true
+	componentslot=clusterm,280,210,1
+	componentslot=clusterm,280,40,2
+	componentslot=clusterm,40,40,3
+	componentslot=clusterm,40,210,4
+line=40,210,120,130,4
+line=200,130,280,210,1
+line=200,130,280,40,2
+line=120,130,40,40,3
+asets=0,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=kijd140r
+	background=CB_03_B_2
+	componentslot=magnode,160,130,0
+	componentslot=buffer,160,40,0,true
+	componentslot=roaut,280,210,1
+	componentslot=roaut,280,40,2
+	componentslot=roaut,40,40,3
+	componentslot=roaut,40,210,4
+	componentslot=clusterm,240,80,2
+	componentslot=clusterm,240,170,1
+	componentslot=clusterm,80,80,3
+	componentslot=clusterm,80,170,4
+line=40,210,120,130,4
+line=200,130,280,210,1
+line=200,130,280,40,2
+line=120,130,40,40,3
+asets=0,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=kijd140s
+	background=CB_03_B_2
+	componentslot=magnode,160,130,0
+	componentslot=buffer,160,40,0,true
+	componentslot=roaut,280,210,1
+	componentslot=roaut,280,40,2
+	componentslot=roaut,40,40,3
+	componentslot=roaut,40,210,4
+	componentslot=roaut,240,83,2
+	componentslot=roaut,240,170,1
+	componentslot=roaut,80,170,4
+	componentslot=roaut,80,80,3
+line=40,210,120,130,4
+line=200,130,280,210,1
+line=200,130,280,40,2
+line=120,130,40,40,3
+asets=0,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mkxladara
+	background=CB_03_A_6
+	componentslot=emrelay,100,175,-1
+	componentslot=emrelay,100,55,-2
+	componentslot=clusterm,220,130,1
+	componentslot=clusterm,220,60,2
+	componentslot=shp1,30,60,0
+	componentslot=shp1,160,60,0
+	componentslot=tasconverter,280,60,0
+	componentslot=buffer,220,210,0,true
+    line=30,60,100,45,-2
+    line=30,60,100,185,-1
+    line=100,185,160,60,-1
+    line=100,185,160,60,-2
+    line=160,60,280,60,-2
+    line=160,60,220,130,-1
+    line=220,130,280,60,-1
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mkxladr2
+	background=CB_03_A_6
+	componentslot=emrelay,100,175,-1
+	componentslot=emrelay,100,55,-2
+	componentslot=clusterm,280,60,0
+	componentslot=shp1,30,60,0
+	componentslot=shp1,160,60,0
+	componentslot=tasconverter,220,60,2
+	componentslot=buffer,220,210,0,true
+	componentslot=tasconverter,220,130,1
+line=30,60,100,45,-2
+line=30,60,100,185,-1
+line=100,185,160,60,-1
+line=100,185,160,60,-2
+line=160,60,280,60,-2
+line=160,60,220,130,-1
+line=220,130,280,60,-1
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mkxladrt
+	background=CB_03_A_6
+	componentslot=emrelay,100,175,-1
+	componentslot=emrelay,100,55,-2
+	componentslot=clusterm,280,60,0
+	componentslot=tasconverter,220,60,2
+	componentslot=buffer,220,210,0,true
+	componentslot=tasconverter,220,130,1
+	componentslot=roaut,160,60,0
+	componentslot=roaut,30,60,0
+line=30,60,100,45,-2
+line=30,60,100,185,-1
+line=100,185,160,60,-1
+line=100,185,160,60,-2
+line=160,60,280,60,-2
+line=160,60,220,130,-1
+line=220,130,280,60,-1
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mtlc100
+	background=CB_06_B_4
+	componentslot=emrelay,100,175,-1
+	componentslot=emrelay,100,55,-2
+	componentslot=clusterm,240,90,2
+	componentslot=tasconverter,270,90,2
+	componentslot=buffer,30,200,0,true
+	componentslot=tasconverter,270,150,1
+	componentslot=roaut,180,100,0
+	componentslot=roaut,30,100,0
+	componentslot=clusterm,240,150,1
+    line=30,100,100,175,-1
+    line=30,100,100,55,-2
+    line=100,175,180,100,-1
+    line=100,55,180,100,-2
+    line=180,100,240,150,1
+    line=180,100,240,90,2
+    line=240,150,270,150,1
+    line=240,90,270,90,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mtlc150
+	background=CB_06_B_4
+	componentslot=emrelay,100,175,-1
+	componentslot=emrelay,100,55,-2
+	componentslot=clusterm,240,90,2
+	componentslot=tasconverter,270,90,2
+	componentslot=buffer,30,200,0,true
+	componentslot=tasconverter,270,150,1
+	componentslot=roaut,180,100,0
+	componentslot=clusterm,240,150,1
+	componentslot=shp1,30,100,0
+line=30,100,100,175,-1
+line=30,100,100,55,-2
+line=100,175,180,100,-1
+line=100,55,180,100,-2
+line=180,100,240,150,1
+line=180,100,240,90,2
+line=240,150,270,150,1
+line=240,90,270,90,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mtlcc
+	background=CB_06_B_4
+	componentslot=emrelay,100,175,-1
+	componentslot=emrelay,100,55,-2
+	componentslot=clusterm,240,90,2
+	componentslot=tasconverter,270,90,2
+	componentslot=buffer,30,200,0,true
+	componentslot=tasconverter,270,150,1
+	componentslot=clusterm,240,150,1
+	componentslot=shp1,30,100,0
+	componentslot=shp1,180,100,0
+line=30,100,100,175,-1
+line=30,100,100,55,-2
+line=100,175,180,100,-1
+line=100,55,180,100,-2
+line=180,100,240,150,1
+line=180,100,240,90,2
+line=240,150,270,150,1
+line=240,90,270,90,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=tblb40
+	background=CB_04_C_2
+	componentslot=emrelay,130,175,-1
+	componentslot=emrelay,130,55,-2
+	componentslot=clusterm,240,90,2
+	componentslot=tasconverter,270,90,2
+	componentslot=buffer,190,200,0,true
+	componentslot=tasconverter,270,150,1
+	componentslot=clusterm,240,150,1
+	componentslot=shp1,85,110,0
+	componentslot=shp1,190,110,0
+	componentslot=shp1,40,150,-1
+	componentslot=shp1,40,90,-2
+    line=40,150,130,175,-1
+    line=40,90,130,55,-2
+    line=130,175,85,110,-1
+    line=130,55,85,110,-2
+    line=85,110,190,110,0
+    line=190,110,240,150,1
+    line=190,110,240,90,2
+    line=240,150,270,150,1
+    line=240,90,270,90,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=tblb42
+	background=CB_04_C_2
+	componentslot=emrelay,130,175,-1
+	componentslot=emrelay,130,55,-2
+	componentslot=buffer,190,200,0,true
+	componentslot=shp1,85,110,0
+	componentslot=shp1,190,110,0
+	componentslot=shp1,40,150,-1
+	componentslot=shp1,40,90,-2
+	componentslot=roaut,240,90,2
+	componentslot=roaut,280,150,1
+	componentslot=roaut,240,150,1
+	componentslot=roaut,280,90,2
+line=40,150,130,175,-1
+line=40,90,130,55,-2
+line=130,175,85,110,-1
+line=130,55,85,110,-2
+line=85,110,190,110,0
+line=190,110,240,150,1
+line=190,110,240,90,2
+line=240,150,270,150,1
+line=240,90,270,90,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=tblb80
+	background=CB_04_C_2
+	componentslot=emrelay,130,175,-1
+	componentslot=emrelay,130,55,-2
+	componentslot=buffer,190,200,0,true
+	componentslot=shp1,85,110,0
+	componentslot=shp1,190,110,0
+	componentslot=roaut,240,90,2
+	componentslot=roaut,280,150,1
+	componentslot=roaut,240,150,1
+	componentslot=roaut,280,90,2
+	componentslot=roaut,40,150,-1
+	componentslot=roaut,40,90,-2
+line=40,150,130,175,-1
+line=40,90,130,55,-2
+line=130,175,85,110,-1
+line=130,55,85,110,-2
+line=85,110,190,110,0
+line=190,110,240,150,1
+line=190,110,240,90,2
+line=240,150,270,150,1
+line=240,90,270,90,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=gxone
+	background=CB_06_C_5
+	componentslot=burner,292,138,1
+	componentslot=burner,255,90,2
+	componentslot=tasconverter,215,147,1
+	componentslot=tasconverter,215,87,2
+	componentslot=tasconverter,180,147,1
+	componentslot=tasconverter,180,87,2
+	componentslot=hapnode,150,87,2
+	componentslot=hapnode,150,147,1
+	componentslot=roaut,110,127,0
+	componentslot=roaut,70,127,0
+	componentslot=shp1,25,67,-3
+	componentslot=shp1,25,127,-2
+	componentslot=shp1,25,187,-1
+	componentslot=buffer,114,223,0,true
+    line=25,187,70,127,-1
+    line=25,127,70,127,-2
+    line=25,67,70,127,-3
+    line=70,127,110,127,0
+    line=110,127,150,147,1
+    line=110,127,150,87,2
+    line=150,147,215,145,1
+    line=215,145,292,138,1
+    line=150,87,255,87,2
+	asets=2,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=gxdelta
+	background=CB_06_C_5
+	componentslot=burner,285,140,1
+	componentslot=burner,250,92,2
+	componentslot=hapnode,210,87,2
+	componentslot=hapnode,210,147,1
+	componentslot=roaut,110,127,0
+	componentslot=roaut,70,127,0
+	componentslot=shp1,25,67,-3
+	componentslot=shp1,25,127,-2
+	componentslot=shp1,25,187,-1
+	componentslot=buffer,114,210,0,true
+line=25,187,70,127,-1
+line=25,127,70,127,-2
+line=25,67,70,127,-3
+line=70,127,110,127,0
+line=110,127,210,147,1
+line=110,127,210,87,2
+line=210,147,285,140,1
+line=210,87,250,92,2
+asets=2,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=gxastral
+	background=CB_06_C_5
+	componentslot=burner,115,127,0
+	componentslot=burner,65,127,0
+	componentslot=tasconverter,230,147,1
+	componentslot=tasconverter,230,87,2
+	componentslot=tasconverter,190,147,1
+	componentslot=tasconverter,190,87,2
+	componentslot=hapnode,150,87,2
+	componentslot=hapnode,150,147,1
+	componentslot=roaut,290,87,2
+	componentslot=roaut,290,147,1
+	componentslot=shp1,25,67,-3
+	componentslot=shp1,25,127,-2
+	componentslot=shp1,25,187,-1
+	componentslot=buffer,114,215,0,true
+line=25,187,70,127,-1
+line=25,127,70,127,-2
+line=25,67,70,127,-3
+line=70,127,110,127,0
+line=110,127,150,147,1
+line=110,127,150,87,2
+line=150,147,280,147,1
+line=150,87,280,87,2
+asets=2,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=gsmpd
+	background=CB_05_C_3
+	componentslot=burner,280,152,1
+	componentslot=burner,280,82,2
+	componentslot=tasconverter,230,152,1
+	componentslot=tasconverter,230,82,2
+	componentslot=tasconverter,190,152,1
+	componentslot=tasconverter,190,82,2
+	componentslot=hapnode,105,127,0
+	componentslot=roaut,145,127,0
+	componentslot=roaut,65,127,0
+	componentslot=shp1,25,127,0
+	componentslot=buffer,164,218,0,true
+    line=25,127,145,127,0
+    line=145,127,190,152,1
+    line=145,127,190,82,2
+    line=190,152,280,152,1
+    line=190,82,280,82,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=gsmpd2
+	background=CB_06_C_3
+	componentslot=burner,30,152,-1
+	componentslot=burner,30,82,-2
+	componentslot=tasconverter,290,147,1
+	componentslot=tasconverter,290,87,2
+	componentslot=tasconverter,250,147,1
+	componentslot=tasconverter,250,87,2
+	componentslot=hapnode,110,127,0
+	componentslot=roaut,145,127,0
+	componentslot=roaut,75,127,0
+	componentslot=buffer,94,220,0,true
+line=30,152,75,127,-1
+line=30,82,75,127,-2
+line=75,127,145,127,0
+line=145,127,250,147,1
+line=145,127,250,87,2
+line=250,147,290,147,1
+line=250,87,290,87,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=gsapollo
+	background=CB_05_C_3
+	componentslot=burner,280,152,1
+	componentslot=burner,280,82,2
+	componentslot=tasconverter,230,147,1
+	componentslot=tasconverter,230,87,2
+	componentslot=tasconverter,190,147,1
+	componentslot=tasconverter,190,87,2
+	componentslot=roaut,145,127,0
+	componentslot=buffer,174,218,0,true
+	componentslot=burner,69,127,0
+line=69,127,145,127,0
+line=145,127,190,147,1
+line=145,127,190,87,2
+line=190,147,280,152,1
+line=190,87,280,82,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=kiorchid
+	background=CB_05_B_2
+	componentslot=burner,280,147,2
+	componentslot=burner,280,87,3
+	componentslot=tasconverter,230,147,2
+	componentslot=tasconverter,230,87,3
+	componentslot=tasconverter,195,207,1
+	componentslot=tasconverter,195,27,4
+	componentslot=roaut,125,127,0
+	componentslot=buffer,164,213,0,true
+	componentslot=burner,245,207,1
+	componentslot=burner,245,27,4
+	componentslot=hapnode,90,147,-1
+	componentslot=hapnode,90,87,-2
+	componentslot=shp1,50,147,-1
+	componentslot=shp1,50,87,-2
+    line=50,147,90,147,-1
+    line=50,87,90,87,-2
+    line=90,147,125,127,-1
+    line=90,87,125,127,-2
+    line=125,127,195,207,1
+    line=125,127,230,147,2
+    line=125,127,230,87,3
+    line=125,127,195,27,4
+    line=195,207,245,207,1
+    line=230,147,280,147,2
+    line=230,87,280,87,3
+    line=195,27,245,27,4
+	asets=1,0
+	bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=kimpd
+	background=CB_02_B_2
+	componentslot=burner,253,97,2
+	componentslot=burner,280,37,3
+	componentslot=tasconverter,210,97,2
+	componentslot=tasconverter,230,37,3
+	componentslot=tasconverter,230,162,1
+	componentslot=roaut,160,130,0
+	componentslot=buffer,280,220,0,true
+	componentslot=burner,280,162,1
+	componentslot=hapnode,90,210,-1
+	componentslot=hapnode,90,160,-2
+	componentslot=shp1,50,210,-1
+	componentslot=shp1,50,160,-2
+	componentslot=hapnode,90,110,-3
+	componentslot=shp1,50,110,-3
+    line=50,210,90,210,-1
+    line=50,160,90,160,-2
+    line=50,110,90,110,-3
+    line=90,210,160,130,-1
+    line=90,160,160,130,-2
+    line=90,110,160,130,-3
+    line=160,130,230,162,1
+    line=160,130,210,97,2
+    line=160,130,230,37,3
+    line=230,162,280,162,1
+    line=210,97,255,97,2
+    line=230,37,280,37,3
+asets=2,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=kibehemoth
+	background=CB_02_B_2
+	componentslot=burner,280,87,2
+	componentslot=tasconverter,230,87,2
+	componentslot=tasconverter,230,157,1
+	componentslot=roaut,160,130,0
+	componentslot=buffer,280,215,0,true
+	componentslot=burner,280,157,1
+	componentslot=hapnode,100,207,-1
+	componentslot=hapnode,100,157,-2
+	componentslot=shp1,60,207,-1
+	componentslot=shp1,60,157,-2
+	componentslot=hapnode,100,107,-3
+	componentslot=shp1,60,107,-3
+	componentslot=hapnode,100,57,-4
+	componentslot=hapnode,25,57,-4
+	componentslot=hapnode,25,157,-2
+	componentslot=hapnode,25,107,-3
+	componentslot=hapnode,25,207,-1
+	componentslot=shp1,60,57,-4
+line=20,207,100,207,-1
+line=20,157,100,157,-2
+line=20,107,100,107,-3
+line=20,57,100,57,-3
+line=100,207,160,130,-1
+line=100,157,160,130,-2
+line=100,107,160,130,-3
+line=100,57,160,130,-4
+line=160,130,230,157,1
+line=160,130,230,87,2
+line=230,157,280,157,1
+line=230,87,280,87,2
+asets=2,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=cnm1
+	background=CB_04_A_6
+	componentslot=microcomp,190,130,0
+	componentslot=tasconverter,240,130,0
+	componentslot=clusterm,100,130,0
+	componentslot=roaut,290,150,1
+	componentslot=roaut,290,90,2
+	componentslot=shp1,40,150,-1
+	componentslot=shp1,40,90,-2
+	componentslot=buffer,160,40,0,true
+    line=40,150,100,130,-1
+    line=40,90,100,130,-2
+    line=100,130,240,130,0
+    line=240,130,290,150,1
+    line=240,130,290,90,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=cnm2
+	background=CB_04_A_6
+	componentslot=microcomp,190,130,0
+	componentslot=roaut,290,145,1
+	componentslot=roaut,290,85,2
+	componentslot=shp1,40,145,-1
+	componentslot=shp1,40,85,-2
+	componentslot=buffer,130,20,0,true
+line=40,145,100,130,-1
+line=40,85,100,130,-2
+line=100,130,240,130,0
+line=240,130,290,145,1
+line=240,130,290,85,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=cnmr
+	background=CB_04_A_6
+	componentslot=microcomp,190,130,0
+	componentslot=roaut,290,145,1
+	componentslot=roaut,290,90,2
+	componentslot=shp1,40,145,-1
+	componentslot=shp1,40,90,-2
+	componentslot=buffer,160,35,0,true
+	componentslot=tasconverter,240,90,2
+	componentslot=tasconverter,240,145,1
+	componentslot=clusterm,90,90,-2
+	componentslot=clusterm,90,150,-1
+    line=40,145,90,145,-1
+    line=40,95,90,95,-2
+    line=90,145,115,120,-1
+    line=90,95,115,120,-2
+    line=115,120,190,120,0
+    line=190,120,240,145,1
+    line=190,120,240,90,2
+    line=240,145,290,145,1
+    line=240,90,290,90,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=nm60
+	background=CB_04_A_1
+	componentslot=microcomp,160,130,0
+	componentslot=roaut,270,110,0
+	componentslot=roaut,110,170,0
+	componentslot=buffer,200,30,0,true
+	componentslot=tasconverter,80,140,0
+	componentslot=tasconverter,240,140,0
+	componentslot=clusterm,50,110,0
+	componentslot=clusterm,210,170,0
+    line=50,110,110,170,0
+    line=110,170,210,170,0
+    line=210,170,270,110,0
+	asets=0,0
+	bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=nm80
+	background=CB_04_A_1
+	componentslot=microcomp,160,125,0
+	componentslot=roaut,270,110,2
+	componentslot=roaut,110,170,0
+	componentslot=buffer,160,220,0,true
+	componentslot=tasconverter,80,140,0
+	componentslot=tasconverter,240,140,0
+	componentslot=clusterm,50,110,0
+	componentslot=clusterm,210,170,0
+	componentslot=roaut,270,170,1
+line=50,110,110,170,0
+line=110,170,210,170,0
+line=210,170,240,140,0
+line=240,140,270,170,1
+    line=240,140,270,110,2
+asets=0,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=nm99
+	background=CB_04_A_1
+	componentslot=microcomp,160,125,0
+	componentslot=roaut,270,110,0
+	componentslot=roaut,110,170,-1
+	componentslot=buffer,160,220,0,true
+	componentslot=tasconverter,80,140,-1
+	componentslot=tasconverter,240,140,0
+	componentslot=clusterm,50,110,-1
+	componentslot=clusterm,210,170,0
+	componentslot=tasconverter,100,80,-2
+	componentslot=clusterm,70,55,-2
+line=50,110,110,170,-1
+line=70,55,100,80,-2
+line=100,80,110,170,-2
+line=110,170,210,170,0
+line=210,170,270,110,0
+	asets=0,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=snm50
+	background=CB_05_B_5
+	componentslot=microcomp,220,130,0
+	componentslot=roaut,280,100,2
+	componentslot=roaut,280,160,1
+	componentslot=buffer,170,40,0,true
+	componentslot=tasconverter,150,130,0
+	componentslot=clusterm,120,130,0
+	componentslot=tasconverter,90,130,0
+	componentslot=clusterm,60,130,0
+	componentslot=shp1,30,130,0
+    line=30,130,220,130,0
+    line=220,130,280,160,1
+    line=220,130,280,100,2
+	asets=0,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=snm40
+	background=CB_05_B_5
+	componentslot=microcomp,220,130,0
+	componentslot=roaut,280,100,2
+	componentslot=roaut,280,160,1
+	componentslot=buffer,170,40,0,true
+	componentslot=tasconverter,150,130,0
+	componentslot=clusterm,120,130,0
+	componentslot=tasconverter,90,130,0
+	componentslot=clusterm,60,130,0
+	componentslot=shp1,30,130,0
+line=30,130,220,130,0
+line=220,130,280,160,1
+line=220,130,280,100,2
+asets=0,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=snm66
+	background=CB_05_B_5
+	componentslot=microcomp,220,110,0
+	componentslot=roaut,280,90,2
+	componentslot=roaut,280,150,1
+	componentslot=buffer,170,40,0,true
+	componentslot=tasconverter,170,110,0
+	componentslot=clusterm,140,110,0
+	componentslot=tasconverter,90,135,-1
+	componentslot=clusterm,60,135,-1
+	componentslot=tasconverter,30,135,-1
+	componentslot=tasconverter,90,83,-2
+	componentslot=clusterm,60,83,-2
+	componentslot=tasconverter,30,83,-2
+line=30,83,90,83,-2
+line=30,135,90,135,-1
+line=90,83,140,110,-1
+line=90,135,140,110,-2
+line=140,110,220,110,0
+line=220,110,280,150,1
+line=220,110,280,90,2
+asets=0,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=nvt1
+	background=CB_01_C_2
+	componentslot=microcomp,160,170,-1
+	componentslot=roaut,80,160,-2
+	componentslot=roaut,80,210,-1
+	componentslot=buffer,40,30,0,true
+	componentslot=clusterm,300,190,1
+	componentslot=tasconverter,300,140,1
+	componentslot=clusterm,260,140,1
+	componentslot=tasconverter,220,140,1
+	componentslot=tasconverter,220,40,2
+	componentslot=clusterm,260,40,2
+	componentslot=tasconverter,300,40,2
+	componentslot=clusterm,300,90,2
+	componentslot=microcomp,115,60,-2
+	componentslot=shp1,40,210,-1
+	componentslot=shp1,40,160,-2
+    line=40,210,80,210,-1
+    line=40,160,80,160,-2
+    line=80,210,160,170,-1
+    line=80,160,115,60,-2
+    line=160,170,185,100,-1
+    line=115,60,185,100,-2
+    line=185,100,220,140,1
+    line=185,100,220,40,2
+    line=220,140,300,140,1
+    line=220,40,300,40,2
+    line=300,140,300,190,1
+    line=300,40,300,90,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=nvt2
+	background=CB_01_C_2
+	componentslot=microcomp,160,170,-1
+	componentslot=roaut,50,160,-2
+	componentslot=roaut,50,210,-1
+	componentslot=buffer,40,30,0,true
+	componentslot=clusterm,300,190,1
+	componentslot=tasconverter,300,140,1
+	componentslot=clusterm,260,140,1
+	componentslot=tasconverter,220,140,1
+	componentslot=tasconverter,220,40,2
+	componentslot=clusterm,260,40,2
+	componentslot=tasconverter,300,40,2
+	componentslot=clusterm,300,90,2
+	componentslot=microcomp,115,60,-2
+line=50,160,160,170,-2
+line=50,210,115,60,-1
+line=160,170,185,100,-1
+line=115,60,185,100,-2
+line=185,100,220,140,1
+line=185,100,220,40,2
+line=220,140,300,140,1
+line=220,40,300,40,2
+line=300,140,300,190,1
+line=300,40,300,90,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=nvt4
+	background=CB_01_C_2
+	componentslot=microcomp,160,170,-1
+	componentslot=roaut,80,160,-2
+	componentslot=roaut,80,210,-1
+	componentslot=buffer,40,30,0,true
+	componentslot=clusterm,260,140,1
+	componentslot=tasconverter,220,140,1
+	componentslot=tasconverter,220,40,2
+	componentslot=clusterm,260,40,2
+	componentslot=microcomp,115,60,-2
+	componentslot=shp1,40,210,-1
+	componentslot=shp1,40,160,-2
+	componentslot=hapnode,300,140,1
+	componentslot=hapnode,300,40,2
+line=40,210,80,210,-1
+line=40,160,80,160,-2
+line=80,210,160,170,-1
+line=80,160,115,60,-2
+line=160,170,185,100,-1
+line=115,60,185,100,-2
+line=185,100,220,140,1
+line=185,100,220,40,2
+line=220,140,300,140,1
+line=220,40,300,40,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=pdl101
+	background=CB_03_B_2
+	componentslot=microcomp,160,130,0
+	componentslot=buffer,90,130,0,true
+	componentslot=clusterm,260,190,1
+	componentslot=tasconverter,220,190,1
+	componentslot=tasconverter,220,70,2
+	componentslot=clusterm,260,70,2
+	componentslot=tasconverter,100,70,-2
+	componentslot=tasconverter,100,190,-1
+	componentslot=clusterm,60,70,-2
+	componentslot=clusterm,60,190,-1
+    line=60,190,100,190,-1
+    line=60,70,100,70,-2
+    line=100,190,160,130,-1
+    line=100,70,160,130,-2
+    line=160,130,220,190,1
+    line=160,130,220,70,2
+    line=220,190,260,190,1
+    line=220,70,260,70,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=pdl111
+	background=CB_03_B_2
+	componentslot=microcomp,160,130,0
+	componentslot=buffer,90,130,0,true
+	componentslot=clusterm,260,190,1
+	componentslot=tasconverter,220,190,1
+	componentslot=tasconverter,220,70,2
+	componentslot=clusterm,260,70,2
+	componentslot=tasconverter,110,60,-2
+	componentslot=tasconverter,110,200,-1
+	componentslot=clusterm,70,60,-2
+	componentslot=clusterm,70,200,-1
+	componentslot=clusterm,30,60,-2
+	componentslot=clusterm,30,200,-1
+line=30,200,110,200,-1
+line=30,60,110,60,-2
+line=110,200,160,130,-1
+line=110,60,160,130,-2
+line=160,130,220,190,1
+line=160,130,220,70,2
+line=220,190,260,190,1
+line=220,70,260,70,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=pdl400
+	background=CB_03_B_2
+	componentslot=microcomp,160,130,0
+	componentslot=buffer,90,130,0,true
+	componentslot=tasconverter,110,60,-2
+	componentslot=tasconverter,110,200,-1
+	componentslot=clusterm,70,60,-2
+	componentslot=clusterm,70,200,-1
+	componentslot=clusterm,30,60,-2
+	componentslot=clusterm,30,200,-1
+	componentslot=roaut,260,70,2
+	componentslot=roaut,220,190,1
+	componentslot=roaut,260,190,1
+	componentslot=roaut,220,70,2
+line=30,200,110,200,-1
+line=30,60,110,60,-2
+line=110,200,160,130,-1
+line=110,60,160,130,-2
+line=160,130,220,190,1
+line=160,130,220,70,2
+line=220,190,260,190,1
+line=220,70,260,70,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mpd100
+	background=CB_03_B_1
+	componentslot=microcomp,160,130,0
+	componentslot=buffer,160,44,0,true
+	componentslot=tasconverter,100,80,-2
+	componentslot=tasconverter,100,180,-1
+	componentslot=clusterm,60,80,-2
+	componentslot=clusterm,60,180,-1
+	componentslot=roaut,220,180,1
+	componentslot=roaut,220,80,2
+	componentslot=hapnode,270,130,0
+    line=60,180,100,180,-1
+    line=60,80,100,80,-2
+    line=100,180,160,130,-1
+    line=100,80,160,130,-2
+    line=160,130,220,180,1
+    line=160,130,220,80,2
+    line=220,180,270,130,1
+    line=220,80,270,130,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mpd200
+	background=CB_03_B_1
+	componentslot=microcomp,160,130,0
+	componentslot=buffer,160,45,0,true
+	componentslot=tasconverter,100,80,-2
+	componentslot=tasconverter,100,180,-1
+	componentslot=clusterm,60,80,-2
+	componentslot=clusterm,60,180,-1
+	componentslot=hapnode,270,130,0
+	componentslot=clusterm,220,80,2
+	componentslot=clusterm,220,180,1
+line=60,180,100,180,-1
+line=60,80,100,80,-2
+line=100,180,160,130,-1
+line=100,80,160,130,-2
+line=160,130,220,180,1
+line=160,130,220,80,2
+line=220,180,270,130,1
+line=220,80,270,130,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mpd250
+	background=CB_03_B_1
+	componentslot=microcomp,160,130,0
+	componentslot=buffer,160,45,0,true
+	componentslot=clusterm,100,80,-2
+	componentslot=clusterm,100,180,-1
+	componentslot=hapnode,270,130,0
+	componentslot=clusterm,220,80,2
+	componentslot=clusterm,220,180,1
+	componentslot=hapnode,50,80,-2
+	componentslot=hapnode,50,180,-1
+line=50,180,100,180,-1
+line=50,80,100,80,-2
+line=100,180,160,130,-1
+line=100,80,160,130,-2
+line=160,130,220,180,1
+line=160,130,220,80,2
+line=220,180,270,130,1
+line=220,80,270,130,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=psl900
+	background=CB_03_B_6
+	componentslot=microcomp,165,85,-2
+	componentslot=buffer,40,19,0,true
+	componentslot=clusterm,270,150,2
+	componentslot=clusterm,270,210,1
+	componentslot=hapnode,70,65,-2
+	componentslot=hapnode,70,130,-1
+	componentslot=tasconverter,30,65,0
+	componentslot=tasconverter,230,150,2
+	componentslot=tasconverter,230,210,1
+	componentslot=microcomp,112,164,-1
+    line=30,65,70,130,-1
+    line=30,65,70,65,-2
+    line=70,130,112,164,-1
+    line=70,65,165,85,-2
+    line=112,164,185,164,-1
+    line=165,85,185,164,-2
+    line=185,164,230,210,1
+    line=185,164,230,150,2
+    line=230,210,270,210,1
+    line=230,150,270,150,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=psl940
+	background=CB_03_B_6
+	componentslot=microcomp,165,85,-2
+	componentslot=buffer,45,18,0,true
+	componentslot=clusterm,270,150,2
+	componentslot=clusterm,270,210,1
+	componentslot=hapnode,70,65,-2
+	componentslot=hapnode,70,130,-1
+	componentslot=tasconverter,230,150,2
+	componentslot=tasconverter,230,210,1
+	componentslot=microcomp,112,164,-1
+	componentslot=clusterm,30,65,0
+line=30,65,70,130,-1
+line=30,65,70,65,-2
+line=70,130,112,164,-1
+line=70,65,165,85,-2
+line=112,164,185,164,-1
+line=165,85,185,164,-2
+line=185,164,230,210,1
+line=185,164,230,150,2
+line=230,210,270,210,1
+line=230,150,270,150,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=psl10x
+	background=CB_03_B_6
+	componentslot=microcomp,165,85,-2
+	componentslot=buffer,90,19,0,true
+	componentslot=clusterm,270,150,2
+	componentslot=clusterm,270,210,1
+	componentslot=hapnode,90,65,-2
+	componentslot=hapnode,70,130,-1
+	componentslot=tasconverter,230,150,2
+	componentslot=tasconverter,230,210,1
+	componentslot=microcomp,112,164,-1
+	componentslot=clusterm,50,65,0
+	componentslot=tasconverter,20,35,0
+line=20,35,50,65
+line=50,65,70,130,-1
+line=50,65,90,65,-2
+line=70,130,112,164,-1
+line=70,65,165,85,-2
+line=112,164,185,164,-1
+line=165,85,185,164,-2
+line=185,164,230,210,1
+line=185,164,230,150,2
+line=230,210,270,210,1
+line=230,150,270,150,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=sds080
+	background=CB_01_A_3
+	componentslot=microcomp,205,60,-2
+	componentslot=buffer,40,217,0,true
+	componentslot=clusterm,110,70,-2
+	componentslot=hapnode,290,190,0
+	componentslot=hapnode,30,100,-1
+	componentslot=tasconverter,70,60,-2
+	componentslot=microcomp,162,174,-1
+	componentslot=clusterm,110,160,-1
+	componentslot=tasconverter,70,130,-1
+	componentslot=roaut,250,190,0
+	componentslot=hapnode,30,50,-2
+    line=30,100,160,190,-1
+    line=30,50,162,73,-2
+    line=160,190,250,190,-1
+    line=162,73,250,190,-2
+    line=250,190,290,190,0
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=sds090
+	background=CB_01_A_3
+	componentslot=microcomp,205,60,-2
+	componentslot=buffer,40,220,0,true
+	componentslot=clusterm,110,70,-2
+	componentslot=hapnode,290,190,0
+	componentslot=tasconverter,70,60,-2
+	componentslot=microcomp,162,174,-1
+	componentslot=clusterm,110,160,-1
+	componentslot=tasconverter,70,130,-1
+	componentslot=roaut,250,190,0
+	componentslot=clusterm,30,101,-1
+	componentslot=clusterm,30,49,-2
+line=30,100,160,190,-1
+line=30,50,162,73,-2
+line=160,190,250,190,-1
+line=162,73,250,190,-2
+line=250,190,290,190,0
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=sds55l
+	background=CB_01_A_3
+	componentslot=microcomp,225,60,-2
+	componentslot=buffer,40,220,0,true
+	componentslot=clusterm,160,80,-2
+	componentslot=hapnode,300,180,0
+	componentslot=tasconverter,120,70,-2
+	componentslot=microcomp,182,174,-1
+	componentslot=clusterm,140,180,-1
+	componentslot=tasconverter,100,150,-1
+	componentslot=roaut,260,180,0
+	componentslot=clusterm,60,120,-1
+	componentslot=clusterm,80,60,-2
+	componentslot=tasconverter,20,90,-1
+	componentslot=tasconverter,40,50,-2
+    line=20,90,182,180,-2
+    line=40,50,225,100,-1
+    line=182,180,260,180,-1
+    line=225,100,260,180,-2
+    line=260,180,300,180,0
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=reactgss
+	background=CB_04_C_3
+	componentslot=roaut,160,150,0
+	componentslot=tasconverter,200,150,0
+	componentslot=tasconverter,120,150,0
+	componentslot=burner,90,100,-3
+	componentslot=burner,50,150,-2
+	componentslot=burner,90,200,-1
+	componentslot=burner,270,150,2
+	componentslot=burner,230,100,3
+	componentslot=burner,230,200,1
+	componentslot=buffer,160,40,0,true
+    line=90,200,120,150,-1
+    line=50,150,120,150,-2
+    line=90,100,120,150,-3
+    line=120,150,200,150,0
+    line=200,150,230,200,1
+    line=200,150,270,150,2
+    line=200,150,230,100,3
+	asets=2,0
+	bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=reactg9
+	background=CB_04_C_3
+	componentslot=roaut,160,150,0
+	componentslot=tasconverter,200,150,0
+	componentslot=tasconverter,120,150,0
+	componentslot=burner,50,150,-2
+	componentslot=burner,90,200,-1
+	componentslot=burner,270,150,2
+	componentslot=burner,230,200,1
+	componentslot=buffer,160,40,0,true
+line=90,200,120,150,-1
+line=50,150,120,150,-2
+line=120,150,200,150,0
+line=200,150,230,200,1
+line=200,150,270,150,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=reactg9s
+	background=CB_04_C_3
+	componentslot=roaut,160,150,0
+	componentslot=tasconverter,200,150,0
+	componentslot=tasconverter,120,150,0
+	componentslot=burner,50,150,0
+	componentslot=burner,270,150,0
+	componentslot=buffer,160,40,0,true
+line=50,150,270,150,0
+asets=0,0
+bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=react2
+	background=CB_04_B_2
+	componentslot=roaut,160,130,0
+	componentslot=tasconverter,220,130,2
+	componentslot=tasconverter,100,130,-2
+	componentslot=burner,70,80,-3
+	componentslot=burner,30,130,-2
+	componentslot=burner,70,180,-1
+	componentslot=burner,290,130,2
+	componentslot=burner,250,80,3
+	componentslot=burner,250,180,1
+	componentslot=buffer,160,200,0,true
+	componentslot=tasconverter,200,170,1
+	componentslot=tasconverter,120,170,-1
+	componentslot=tasconverter,120,90,-3
+	componentslot=tasconverter,200,90,3
+    line=70,180,120,170,-1
+    line=120,170,160,130,-1
+    line=30,130,160,130,-2
+    line=70,80,120,90,-3
+    line=160,130,200,170,1
+    line=200,170,250,180,1
+    line=160,130,290,130,2
+    line=160,130,200,90,3
+    line=200,90,250,80,3
+	asets=2,0
+	bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=react4
+	background=CB_04_B_2
+	componentslot=roaut,160,130,0
+	componentslot=tasconverter,220,130,2
+	componentslot=tasconverter,100,130,-2
+	componentslot=burner,290,130,2
+	componentslot=burner,250,80,3
+	componentslot=burner,250,180,1
+	componentslot=buffer,160,200,0,true
+	componentslot=tasconverter,200,170,1
+	componentslot=tasconverter,120,170,-1
+	componentslot=tasconverter,120,90,-3
+	componentslot=tasconverter,200,90,3
+	componentslot=hapnode,70,85,-3
+	componentslot=hapnode,40,130,-2
+	componentslot=hapnode,70,175,-1
+line=70,180,120,170,-1
+line=120,170,160,130,-1
+line=30,130,160,130,-2
+line=70,80,120,90,-3
+line=120,90,160,130,-3
+line=160,130,200,170,1
+line=200,170,250,180,1
+line=160,130,290,130,2
+line=160,130,200,90,3
+line=200,90,250,80,3
+asets=2,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=reactks
+	background=CB_04_B_2
+	componentslot=tasconverter,220,130,2
+	componentslot=tasconverter,100,130,-2
+	componentslot=burner,290,130,2
+	componentslot=burner,250,80,3
+	componentslot=burner,250,180,1
+	componentslot=buffer,160,200,0,true
+	componentslot=tasconverter,200,170,1
+	componentslot=tasconverter,120,170,-1
+	componentslot=tasconverter,120,90,-3
+	componentslot=tasconverter,200,90,3
+	componentslot=hapnode,70,80,-3
+	componentslot=hapnode,40,130,-2
+	componentslot=hapnode,70,180,-1
+	componentslot=burner,160,130,0
+line=70,180,120,170,-1
+line=120,170,160,130,-1
+line=30,130,160,130,-2
+line=70,80,120,90,-3
+line=120,90,160,130,-3
+line=160,130,200,170,1
+line=200,170,250,180,1
+line=160,130,290,130,2
+line=160,130,200,90,3
+line=200,90,250,80,3
+asets=2,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=reactksm
+	background=CB_04_B_2
+	componentslot=tasconverter,100,130,-2
+	componentslot=burner,290,130,2
+	componentslot=burner,250,80,3
+	componentslot=burner,250,180,1
+	componentslot=buffer,160,200,0,true
+	componentslot=tasconverter,120,170,-1
+	componentslot=tasconverter,120,90,-3
+	componentslot=hapnode,70,85,-3
+	componentslot=hapnode,40,135,-2
+	componentslot=hapnode,70,170,-1
+	componentslot=hapnode,140,130,0
+	componentslot=roaut,180,130,0
+	componentslot=hapnode,230,130,2
+	componentslot=hapnode,210,170,1
+	componentslot=hapnode,210,90,3
+line=70,180,120,170,-1
+line=120,170,140,130,-1
+line=30,130,140,130,-2
+line=70,80,120,90,-3
+line=120,90,140,130,-3
+line=140,130,180,130,0
+line=180,130,200,170,1
+line=200,170,250,180,1
+line=180,130,290,130,2
+line=180,130,200,90,3
+line=200,90,250,80,3
+asets=2,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mkiv
+	background=CB_01_D_1
+	componentslot=core,200,130,0
+	componentslot=roaut,280,170,1
+	componentslot=roaut,280,90,2
+	componentslot=roaut,115,130,-2
+	componentslot=roaut,70,130,-2
+	componentslot=shp1,25,130,-2
+	componentslot=clusterm,150,210,-1
+	componentslot=clusterm,70,210,-1
+	componentslot=clusterm,150,50,-3
+	componentslot=clusterm,70,50,-3
+	componentslot=tasconverter,110,50,-3
+	componentslot=tasconverter,30,50,-3
+	componentslot=tasconverter,110,210,-1
+	componentslot=tasconverter,30,210,-1
+	componentslot=buffer,229,212,0,true
+    line=30,210,150,210,-1
+    line=30,130,160,130,-2
+    line=30,50,150,50,-3
+    line=150,210,200,130,-1
+    line=150,50,200,130,-2
+    line=200,130,280,170,1
+    line=200,130,280,90,2
+	asets=2,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mkv
+	background=CB_01_D_1
+	componentslot=core,200,130,0
+	componentslot=roaut,115,130,-2
+	componentslot=roaut,70,130,-2
+	componentslot=shp1,25,130,-2
+	componentslot=clusterm,150,210,-1
+	componentslot=clusterm,70,210,-1
+	componentslot=clusterm,150,50,-3
+	componentslot=clusterm,70,50,-3
+	componentslot=tasconverter,110,50,-3
+	componentslot=tasconverter,30,50,-3
+	componentslot=tasconverter,110,210,-1
+	componentslot=tasconverter,30,210,-1
+	componentslot=buffer,229,218,0,true
+	componentslot=shp1,280,90,2
+	componentslot=shp1,280,170,1
+line=30,210,150,210,-1
+line=30,130,160,130,-2
+line=30,50,150,50,-3
+line=150,210,200,130,-1
+line=150,50,200,130,-2
+line=200,130,280,170,1
+line=200,130,280,90,2
+asets=2,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mkvi
+	background=CB_01_D_1
+	componentslot=core,200,130,0
+	componentslot=roaut,115,130,-2
+	componentslot=roaut,70,130,-2
+	componentslot=shp1,25,130,-2
+	componentslot=clusterm,150,210,-1
+	componentslot=clusterm,70,210,-1
+	componentslot=clusterm,150,50,-3
+	componentslot=clusterm,70,50,-3
+	componentslot=tasconverter,110,50,-3
+	componentslot=tasconverter,110,210,-1
+	componentslot=buffer,229,215,0,true
+	componentslot=shp1,280,90,2
+	componentslot=shp1,280,170,1
+	componentslot=roaut,30,50,-2
+	componentslot=roaut,30,210,-1
+line=30,210,150,210,-1
+line=30,130,160,130,-2
+line=30,50,150,50,-3
+line=150,210,200,130,-1
+line=150,50,200,130,-2
+line=200,130,280,170,1
+line=200,130,280,90,2
+asets=2,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=v7
+	background=CB_04_D_2
+	componentslot=core,130,130,0
+	componentslot=roaut,240,80,2
+	componentslot=roaut,240,180,1
+	componentslot=clusterm,200,200,1
+	componentslot=clusterm,200,60,2
+	componentslot=tasconverter,60,100,-2
+	componentslot=tasconverter,60,150,-1
+	componentslot=buffer,131,53,0,true
+	componentslot=shp1,280,100,2
+	componentslot=shp1,280,160,1
+	componentslot=tasconverter,25,100,-2
+	componentslot=tasconverter,25,150,-1
+    line=25,150,100,150,-1
+    line=25,100,100,100,-2
+    line=130,130,200,200,1
+    line=130,130,200,60,2
+    line=200,200,280,160,1
+    line=200,60,280,100,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=v8
+	background=CB_04_D_2
+	componentslot=core,130,130,0
+	componentslot=clusterm,200,200,1
+	componentslot=clusterm,200,60,2
+	componentslot=tasconverter,60,100,-2
+	componentslot=tasconverter,60,152,-1
+	componentslot=buffer,131,55,0,true
+	componentslot=shp1,280,100,2
+	componentslot=shp1,280,160,1
+	componentslot=tasconverter,25,100,-2
+	componentslot=tasconverter,25,152,-1
+	componentslot=clusterm,240,180,1
+	componentslot=clusterm,240,80,2
+line=25,150,100,150,-1
+line=25,100,100,100,-2
+line=130,130,200,200,1
+line=130,130,200,60,2
+line=200,200,280,160,1
+line=200,60,280,100,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=v9
+	background=CB_04_D_2
+	componentslot=core,130,130,0
+	componentslot=clusterm,200,200,1
+	componentslot=clusterm,200,60,2
+	componentslot=tasconverter,60,100,-2
+	componentslot=tasconverter,60,152,-1
+	componentslot=buffer,131,50,0,true
+	componentslot=tasconverter,25,100,-2
+	componentslot=tasconverter,25,152,-1
+	componentslot=clusterm,240,180,1
+	componentslot=clusterm,240,80,2
+	componentslot=clusterm,280,100,2
+	componentslot=clusterm,280,160,1
+line=25,150,100,150,-1
+line=25,100,100,100,-2
+line=130,130,200,200,1
+line=130,130,200,60,2
+line=200,200,280,160,1
+line=200,60,280,100,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=model1
+	background=CB_03_C_4
+	componentslot=core,160,130,0
+	componentslot=roaut,230,70,2
+	componentslot=roaut,230,190,1
+	componentslot=buffer,41,20,0,true
+	componentslot=shp1,270,70,2
+	componentslot=shp1,270,190,1
+	componentslot=tasconverter,55,60,-2
+	componentslot=tasconverter,55,190,-1
+	componentslot=clusterm,90,160,-1
+	componentslot=clusterm,90,90,-2
+    line=55,190,125,130,-1
+    line=55,60,125,130,-2
+    line=160,130,230,190,1
+    line=160,130,230,70,2
+    line=230,190,270,190,1
+    line=230,70,270,70,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=cm2
+	background=CB_03_C_4
+	componentslot=core,160,130,0
+	componentslot=roaut,230,70,2
+	componentslot=roaut,230,190,1
+	componentslot=buffer,41,20,0,true
+	componentslot=tasconverter,55,60,-2
+	componentslot=tasconverter,55,190,-1
+	componentslot=clusterm,90,160,-1
+	componentslot=clusterm,90,90,-2
+	componentslot=roaut,270,190,1
+	componentslot=roaut,270,70,2
+line=55,190,125,130,-1
+line=55,60,125,130,-2
+line=160,130,230,190,1
+line=160,130,230,70,2
+line=230,190,270,190,1
+line=230,70,270,70,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=cm4
+	background=CB_03_C_4
+	componentslot=core,160,130,0
+	componentslot=buffer,41,20,0,true
+	componentslot=tasconverter,55,60,-2
+	componentslot=tasconverter,55,190,-1
+	componentslot=clusterm,90,160,-1
+	componentslot=clusterm,90,90,-2
+	componentslot=roaut,270,190,1
+	componentslot=roaut,270,70,2
+	componentslot=shp1,230,190,1
+	componentslot=shp1,230,70,2
+line=55,190,125,130,-1
+line=55,60,125,130,-2
+line=160,130,230,190,1
+line=160,130,230,70,2
+line=230,190,270,190,1
+line=230,70,270,70,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=c1sns
+	background=CB_04_A_6
+	componentslot=buffer,25,130,0,true
+	componentslot=tasconverter,115,90,-2
+	componentslot=tasconverter,115,160,-1
+	componentslot=clusterm,80,160,-1
+	componentslot=clusterm,80,90,-2
+	componentslot=shp1,240,160,1
+	componentslot=shp1,240,90,2
+	componentslot=hapnode,200,90,2
+	componentslot=hapnode,200,160,1
+	componentslot=emrelay,160,130,0
+    line=80,160,115,160,-1
+    line=116,160,160,130,-1
+    line=80,90,115,90,-2
+    line=115,90,160,130,-2
+    line=160,130,200,160,1
+    line=160,130,200,90,2
+    line=200,160,240,160,1
+    line=200,90,240,90,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=c5sns
+	background=CB_04_A_6
+	componentslot=buffer,25,130,0,true
+	componentslot=tasconverter,115,90,-2
+	componentslot=tasconverter,115,160,-1
+	componentslot=clusterm,80,160,-1
+	componentslot=clusterm,80,90,-2
+	componentslot=hapnode,200,90,2
+	componentslot=hapnode,200,160,1
+	componentslot=emrelay,160,130,0
+	componentslot=tasconverter,240,160,1
+	componentslot=tasconverter,240,90,2
+	line=80,160,115,160,-1
+	line=80,90,115,90,-2
+	line=115,90,160,130,0
+	line=115,160,160,130,0
+	line=160,130,200,160,0
+	line=160,130,200,90,0
+	line=200,160,240,160,1
+	line=200,90,240,90,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=d2sns
+	background=CB_04_A_1
+	componentslot=buffer,125,20,0,true
+	componentslot=tasconverter,250,180,0
+	componentslot=tasconverter,190,180,0
+	componentslot=clusterm,160,180,0
+	componentslot=clusterm,220,180,0
+	componentslot=hapnode,30,160,-1
+	componentslot=hapnode,130,180,0
+	componentslot=emrelay,90,130,0
+	componentslot=hapnode,30,110,-2
+	componentslot=shp1,290,110,2
+	componentslot=shp1,290,160,1
+    line=30,160,90,130,-1
+    line=30,110,90,130,-2
+    line=90,130,130,180,0
+    line=130,180,250,180,0
+    line=250,180,290,110,2
+    line=250,180,290,160,1
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=d4sns
+	background=CB_04_A_1
+	componentslot=buffer,125,20,0,true
+	componentslot=tasconverter,250,180,0
+	componentslot=tasconverter,190,180,0
+	componentslot=clusterm,160,180,0
+	componentslot=clusterm,220,180,0
+	componentslot=hapnode,30,160,0
+	componentslot=hapnode,130,180,0
+	componentslot=emrelay,90,130,0
+	componentslot=shp1,290,110,2
+	componentslot=shp1,290,160,1
+line=30,160,90,130,0
+line=90,130,130,180,0
+line=130,180,250,180,0
+line=250,180,290,110,2
+line=250,180,290,160,1
+asets=0,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=m1sns
+	background=CB_03_B_4
+	componentslot=buffer,258,220,0,true
+	componentslot=tasconverter,115,70,-2
+	componentslot=tasconverter,115,180,-1
+	componentslot=clusterm,80,160,-1
+	componentslot=clusterm,80,90,-2
+	componentslot=shp1,240,160,1
+	componentslot=shp1,240,90,2
+	componentslot=hapnode,200,70,2
+	componentslot=hapnode,200,180,1
+	componentslot=emrelay,160,130,0
+    line=80,160,115,180,-1
+    line=80,90,115,70,-2
+    line=115,180,160,130,-1
+    line=115,70,160,130,-2
+    line=160,130,200,180,1
+    line=160,130,200,70,2
+    line=200,180,240,160,1
+    line=200,70,240,90,2
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=m2sns
+	background=CB_03_B_4
+	componentslot=buffer,258,220,0,true
+	componentslot=tasconverter,115,70,-2
+	componentslot=tasconverter,115,180,-1
+	componentslot=clusterm,80,160,-1
+	componentslot=clusterm,80,90,-2
+	componentslot=shp1,240,160,1
+	componentslot=shp1,240,90,2
+	componentslot=emrelay,160,130,0
+	componentslot=clusterm,200,70,2
+	componentslot=clusterm,200,180,1
+line=80,160,115,180,-1
+line=80,90,115,70,-2
+line=115,180,160,130,-1
+line=115,70,160,130,-2
+line=160,130,200,180,1
+line=160,130,200,70,2
+line=200,180,240,160,1
+line=200,130,240,90,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=slsns
+	background=CB_03_B_5
+	componentslot=buffer,158,180,0,true
+	componentslot=tasconverter,95,90,-2
+	componentslot=tasconverter,95,160,-1
+	componentslot=clusterm,50,160,-1
+	componentslot=clusterm,50,90,-2
+	componentslot=shp1,140,130,0
+	componentslot=emrelay,210,130,0
+	componentslot=roaut,270,130,0
+    line=50,160,95,160,-1
+    line=50,90,95,90,-2
+    line=95,160,140,130,-1
+    line=95,90,140,130,-2
+    line=140,130,270,130,0
+asets=1,0
+bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=smsns
+	background=CB_03_B_5
+	componentslot=buffer,158,180,0,true
+	componentslot=tasconverter,95,90,-2
+	componentslot=tasconverter,95,160,-1
+	componentslot=clusterm,50,160,-1
+	componentslot=clusterm,50,90,-2
+	componentslot=shp1,140,130,0
+	componentslot=emrelay,210,130,0
+	componentslot=shp1,270,130,0
+line=50,160,95,160,-1
+line=50,90,95,90,-2
+line=95,160,140,130,-1
+line=95,90,140,130,-2
+line=140,130,270,130,0
+asets=1,0
+bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=sqsns
+	background=CB_03_B_5
+	componentslot=buffer,158,183,0,true
+	componentslot=tasconverter,95,90,-2
+	componentslot=tasconverter,95,160,-1
+	componentslot=clusterm,50,160,-1
+	componentslot=clusterm,50,90,-2
+	componentslot=emrelay,210,130,0
+	componentslot=shp1,270,130,0
+	componentslot=tasconverter,140,130,0
+line=50,160,95,160,-1
+line=50,90,95,90,-2
+line=95,160,140,130,-1
+line=95,90,140,130,-2
+line=140,130,270,130,0
+asets=1,0
+bsets=0,0
+	socket=ventarii
+end componentinterface
+
+begin componentinterface
+id=remorasensor
+background=CB_03_B_5
+componentslot=buffer,158,183,0,true
+componentslot=tasconverter,95,90,-2
+componentslot=tasconverter,95,160,-1
+componentslot=clusterm,50,160,-1
+componentslot=clusterm,50,90,-2
+componentslot=emrelay,210,130,0
+componentslot=shp1,270,130,0
+componentslot=tasconverter,140,130,0
+line=50,160,95,160,-1
+line=50,90,95,90,-2
+line=95,160,140,130,-1
+line=95,90,140,130,-2
+line=140,130,270,130,0
+asets=1,0
+bsets=0,0
+socket=ventarii
+end componentinterface
+
+begin componentinterface
+	id=t9sns
+	background=CB_04_C_2
+	componentslot=buffer,218,48,0,true
+	componentslot=tasconverter,95,75,-3
+	componentslot=tasconverter,95,185,-1
+	componentslot=clusterm,60,185,-1
+	componentslot=clusterm,60,75,-3
+	componentslot=shp1,150,130,0
+	componentslot=emrelay,280,130,0
+	componentslot=tasconverter,95,130,-2
+	componentslot=clusterm,60,130,-2
+    line=60,185,95,185,-1
+    line=60,130,160,130,-2
+    line=60,75,95,75,-3
+    line=95,185,150,130,-1
+    line=95,75,150,130,-3
+    line=150,130,280,130,0
+	asets=2,0
+	bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=t0sns
+	background=CB_04_C_2
+	componentslot=buffer,218,48,0,true
+	componentslot=tasconverter,95,75,-3
+	componentslot=tasconverter,95,185,-1
+	componentslot=clusterm,60,185,-1
+	componentslot=clusterm,60,75,-3
+	componentslot=shp1,150,130,0
+	componentslot=emrelay,280,130,0
+	componentslot=tasconverter,95,130,-2
+	componentslot=clusterm,60,130,-2
+	componentslot=tasconverter,190,130,0
+line=60,185,95,185,-1
+line=60,130,160,130,-2
+line=60,75,95,75,-3
+line=95,185,150,130,-1
+line=95,75,150,130,-3
+line=150,130,280,130,0
+asets=2,0
+bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=esolar
+	background=CB_04_A_2
+	componentslot=buffer,160,130,0,true
+	componentslot=tasconverter,210,180,0
+	componentslot=clusterm,110,180,0
+	componentslot=tasconverter,210,80,0
+	componentslot=clusterm,110,80,0
+	componentslot=roaut,260,130,1
+	componentslot=roaut,60,130,2
+    line=60,130,110,180,-1
+    line=60,130,110,80,-1
+    line=110,180,110,80,0
+    line=110,180,210,180,0
+    line=210,180,210,80,0
+    line=110,80,210,80,0
+    line=210,80,260,130,1
+    line=210,180,260,130,1
+	asets=1,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=esolarmk2
+	background=CB_04_A_2
+	componentslot=buffer,160,130,0,true
+	componentslot=tasconverter,210,180,0
+	componentslot=tasconverter,210,80,0
+	componentslot=roaut,260,130,1
+	componentslot=roaut,60,130,2
+	componentslot=roaut,110,180,0
+	componentslot=roaut,110,80,0
+line=60,130,110,180,-1
+line=60,130,110,80,-1
+line=110,180,110,80,0
+line=110,180,210,180,0
+line=210,180,210,80,0
+line=110,80,210,80,0
+line=210,80,260,130,1
+line=210,180,260,130,1
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=slsp
+	background=CB_03_A_5
+	componentslot=buffer,40,40,0,true
+	componentslot=tasconverter,240,130,1
+	componentslot=clusterm,110,180,0
+	componentslot=tasconverter,80,130,-1
+	componentslot=clusterm,110,80,0
+	componentslot=clusterm,210,80,0
+	componentslot=clusterm,210,180,0
+line=80,130,110,180,-1
+line=80,130,110,80,-1
+line=110,180,110,80,0
+line=110,180,210,180,0
+line=210,180,210,80,0
+line=110,80,210,80,0
+line=210,80,240,130,1
+line=210,180,240,130,1
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=slspae
+	background=CB_03_A_5
+	componentslot=buffer,40,40,0,true
+	componentslot=tasconverter,240,130,1
+	componentslot=clusterm,110,180,0
+	componentslot=tasconverter,80,130,-1
+	componentslot=clusterm,110,80,0
+	componentslot=roaut,210,180,0
+	componentslot=roaut,210,80,0
+line=80,130,110,180,-1
+line=80,130,110,80,-1
+line=110,180,110,80,0
+line=110,180,210,180,0
+line=210,180,210,80,0
+line=110,80,210,80,0
+line=210,80,240,130,1
+line=210,180,240,130,1
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=pl910
+	background=CB_01_B_1
+	componentslot=microcomp,205,65,2
+	componentslot=buffer,298,39,0,true
+	componentslot=microcomp,132,174,1
+	componentslot=clusterm,240,210,1
+	componentslot=tasconverter,280,180,1
+	componentslot=hapnode,40,100,0
+	componentslot=hapnode,40,30,0
+	componentslot=hapnode,70,100,0
+	componentslot=hapnode,70,30,0
+	componentslot=tasconverter,280,120,2
+	componentslot=clusterm,240,90,2
+    line=40,30,40,100,0
+    line=40,30,70,30,0
+    line=40,100,70,100,0
+    line=70,30,70,100,0
+    line=70,100,85,65,0
+    line=70,30,85,65,0
+    line=85,65,132,174,1
+    line=85,65,205,65,2
+    line=132,174,240,210,1
+    line=120,65,240,90,2
+    line=240,210,280,180,1
+    line=240,90,280,120,2
+	asets=0,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=pl900
+	background=CB_01_B_1
+	componentslot=microcomp,200,65,2
+	componentslot=buffer,298,39,0,true
+	componentslot=microcomp,147,174,1
+	componentslot=clusterm,40,100,0
+	componentslot=tasconverter,70,100,0
+	componentslot=hapnode,240,200,1
+	componentslot=hapnode,270,140,2
+	componentslot=hapnode,270,180,1
+	componentslot=hapnode,240,120,2
+	componentslot=tasconverter,70,30,0
+	componentslot=clusterm,40,30,0
+line=40,30,40,100,0
+line=40,30,70,30,0
+line=40,100,70,100,0
+line=70,30,70,100,0
+line=70,100,90,65,0
+line=70,30,90,65,0
+line=90,65,147,174,1
+line=90,65,200,65,2
+line=147,174,240,200,1
+line=200,65,240,120,2
+line=240,200,270,180,1
+line=240,120,270,140,2
+asets=0,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=pl920
+	background=CB_01_B_1
+	componentslot=microcomp,202,65,2
+	componentslot=buffer,298,39,0,true
+	componentslot=microcomp,142,174,1
+	componentslot=clusterm,250,210,1
+	componentslot=tasconverter,290,180,1
+	componentslot=hapnode,50,120,0
+	componentslot=hapnode,50,50,0
+	componentslot=hapnode,80,120,0
+	componentslot=hapnode,80,50,0
+	componentslot=tasconverter,290,120,2
+	componentslot=clusterm,250,90,2
+	componentslot=tasconverter,20,120,-1
+	componentslot=tasconverter,20,50,-2
+line=20,120,50,120,-1
+line=20,50,50,50,-2
+line=50,50,80,50,0
+line=50,50,50,120,0
+line=50,120,80,120,0
+line=80,50,80,120,0
+line=80,120,100,85,0
+line=80,50,100,85,0
+line=100,85,142,174,1
+line=100,85,195,65,2
+line=142,174,250,210,1
+line=195,65,250,90,2
+line=250,210,290,180,1
+line=250,90,290,120,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=pl940
+	background=CB_01_B_1
+	componentslot=microcomp,202,65,2
+	componentslot=buffer,298,39,0,true
+	componentslot=microcomp,142,174,1
+	componentslot=clusterm,250,210,1
+	componentslot=tasconverter,290,180,1
+	componentslot=hapnode,80,120,-1
+	componentslot=hapnode,80,50,-2
+	componentslot=tasconverter,290,120,2
+	componentslot=clusterm,250,90,2
+	componentslot=tasconverter,30,120,-1
+	componentslot=tasconverter,30,50,-2
+line=30,120,80,120,-1
+line=30,50,80,50,-2
+line=80,50,80,120,0
+line=80,120,100,85,0
+line=80,50,100,85,0
+line=100,85,142,174,1
+line=100,85,202,65,2
+line=142,174,250,210,1
+line=202,65,250,90,2
+line=250,210,290,180,1
+line=250,90,290,120,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mpl010
+	background=CB_06_C_1
+	componentslot=buffer,290,130,0,true
+	componentslot=microcomp,60,130,0
+	componentslot=hapnode,20,130,0
+	componentslot=hapnode,100,130,2
+	componentslot=tasconverter,210,130,0
+	componentslot=clusterm,170,130,0
+	componentslot=roaut,250,130,0
+	componentslot=hapnode,100,180,1
+	componentslot=hapnode,100,80,3
+    line=20,130,60,130,0
+    line=60,130,100,180,1
+    line=60,130,140,130,2
+    line=60,130,100,80,3
+    line=100,180,140,130,1
+    line=100,80,140,130,3
+    line=140,130,250,130,0
+	asets=0,0
+	bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mpl040
+	background=CB_06_C_1
+	componentslot=buffer,290,130,0,true
+	componentslot=microcomp,60,130,0
+	componentslot=hapnode,20,130,0
+	componentslot=hapnode,100,130,2
+	componentslot=tasconverter,210,130,0
+	componentslot=clusterm,170,130,0
+	componentslot=hapnode,100,180,1
+	componentslot=hapnode,100,80,3
+	componentslot=hapnode,250,130,0
+line=20,130,60,130,0
+line=60,130,100,180,1
+line=60,130,140,130,2
+line=60,130,100,80,3
+line=100,180,140,130,1
+line=100,80,140,130,3
+line=140,130,250,130,0
+asets=0,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mpl060
+	background=CB_06_C_1
+	componentslot=buffer,290,130,0,true
+	componentslot=microcomp,60,130,0
+	componentslot=hapnode,20,130,0
+	componentslot=hapnode,100,130,2
+	componentslot=hapnode,100,180,1
+	componentslot=hapnode,100,80,3
+	componentslot=hapnode,210,130,0
+line=20,130,60,130,0
+line=60,130,100,180,1
+line=60,130,140,130,2
+line=60,130,100,80,3
+line=100,180,140,130,1
+line=100,80,140,130,3
+line=140,130,210,130,0
+asets=0,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=mpl100
+	background=CB_06_C_1
+	componentslot=buffer,290,130,0,true
+	componentslot=microcomp,60,130,0
+	componentslot=hapnode,20,130,0
+	componentslot=hapnode,100,130,2
+	componentslot=hapnode,100,180,1
+	componentslot=hapnode,100,80,3
+	componentslot=clusterm,180,130,0
+	componentslot=shp1,220,130,0
+line=20,130,60,130,0
+line=60,130,100,180,1
+line=60,130,140,130,2
+line=60,130,100,80,3
+line=100,180,140,130,1
+line=100,80,140,130,3
+line=140,130,210,130,0
+asets=0,0
+bsets=2,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=psp440
+	background=CB_02_B_6
+	componentslot=buffer,90,200,0,true
+	componentslot=microcomp,90,80,0
+	componentslot=hapnode,240,90,2
+	componentslot=hapnode,200,160,1
+	componentslot=hapnode,240,160,1
+	componentslot=hapnode,200,90,2
+	componentslot=clusterm,40,100,0
+	componentslot=tasconverter,40,40,0
+	componentslot=roaut,160,130,0
+    line=40,100,40,40,0
+    line=40,100,90,80,0
+    line=40,40,90,80,0
+    line=90,90,160,130,0
+    line=160,130,200,160,1
+    line=160,130,200,90,2
+    line=200,160,240,160,1
+    line=200,90,240,90,2
+	asets=0,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=psp450
+	background=CB_02_B_6
+	componentslot=buffer,90,200,0,true
+	componentslot=microcomp,90,80,0
+	componentslot=hapnode,200,160,1
+	componentslot=hapnode,200,90,2
+	componentslot=clusterm,40,100,0
+	componentslot=tasconverter,40,40,0
+	componentslot=roaut,160,130,0
+	componentslot=clusterm,240,160,1
+	componentslot=clusterm,240,90,2
+line=40,100,40,40,0
+line=40,100,90,80,0
+line=40,40,90,80,0
+line=90,90,160,130,0
+line=160,130,200,160,1
+line=160,130,200,90,2
+line=200,160,240,160,1
+line=200,90,240,90,2
+asets=0,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=psp460
+	background=CB_02_B_6
+	componentslot=buffer,90,200,0,true
+	componentslot=microcomp,90,80,0
+	componentslot=tasconverter,200,90,2
+	componentslot=roaut,160,130,0
+	componentslot=clusterm,240,160,1
+	componentslot=clusterm,240,90,2
+	componentslot=hapnode,40,100,0
+	componentslot=hapnode,40,40,0
+	componentslot=tasconverter,200,160,1
+line=40,100,40,40,0
+line=40,100,90,80,0
+line=40,40,90,80,0
+line=90,90,160,130,0
+line=160,130,200,160,1
+line=160,130,200,90,2
+line=200,160,240,160,1
+line=200,90,240,90,2
+asets=0,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=psp5x
+	background=CB_02_B_6
+	componentslot=buffer,90,200,0,true
+	componentslot=microcomp,90,80,0
+	componentslot=tasconverter,200,90,2
+	componentslot=clusterm,240,160,1
+	componentslot=clusterm,240,90,2
+	componentslot=hapnode,40,100,0
+	componentslot=hapnode,40,40,0
+	componentslot=tasconverter,200,160,1
+	componentslot=shp1,160,130,0
+line=40,100,40,40,0
+line=40,100,90,80,0
+line=40,40,90,80,0
+line=90,90,160,130,0
+line=160,130,200,160,1
+line=160,130,200,90,2
+line=200,160,240,160,1
+line=200,90,240,90,2
+asets=0,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=spl5s
+	background=CB_02_A_3
+	componentslot=buffer,90,200,0,true
+	componentslot=microcomp,90,80,0
+	componentslot=tasconverter,200,90,2
+	componentslot=clusterm,240,160,1
+	componentslot=clusterm,240,90,2
+	componentslot=hapnode,40,100,0
+	componentslot=hapnode,40,40,0
+	componentslot=tasconverter,200,160,1
+	componentslot=roaut,160,130,0
+line=40,100,40,40,0
+line=40,100,90,80,0
+line=40,40,90,80,0
+line=90,90,160,130,0
+line=160,130,200,160,1
+line=160,130,200,90,2
+line=200,160,240,160,1
+line=200,90,240,90,2
+	asets=0,0
+	bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=spl6s
+	background=CB_02_A_3
+	componentslot=buffer,90,200,0,true
+	componentslot=microcomp,110,80,0
+	componentslot=tasconverter,200,90,2
+	componentslot=clusterm,240,160,1
+	componentslot=clusterm,240,90,2
+	componentslot=hapnode,60,100,0
+	componentslot=hapnode,60,40,0
+	componentslot=tasconverter,200,160,1
+	componentslot=roaut,160,130,0
+	componentslot=clusterm,30,100,-1
+	componentslot=clusterm,30,40,-2
+line=30,100,60,100,-1
+line=30,40,60,40,-2
+line=60,100,110,80,0
+line=60,40,110,80,0
+line=60,40,60,100,0
+line=110,80,160,130,0
+line=160,130,200,160,1
+line=160,130,200,90,2
+line=200,160,240,160,1
+line=200,90,240,90,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=spl7
+	background=CB_02_A_3
+	componentslot=buffer,90,200,0,true
+	componentslot=microcomp,110,80,0
+	componentslot=tasconverter,200,90,2
+	componentslot=clusterm,240,160,1
+	componentslot=clusterm,240,90,2
+	componentslot=tasconverter,200,160,1
+	componentslot=roaut,160,130,0
+	componentslot=clusterm,30,100,-1
+	componentslot=clusterm,30,40,-2
+	componentslot=clusterm,60,100,0
+	componentslot=tasconverter,60,40,0
+line=30,100,60,100,-1
+line=30,40,60,40,-2
+line=60,100,110,80,0
+line=60,40,110,80,0
+line=60,40,60,100,0
+line=110,80,160,130,0
+line=160,130,200,160,1
+line=160,130,200,90,2
+line=200,160,240,160,1
+line=200,90,240,90,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=spl9s
+	background=CB_02_A_3
+	componentslot=buffer,90,200,0,true
+	componentslot=microcomp,110,80,0
+	componentslot=tasconverter,200,90,2
+	componentslot=clusterm,240,160,1
+	componentslot=clusterm,240,90,2
+	componentslot=tasconverter,200,160,1
+	componentslot=roaut,160,130,0
+	componentslot=clusterm,60,100,0
+	componentslot=tasconverter,60,40,0
+	componentslot=hapnode,30,100,-1
+	componentslot=hapnode,30,40,-2
+line=30,100,60,100,-1
+line=30,40,60,40,-2
+line=60,100,110,80,0
+line=60,40,110,80,0
+line=60,40,60,100,0
+line=110,80,160,130,0
+line=160,130,200,160,1
+line=160,130,200,90,2
+line=200,160,240,160,1
+line=200,90,240,90,2
+asets=1,0
+bsets=1,0
+	socket=ventarii
+end componentinterface
+
+
+begin componentinterface
+	id=spl5s_copy
+	background=CB_02_A_3
+	componentslot=buffer,90,200,0,true
+	componentslot=microcomp,90,80,0
+	componentslot=tasconverter,200,90,2
+	componentslot=clusterm,240,160,1
+	componentslot=clusterm,240,90,2
+	componentslot=hapnode,40,100,0
+	componentslot=hapnode,40,40,0
+	componentslot=tasconverter,200,160,1
+	componentslot=roaut,160,130,0
+	asets=2,0
+	bsets=0,0
+	socket=ventarii
+end componentinterface
+
+
+
+
+begin componentinterface
+    id=sw12
+    background=CB_01_D_1
+    componentslot=core,200,130,0
+    componentslot=roaut,280,170,1
+    componentslot=roaut,280,90,2
+    componentslot=roaut,115,130,-2
+    componentslot=roaut,70,130,-2
+    componentslot=shp1,25,130,-2
+    componentslot=clusterm,150,210,-1
+    componentslot=clusterm,70,210,-1
+    componentslot=clusterm,150,50,-3
+    componentslot=clusterm,70,50,-3
+    componentslot=tasconverter,110,50,-3
+    componentslot=tasconverter,30,50,-3
+    componentslot=tasconverter,110,210,-1
+    componentslot=tasconverter,30,210,-1
+    componentslot=buffer,229,222,0,true
+    line=30,210,150,210,-1
+    line=30,130,160,130,-2
+    line=30,50,150,50,-3
+    line=150,210,200,130,-1
+    line=150,50,200,130,-2
+    line=200,130,280,170,1
+    line=200,130,280,90,2
+    asets=2,0
+    bsets=1,0
+    socket=ventarii
+end componentinterface
+
+# WEAPON interfaces
+
+begin componentinterface
+    id=p_sensor
+    background=CB_04_A_6
+    componentslot=buffer,25,130,0,true
+    componentslot=tasconverter,115,90,-2
+    componentslot=tasconverter,115,160,-1
+    componentslot=clusterm,80,160,-1
+    componentslot=clusterm,80,90,-2
+    componentslot=shp1,240,160,1
+    componentslot=shp1,240,90,2
+    componentslot=hapnode,200,90,2
+    componentslot=hapnode,200,160,1
+    componentslot=emrelay,160,130,0
+    line=80,160,115,160,-1
+    line=116,160,160,130,-1
+    line=80,90,115,90,-2
+    line=115,90,160,130,-2
+    line=160,130,200,160,1
+    line=160,130,200,90,2
+    line=200,160,240,160,1
+    line=200,90,240,90,2
+    asets=1,0
+    bsets=1,0
+    socket=ventarii
+end componentinterface
+
+# REMORA style component interfaces
+
+begin componentinterface
+    id=remorareact
+    background=CB_04_B_2
+    componentslot=tasconverter,100,130,-2
+    componentslot=burner,290,130,2
+    componentslot=burner,250,60,3
+    componentslot=burner,250,200,1
+    componentslot=buffer,160,200,0,true
+    componentslot=tasconverter,120,170,-1
+    componentslot=tasconverter,120,90,-3
+    componentslot=hapnode,70,90,-3
+    componentslot=hapnode,40,130,-2
+    componentslot=hapnode,70,170,-1
+    componentslot=hapnode,140,130,0
+    componentslot=roaut,180,130,0
+    componentslot=hapnode,230,130,2
+    componentslot=hapnode,210,170,1
+    componentslot=hapnode,210,90,3
+    line=70,180,120,170,-1
+    line=120,170,140,130,-1
+    line=30,130,140,130,-2
+    line=70,80,120,90,-3
+    line=120,90,140,130,-3
+    line=140,130,180,130,0
+    line=180,130,200,170,1
+    line=200,170,250,200,1
+    line=180,130,290,130,2
+    line=180,130,200,90,3
+    line=200,90,250,60,3
+    asets=2,0
+    bsets=2,0
+    socket=ventarii
+end componentinterface

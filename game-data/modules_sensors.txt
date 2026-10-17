@@ -1,0 +1,592 @@
+begin module
+type=sensor
+id=c1sns
+name=C1-SNS
+shortname=Sens.
+manufacturer=Cosmos
+description=A standard sensor suite.
+damagethreshold=80
+destroyedthreshold=10
+sensorquality=0.8
+
+
+normalpowerusage=0.2
+emissionstrength=7
+emissionfrequency=835
+ghosttimer=12d32+43
+analysistime=10d4+10
+computer=true
+softwareversion=2
+
+boottime=12
+boot=0,`!Signals Ltd. Sensor System `%1.0.81
+boot=5,`7Syncing with SL-Passive unit...
+boot=14,`!Sync complete.
+boot=15,`7Priming storage...
+boot=37,`!Primed.
+boot=38-40,`7Calibrating array... |
+boot=41-45,`7Calibrating array... /
+boot=46-50,`7Calibrating array... -
+boot=51-55,`7Calibrating array... \
+boot=56-60,`7Calibrating array... |
+boot=61-65,`7Calibrating array... /
+boot=66-70,`7Calibrating array... -
+boot=71-75,`7Calibrating array... \
+boot=76-80,`7Calibrating array... |
+boot=81-85,`7Calibrating array... /
+boot=86,`7Calibrating array...
+boot=86,`!Calibrated.
+boot=92,`!System loaded.
+
+basevalue=3432
+#base
+configuration=new,-1,50,50,20,20,40,40,10,10,80
+#stealth
+configuration=stealth,-1,-1,54,24,-1,44,-1,-1,15,80
+#health
+configuration=defence,73,53,53,23,23,43,43,14,14,83
+#p.draw
+configuration=lowpoweruse,-1,-1,52,22,-1,43,-1,-1,11,81
+#eff.
+configuration=boost,-1,52,52,22,22,43,43,13,13,80
+end module
+
+
+begin module
+type=sensor
+id=c5sns
+name=C5-SNS
+shortname=Sens.
+manufacturer=Cosmos
+description=A standard sensor suite.
+damagethreshold=80
+destroyedthreshold=10
+sensorquality=1.2
+
+
+normalpowerusage=0.2
+emissionstrength=8
+emissionfrequency=833
+ghosttimer=12d32+43
+analysistime=10d4+10
+computer=true
+softwareversion=2
+
+boottime=10
+boot=0,`!Signals Ltd. Sensor System `%1.0.81
+boot=5,`7Syncing with SL-Passive unit...
+boot=14,`!Sync complete.
+boot=15,`7Priming storage...
+boot=37,`!Primed.
+boot=38-40,`7Calibrating array... |
+boot=41-45,`7Calibrating array... /
+boot=46-50,`7Calibrating array... -
+boot=51-55,`7Calibrating array... \
+boot=56-60,`7Calibrating array... |
+boot=61-65,`7Calibrating array... /
+boot=66-70,`7Calibrating array... -
+boot=71-75,`7Calibrating array... \
+boot=76-80,`7Calibrating array... |
+boot=81-85,`7Calibrating array... /
+boot=86,`7Calibrating array...
+boot=86,`!Calibrated.
+boot=92,`!System loaded.
+
+basevalue=3432
+#base
+configuration=new,-1,50,50,20,20,10,10,80,50,50
+#stealth
+configuration=stealth,-1,-1,54,24,-1,-1,15,80,54,-1
+#health
+configuration=defence,73,53,53,23,23,14,14,83,53,53
+#p.draw
+configuration=lowpoweruse,-1,-1,52,22,-1,-1,11,81,52,-1
+#eff.
+configuration=boost,-1,52,52,22,22,13,13,80,52,52
+end module
+
+
+begin module
+type=sensor
+id=d2sns
+name=D2-SNS
+shortname=Sens.
+manufacturer=Dal Pozzo
+description=A standard sensor suite.
+damagethreshold=80
+destroyedthreshold=10
+sensorquality=0.4
+
+
+normalpowerusage=0.3
+emissionstrength=10
+emissionfrequency=831
+ghosttimer=10d32+32
+analysistime=12d4+10
+computer=true
+softwareversion=1
+
+boottime=6
+boot=0,`!Signals Ltd. Sensor System `%1.0.81
+boot=5,`7Syncing with SL-Passive unit...
+boot=14,`!Sync complete.
+boot=15,`7Priming storage...
+boot=37,`!Primed.
+boot=38-40,`7Calibrating array... |
+boot=41-45,`7Calibrating array... /
+boot=46-50,`7Calibrating array... -
+boot=51-55,`7Calibrating array... \
+boot=56-60,`7Calibrating array... |
+boot=61-65,`7Calibrating array... /
+boot=66-70,`7Calibrating array... -
+boot=71-75,`7Calibrating array... \
+boot=76-80,`7Calibrating array... |
+boot=81-85,`7Calibrating array... /
+boot=86,`7Calibrating array...
+boot=86,`!Calibrated.
+boot=92,`!System loaded.
+
+basevalue=1685
+#base
+configuration=new,-1,50,50,20,20,10,10,80,10,40,40
+#stealth
+configuration=stealth,-1,54,54,24,24,15,15,80,-1,-1,44
+#health
+configuration=defence,73,53,53,23,23,14,14,83,14,43,43
+#p.draw
+configuration=lowpoweruse,-1,52,52,22,22,11,11,81,-1,-1,43
+#eff.
+configuration=boost,-1,52,52,22,22,13,13,80,10,43,43
+end module
+
+
+begin module
+type=sensor
+id=d4sns
+name=D4-SNS
+shortname=Sens.
+manufacturer=Dal Pozzo
+description=A standard sensor suite.
+damagethreshold=80
+destroyedthreshold=10
+sensorquality=0.6
+
+
+normalpowerusage=0.3
+emissionstrength=10
+emissionfrequency=830
+ghosttimer=10d32+32
+analysistime=12d4+10
+computer=true
+softwareversion=1
+
+boottime=6
+boot=0,`!Signals Ltd. Sensor System `%1.0.81
+boot=5,`7Syncing with SL-Passive unit...
+boot=14,`!Sync complete.
+boot=15,`7Priming storage...
+boot=37,`!Primed.
+boot=38-40,`7Calibrating array... |
+boot=41-45,`7Calibrating array... /
+boot=46-50,`7Calibrating array... -
+boot=51-55,`7Calibrating array... \
+boot=56-60,`7Calibrating array... |
+boot=61-65,`7Calibrating array... /
+boot=66-70,`7Calibrating array... -
+boot=71-75,`7Calibrating array... \
+boot=76-80,`7Calibrating array... |
+boot=81-85,`7Calibrating array... /
+boot=86,`7Calibrating array...
+boot=86,`!Calibrated.
+boot=92,`!System loaded.
+
+basevalue=1872
+#base
+configuration=new,-1,50,50,20,20,10,10,80,40,-1
+#stealth
+configuration=stealth,-1,54,54,24,24,15,15,80,44,-1
+#health
+configuration=defence,73,53,53,23,23,14,14,83,43,43
+#p.draw
+configuration=lowpoweruse,-1,52,52,22,22,11,11,81,43,-1
+#eff.
+configuration=boost,-1,52,52,22,22,13,13,80,43,-1
+end module
+
+
+begin module
+type=sensor
+id=m1sns
+name=M1-SNS
+shortname=Sens.
+manufacturer=M Tech
+description=A standard sensor suite.
+damagethreshold=80
+destroyedthreshold=10
+sensorquality=0.9
+
+
+normalpowerusage=0.2
+emissionstrength=6
+emissionfrequency=824
+ghosttimer=22d32+32
+analysistime=6d4+8
+computer=true
+softwareversion=3
+
+boottime=8
+boot=0,`!Signals Ltd. Sensor System `%1.0.81
+boot=5,`7Syncing with SL-Passive unit...
+boot=14,`!Sync complete.
+boot=15,`7Priming storage...
+boot=37,`!Primed.
+boot=38-40,`7Calibrating array... |
+boot=41-45,`7Calibrating array... /
+boot=46-50,`7Calibrating array... -
+boot=51-55,`7Calibrating array... \
+boot=56-60,`7Calibrating array... |
+boot=61-65,`7Calibrating array... /
+boot=66-70,`7Calibrating array... -
+boot=71-75,`7Calibrating array... \
+boot=76-80,`7Calibrating array... |
+boot=81-85,`7Calibrating array... /
+boot=86,`7Calibrating array...
+boot=86,`!Calibrated.
+boot=92,`!System loaded.
+
+basevalue=3432
+#base
+configuration=new,-1,50,50,20,20,40,40,10,10,80
+#stealth
+configuration=stealth,-1,-1,54,24,-1,44,-1,-1,15,80
+#health
+configuration=defence,73,53,53,23,23,43,43,14,14,83
+#p.draw
+configuration=lowpoweruse,-1,-1,52,22,-1,43,-1,-1,11,81
+#eff.
+configuration=boost,-1,52,52,22,22,43,43,13,13,80
+end module
+
+
+begin module
+type=sensor
+id=m2sns
+name=M2-SNS
+shortname=Sens.
+manufacturer=M Tech
+description=A standard sensor suite.
+damagethreshold=80
+destroyedthreshold=10
+sensorquality=1.0
+
+
+normalpowerusage=0.2
+emissionstrength=6
+emissionfrequency=825
+ghosttimer=22d32+32
+analysistime=6d4+8
+computer=true
+softwareversion=3
+
+boottime=8
+boot=0,`!Signals Ltd. Sensor System `%1.0.81
+boot=5,`7Syncing with SL-Passive unit...
+boot=14,`!Sync complete.
+boot=15,`7Priming storage...
+boot=37,`!Primed.
+boot=38-40,`7Calibrating array... |
+boot=41-45,`7Calibrating array... /
+boot=46-50,`7Calibrating array... -
+boot=51-55,`7Calibrating array... \
+boot=56-60,`7Calibrating array... |
+boot=61-65,`7Calibrating array... /
+boot=66-70,`7Calibrating array... -
+boot=71-75,`7Calibrating array... \
+boot=76-80,`7Calibrating array... |
+boot=81-85,`7Calibrating array... /
+boot=86,`7Calibrating array...
+boot=86,`!Calibrated.
+boot=92,`!System loaded.
+
+basevalue=3432
+#base
+configuration=new,-1,50,50,20,20,40,40,80,20,20
+#stealth
+configuration=stealth,-1,-1,54,24,-1,44,-1,80,-1,24
+#health
+configuration=defence,73,53,53,23,23,43,43,83,23,23
+#p.draw
+configuration=lowpoweruse,-1,-1,52,22,-1,43,-1,81,-1,22
+#eff.
+configuration=boost,-1,52,52,22,22,43,43,80,22,22
+end module
+
+
+begin module
+type=sensor
+id=slsns
+name=SL-SNS
+shortname=Sens.
+manufacturer=Signals Ltd.
+description=A standard sensor suite.
+damagethreshold=80
+destroyedthreshold=10
+sensorquality=1.0
+
+
+normalpowerusage=0.3
+emissionstrength=4
+emissionfrequency=826
+ghosttimer=14d32+32
+analysistime=9d4+10
+computer=true
+softwareversion=1
+
+boottime=12
+boot=0,`!Signals Ltd. Sensor System `%1.0.81
+boot=5,`7Syncing with SL-Passive unit...
+boot=14,`!Sync complete.
+boot=15,`7Priming storage...
+boot=37,`!Primed.
+boot=38-40,`7Calibrating array... |
+boot=41-45,`7Calibrating array... /
+boot=46-50,`7Calibrating array... -
+boot=51-55,`7Calibrating array... \
+boot=56-60,`7Calibrating array... |
+boot=61-65,`7Calibrating array... /
+boot=66-70,`7Calibrating array... -
+boot=71-75,`7Calibrating array... \
+boot=76-80,`7Calibrating array... |
+boot=81-85,`7Calibrating array... /
+boot=86,`7Calibrating array...
+boot=86,`!Calibrated.
+boot=92,`!System loaded.
+
+basevalue=3120
+#base
+configuration=new,-1,50,50,20,20,40,80,30
+#stealth
+configuration=stealth,-1,-1,54,24,-1,44,80,35
+#health
+configuration=defence,73,53,53,23,23,43,83,34
+#p.draw
+configuration=lowpoweruse,-1,-1,52,22,-1,43,81,33
+#eff.
+configuration=boost,-1,52,52,22,22,43,80,33
+end module
+
+
+begin module
+type=sensor
+id=smsns
+name=SM-SNS
+shortname=Sens.
+manufacturer=Signals Ltd.
+description=A standard sensor suite.
+damagethreshold=80
+destroyedthreshold=10
+sensorquality=1.1
+
+
+normalpowerusage=0.2
+emissionstrength=3
+emissionfrequency=827
+ghosttimer=14d32+32
+analysistime=10d4+10
+computer=true
+softwareversion=2
+
+boottime=12
+boot=0,`!Signals Ltd. Sensor System `%1.0.81
+boot=5,`7Syncing with SL-Passive unit...
+boot=14,`!Sync complete.
+boot=15,`7Priming storage...
+boot=37,`!Primed.
+boot=38-40,`7Calibrating array... |
+boot=41-45,`7Calibrating array... /
+boot=46-50,`7Calibrating array... -
+boot=51-55,`7Calibrating array... \
+boot=56-60,`7Calibrating array... |
+boot=61-65,`7Calibrating array... /
+boot=66-70,`7Calibrating array... -
+boot=71-75,`7Calibrating array... \
+boot=76-80,`7Calibrating array... |
+boot=81-85,`7Calibrating array... /
+boot=86,`7Calibrating array...
+boot=86,`!Calibrated.
+boot=92,`!System loaded.
+
+basevalue=3120
+#base
+configuration=new,-1,50,50,20,20,40,80,40
+#stealth
+configuration=stealth,-1,-1,54,24,-1,44,80,44
+#health
+configuration=defence,73,53,53,23,23,43,83,43
+#p.draw
+configuration=lowpoweruse,-1,-1,52,22,-1,43,81,43
+#eff.
+configuration=boost,-1,52,52,22,22,43,80,43
+end module
+
+
+begin module
+type=sensor
+id=sqsns
+name=SQ-SNS
+shortname=Sens.
+manufacturer=Signals Ltd.
+description=A standard sensor suite.
+damagethreshold=80
+destroyedthreshold=10
+sensorquality=1.3
+
+
+normalpowerusage=0.2
+emissionstrength=2
+emissionfrequency=828
+ghosttimer=14d32+32
+analysistime=8d4+10
+computer=true
+softwareversion=3
+
+boottime=14
+boot=0,`!Signals Ltd. Sensor System `%1.0.81
+boot=5,`7Syncing with SL-Passive unit...
+boot=14,`!Sync complete.
+boot=15,`7Priming storage...
+boot=37,`!Primed.
+boot=38-40,`7Calibrating array... |
+boot=41-45,`7Calibrating array... /
+boot=46-50,`7Calibrating array... -
+boot=51-55,`7Calibrating array... \
+boot=56-60,`7Calibrating array... |
+boot=61-65,`7Calibrating array... /
+boot=66-70,`7Calibrating array... -
+boot=71-75,`7Calibrating array... \
+boot=76-80,`7Calibrating array... |
+boot=81-85,`7Calibrating array... /
+boot=86,`7Calibrating array...
+boot=86,`!Calibrated.
+boot=92,`!System loaded.
+
+basevalue=3120
+#base
+configuration=new,-1,50,50,20,20,80,40,50
+#stealth
+configuration=stealth,-1,-1,54,24,-1,80,44,54
+#health
+configuration=defence,73,53,53,23,23,83,43,53
+#p.draw
+configuration=lowpoweruse,-1,-1,52,22,-1,81,43,52
+#eff.
+configuration=boost,-1,52,52,22,22,80,43,52
+end module
+
+
+begin module
+type=sensor
+id=t9sns
+name=T9-SNS
+shortname=Sens.
+manufacturer=Signals Ltd.
+description=A standard sensor suite.
+damagethreshold=80
+destroyedthreshold=10
+sensorquality=0.6
+
+
+normalpowerusage=0.1
+emissionstrength=6
+emissionfrequency=822
+ghosttimer=22d32+32
+analysistime=6d4+8
+computer=true
+softwareversion=1
+
+boottime=10
+boot=0,`!Signals Ltd. Sensor System `%1.0.81
+boot=5,`7Syncing with SL-Passive unit...
+boot=14,`!Sync complete.
+boot=15,`7Priming storage...
+boot=37,`!Primed.
+boot=38-40,`7Calibrating array... |
+boot=41-45,`7Calibrating array... /
+boot=46-50,`7Calibrating array... -
+boot=51-55,`7Calibrating array... \
+boot=56-60,`7Calibrating array... |
+boot=61-65,`7Calibrating array... /
+boot=66-70,`7Calibrating array... -
+boot=71-75,`7Calibrating array... \
+boot=76-80,`7Calibrating array... |
+boot=81-85,`7Calibrating array... /
+boot=86,`7Calibrating array...
+boot=86,`!Calibrated.
+boot=92,`!System loaded.
+
+basevalue=2860
+#base
+configuration=new,-1,50,50,20,20,40,80,50,20
+#stealth
+configuration=stealth,-1,-1,54,24,-1,44,80,-1,-1
+#health
+configuration=defence,73,53,53,23,23,43,83,53,23
+#p.draw
+configuration=lowpoweruse,-1,-1,52,22,-1,43,81,-1,-1
+#eff.
+configuration=boost,-1,52,52,22,22,43,80,52,22
+end module
+
+
+begin module
+type=sensor
+id=t0sns
+name=T0-SNS
+shortname=Sens.
+manufacturer=Signals Ltd.
+description=A standard sensor suite.
+damagethreshold=80
+destroyedthreshold=10
+sensorquality=0.8
+
+
+normalpowerusage=0.1
+emissionstrength=6
+emissionfrequency=820
+ghosttimer=22d32+14
+analysistime=6d4+10
+computer=true
+softwareversion=3
+
+boottime=10
+boot=0,`!Signals Ltd. Sensor System `%1.0.81
+boot=5,`7Syncing with SL-Passive unit...
+boot=14,`!Sync complete.
+boot=15,`7Priming storage...
+boot=37,`!Primed.
+boot=38-40,`7Calibrating array... |
+boot=41-45,`7Calibrating array... /
+boot=46-50,`7Calibrating array... -
+boot=51-55,`7Calibrating array... \
+boot=56-60,`7Calibrating array... |
+boot=61-65,`7Calibrating array... /
+boot=66-70,`7Calibrating array... -
+boot=71-75,`7Calibrating array... \
+boot=76-80,`7Calibrating array... |
+boot=81-85,`7Calibrating array... /
+boot=86,`7Calibrating array...
+boot=86,`!Calibrated.
+boot=92,`!System loaded.
+
+basevalue=2860
+#base
+configuration=new,-1,50,50,20,20,40,80,50,20,50
+#stealth
+configuration=stealth,-1,-1,-1,-1,-1,44,80,54,24,54
+#health
+configuration=defence,73,53,53,23,23,43,83,53,23,53
+#p.draw
+configuration=lowpoweruse,-1,-1,-1,-1,-1,43,81,52,22,52
+#eff.
+configuration=boost,-1,52,52,22,22,43,80,52,22,52
+end module

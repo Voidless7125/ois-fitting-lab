@@ -1,0 +1,306 @@
+begin module
+type=maindrive
+id=gxone
+name=GX-ONE
+shortname=Engine
+manufacturer=Galaxy
+description=A Model GV/M MPD thruster for moving the ship.
+damagethreshold=80
+destroyedthreshold=10
+
+thrust=0.6
+
+soundhigh=MPDThruster
+baffleradius=70
+highpowerusage=14
+emissionhighstrength=170
+emissionfrequency=181
+
+
+
+basevalue=3190
+#base
+configuration=new,100,100,50,50,50,50,10,10,30,30,40,40,40,-1
+#stealth
+configuration=stealth,103,-1,54,-1,54,-1,-1,15,35,35,-1,-1,44,-1
+#health
+configuration=defence,101,101,53,53,53,53,14,14,34,34,43,43,43,73
+#p.draw
+configuration=lowpoweruse,103,-1,52,-1,52,-1,-1,11,33,33,-1,-1,43,-1
+#eff.
+configuration=boost,102,102,52,52,52,52,13,13,33,33,43,43,43,-1
+end module
+
+
+begin module
+type=maindrive
+id=gxdelta
+name=GX_DELTA
+shortname=Engine
+manufacturer=Galaxy
+description=A Model GV/M MPD thruster for moving the ship.
+damagethreshold=80
+destroyedthreshold=10
+
+thrust=1.1
+
+soundhigh=MPDThruster
+
+highpowerusage=14
+emissionhighstrength=160
+emissionfrequency=183
+
+
+
+
+basevalue=2871
+#	configuration=3,100,100,10,10,30,30,40,40,40,70
+#base
+configuration=new,100,100,10,10,30,30,40,40,40,-1
+#stealth
+configuration=stealth,103,-1,-1,15,35,35,44,-1,-1,-1
+#health
+configuration=defence,101,101,14,14,34,34,43,43,43,73
+#p.draw
+configuration=lowpoweruse,103,-1,-1,14,34,34,43,-1,-1,-1
+#eff.
+configuration=boost,102,102,13,13,33,33,43,43,43,-1
+end module
+
+begin module
+type=maindrive
+id=gxastral
+name=GX-ASTRAL
+shortname=Engine
+manufacturer=Galaxy
+description=A Model GV/M MPD thruster for moving the ship.
+damagethreshold=80
+destroyedthreshold=10
+
+thrust=0.8
+
+soundhigh=MPDThruster
+
+highpowerusage=10
+emissionhighstrength=140
+emissionfrequency=185
+
+
+
+
+basevalue=3190
+#base
+configuration=new,100,100,50,50,50,50,10,10,30,30,40,40,40,-1
+#stealth
+configuration=stealth,103,103,54,-1,54,-1,-1,15,-1,35,-1,-1,44,-1
+#health
+configuration=defence,101,101,53,53,53,53,14,14,35,35,43,43,43,73
+#p.draw
+configuration=lowpoweruse,103,103,52,-1,52,-1,-1,14,-1,34,-1,-1,43,-1
+#eff.
+configuration=boost,102,102,52,52,52,52,13,13,33,33,43,43,43,-1
+end module
+
+begin module
+type=maindrive
+id=gsmpd
+name=GS-MDP
+shortname=Engine
+manufacturer=Gemini Star Systems
+description=A Model GV/M MPD thruster for moving the ship.
+damagethreshold=80
+destroyedthreshold=10
+
+thrust=0.2
+
+soundhigh=MPDThruster
+
+highpowerusage=8
+emissionhighstrength=50
+emissionfrequency=189
+
+
+
+
+basevalue=2320
+#base
+configuration=new,100,100,50,50,50,50,10,30,30,40,-1
+#stealth
+configuration=stealth,103,-1,54,-1,54,-1,15,35,35,44,-1
+#health
+configuration=defence,101,101,53,53,53,53,15,35,35,43,73
+#p.draw
+configuration=lowpoweruse,103,-1,52,-1,52,-1,15,35,35,44,-1
+#eff.
+configuration=boost,102,102,52,52,52,52,13,33,33,43,-1
+end module
+
+begin module
+type=maindrive
+id=gsmpd2
+name=GS-MDP-2
+shortname=Engine
+manufacturer=Gemini Star Systems
+description=A Model GV/M MPD thruster for moving the ship.
+damagethreshold=80
+destroyedthreshold=10
+
+thrust=0.4
+
+soundhigh=MPDThruster
+
+highpowerusage=6
+emissionhighstrength=50
+emissionfrequency=190
+
+
+
+
+basevalue=2320
+#base
+configuration=new,100,100,50,50,50,50,10,30,30,-1
+#stealth
+configuration=stealth,103,-1,54,-1,54,-1,15,35,35,-1
+#health
+configuration=defence,101,101,53,53,53,53,15,35,35,73
+#p.draw
+configuration=lowpoweruse,103,-1,52,-1,52,-1,15,35,35,-1
+#eff.
+configuration=boost,102,102,52,52,52,52,13,33,33,-1
+end module
+
+begin module
+type=maindrive
+id=gsapollo
+name=GS-APOLLO
+shortname=Engine
+manufacturer=Gemini Star Systems
+description=A Model GV/M MPD thruster for moving the ship.
+damagethreshold=80
+destroyedthreshold=10
+
+thrust=0.4
+
+soundhigh=MPDThruster
+
+highpowerusage=7
+emissionhighstrength=60
+emissionfrequency=192
+
+
+
+
+basevalue=2552
+#base
+configuration=new,100,100,50,50,50,50,30,-1,100
+#stealth
+configuration=stealth,103,-1,54,-1,54,-1,35,-1,103
+#health
+configuration=defence,101,101,53,53,53,53,35,73,103
+#p.draw
+configuration=lowpoweruse,103,-1,52,-1,52,-1,35,-1,103
+#eff.
+configuration=boost,102,102,52,52,52,52,33,-1,102
+end module
+
+begin module
+type=maindrive
+id=kiorchid
+name=KI-ORCHID
+shortname=Engine
+manufacturer=Kruger Interstellar
+description=A Model GV/M MPD thruster for moving the ship.
+damagethreshold=80
+destroyedthreshold=10
+
+thrust=0.4
+
+soundhigh=MPDThruster
+
+highpowerusage=12
+emissionhighstrength=80
+emissionfrequency=198
+
+
+
+
+basevalue=3828
+#base
+configuration=new,-1,-1,-1,-1,-1,50,30,-1,-1,100,10,-1,40,-1
+#stealth
+configuration=stealth,-1,-1,-1,-1,-1,54,35,-1,-1,103,15,-1,44,-1
+#health
+configuration=defence,101,101,53,53,53,53,34,73,101,101,14,14,43,43
+#p.draw
+configuration=lowpoweruse,-1,-1,-1,-1,-1,54,35,-1,-1,103,15,-1,44,-1
+#eff.
+configuration=boost,102,102,52,52,52,52,33,-1,102,102,13,13,43,43
+end module
+
+begin module
+type=maindrive
+id=kimpd
+name=KI-MDP
+shortname=Engine
+manufacturer=Kruger Interstellar
+description=A Model GV/M MPD thruster for moving the ship.
+damagethreshold=80
+destroyedthreshold=10
+
+thrust=0.5
+
+soundhigh=MPDThruster
+
+highpowerusage=14
+emissionhighstrength=100
+emissionfrequency=200
+
+
+
+
+basevalue=3828
+#base
+configuration=new,100,100,50,50,50,30,-1,100,10,10,40,40,10,40
+#stealth
+configuration=stealth,-1,-1,-1,-1,54,35,-1,103,15,-1,44,-1,-1,-1
+#health
+configuration=defence,101,101,53,53,53,34,73,101,14,14,43,43,14,43
+#p.draw
+configuration=lowpoweruse,-1,-1,-1,-1,52,35,-1,103,11,-1,44,-1,-1,-1
+#eff.
+configuration=boost,102,102,52,52,52,33,-1,102,13,13,43,43,13,43
+end module
+
+begin module
+type=maindrive
+id=kibehemoth
+name=KI-BEHEMOTH
+shortname=Engine
+manufacturer=Kruger Interstellar
+description=A Model GV/M MPD thruster for moving the ship.
+damagethreshold=80
+destroyedthreshold=10
+
+thrust=0.6
+
+soundhigh=MPDThruster
+
+highpowerusage=13
+emissionhighstrength=100
+emissionfrequency=202
+
+
+
+
+basevalue=3445
+#base
+configuration=new,103,54,54,35,73,103,15,15,44,44,15,44,15,15,15,15,15,44
+#stealth
+configuration=stealth,103,54,-1,35,-1,-1,15,-1,44,-1,-1,-1,-1,-1,-1,-1,15,-1
+#health
+configuration=defence,101,53,53,34,73,103,14,14,43,43,14,43,14,14,14,14,14,43
+#p.draw
+configuration=lowpoweruse,103,52,-1,35,-1,-1,11,-1,44,-1,-1,-1,-1,-1,-1,-1,11,-1
+#eff.
+configuration=boost,102,52,52,33,-1,102,13,13,43,43,13,43,13,13,13,13,13,43
+end module

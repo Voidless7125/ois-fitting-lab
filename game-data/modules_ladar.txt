@@ -1,0 +1,493 @@
+begin module
+type=ladar
+id=mkxladara
+name=MKX-LADAR-A
+shortname=Ladar
+manufacturer=Cosmos
+description=A short-range target painting system.
+damagethreshold=80
+destroyedthreshold=10
+
+ladarrange=130
+ladarradius=40
+
+normalpowerusage=0.22
+highpowerusage=4
+emissionstrength=1
+emissionhighstrength=120
+emissionfrequency=1320
+
+computer=true
+softwareversion=1
+
+boottime=12
+boot=0,`!Signals Ltd. LADAR-X unit v`%1.3.01
+boot=5,`7Warming up laser array...
+boot=22,`!Temperature nominal.
+boot=23,`7Configuring laser return mirrors...
+boot=37,`7...`!configured
+boot=38-40,`7Calibrating laser... |
+boot=41-45,`7Calibrating laser... /
+boot=46-50,`7Calibrating laser... -
+boot=51-55,`7Calibrating laser... \
+boot=56-60,`7Calibrating laser... |
+boot=61-65,`7Calibrating laser... /
+boot=66-70,`7Calibrating laser... -
+boot=71-75,`7Calibrating laser... \
+boot=76-80,`7Calibrating laser... |
+boot=81-85,`7Calibrating laser... /
+boot=86,`7Calibrated laser...
+boot=91,`!System loaded.
+
+basevalue=3480
+#ORIGINAL
+configuration=new,80,80,20,20,40,40,50,70
+#stealth
+configuration=stealth,80,-1,24,-1,44,44,54,-1
+#PowerDraw
+configuration=lowpoweruse,81,-1,22,22,43,43,52,-1
+#Efficiency
+configuration=boost,80,-1,22,22,43,43,52,-1
+#Sturdiness
+configuration=defence,83,83,23,23,43,43,53,73
+end module
+
+
+begin module
+type=ladar
+id=mkxladr2
+name=MKX-LADAR-A-2
+shortname=Ladar
+manufacturer=Cosmos
+description=A short-range target painting system.
+damagethreshold=80
+destroyedthreshold=10
+
+ladarrange=140
+ladarradius=150
+
+normalpowerusage=0.1
+highpowerusage=4
+emissionstrength=0
+emissionhighstrength=120
+emissionfrequency=1320
+
+computer=true
+softwareversion=1
+
+boottime=12
+boot=0,`!Signals Ltd. LADAR-X unit v`%1.3.01
+boot=5,`7Warming up laser array...
+boot=22,`!Temperature nominal.
+boot=23,`7Configuring laser return mirrors...
+boot=37,`7...`!configured
+boot=38-40,`7Calibrating laser... |
+boot=41-45,`7Calibrating laser... /
+boot=46-50,`7Calibrating laser... -
+boot=51-55,`7Calibrating laser... \
+boot=56-60,`7Calibrating laser... |
+boot=61-65,`7Calibrating laser... /
+boot=66-70,`7Calibrating laser... -
+boot=71-75,`7Calibrating laser... \
+boot=76-80,`7Calibrating laser... |
+boot=81-85,`7Calibrating laser... /
+boot=86,`7Calibrated laser...
+boot=91,`!System loaded.
+
+basevalue=3828
+#ORIGINAL
+configuration=new,80,80,20,40,40,70,50,70
+#stealth
+configuration=stealth,-1,80,24,44,44,-1,-1,71
+#PowerDraw
+configuration=lowpoweruse,-1,81,22,43,43,-1,-1,72
+#Efficiency
+configuration=boost,-1,80,22,43,43,-1,-1,70
+#Sturdiness
+configuration=defence,83,83,23,43,43,73,53,73
+end module
+
+
+begin module
+type=ladar
+id=mkxladrt
+name=MKX-LADAR-A-T
+shortname=Ladar
+manufacturer=Cosmos
+description=A short-range target painting system.
+damagethreshold=80
+destroyedthreshold=10
+
+ladarrange=150
+ladarradius=180
+
+normalpowerusage=0.1
+highpowerusage=4
+emissionstrength=0
+emissionhighstrength=120
+emissionfrequency=1320
+
+computer=true
+softwareversion=1
+
+boottime=12
+boot=0,`!Signals Ltd. LADAR-X unit v`%1.3.01
+boot=5,`7Warming up laser array...
+boot=22,`!Temperature nominal.
+boot=23,`7Configuring laser return mirrors...
+boot=37,`7...`!configured
+boot=38-40,`7Calibrating laser... |
+boot=41-45,`7Calibrating laser... /
+boot=46-50,`7Calibrating laser... -
+boot=51-55,`7Calibrating laser... \
+boot=56-60,`7Calibrating laser... |
+boot=61-65,`7Calibrating laser... /
+boot=66-70,`7Calibrating laser... -
+boot=71-75,`7Calibrating laser... \
+boot=76-80,`7Calibrating laser... |
+boot=81-85,`7Calibrating laser... /
+boot=86,`7Calibrated laser...
+boot=91,`!System loaded.
+
+basevalue=3480
+#ORIGINAL
+configuration=new,80,80,20,50,70,50,30,30
+#stealth
+configuration=stealth,-1,80,-1,-1,71,54,35,35
+#PowerDraw
+configuration=lowpoweruse,-1,81,-1,-1,72,52,33,33
+#Efficiency
+configuration=boost,-1,80,-1,-1,70,52,33,33
+#Sturdiness
+configuration=defence,83,83,23,53,73,53,34,34
+end module
+
+
+begin module
+type=ladar
+id=mtlc100
+name=MTL-C100
+shortname=Ladar
+manufacturer=Cosmos
+description=A short-range target painting system.
+damagethreshold=80
+destroyedthreshold=10
+
+ladarrange=135
+ladarradius=40
+
+normalpowerusage=0.1
+highpowerusage=4
+emissionstrength=0
+emissionhighstrength=120
+emissionfrequency=1320
+
+computer=true
+softwareversion=1
+
+boottime=12
+boot=0,`!Signals Ltd. LADAR-X unit v`%1.3.01
+boot=5,`7Warming up laser array...
+boot=22,`!Temperature nominal.
+boot=23,`7Configuring laser return mirrors...
+boot=37,`7...`!configured
+boot=38-40,`7Calibrating laser... |
+boot=41-45,`7Calibrating laser... /
+boot=46-50,`7Calibrating laser... -
+boot=51-55,`7Calibrating laser... \
+boot=56-60,`7Calibrating laser... |
+boot=61-65,`7Calibrating laser... /
+boot=66-70,`7Calibrating laser... -
+boot=71-75,`7Calibrating laser... \
+boot=76-80,`7Calibrating laser... |
+boot=81-85,`7Calibrating laser... /
+boot=86,`7Calibrated laser...
+boot=91,`!System loaded.
+
+basevalue=3480
+#ORIGINAL
+configuration=new,80,80,20,50,70,50,30,30,20
+#stealth
+configuration=stealth,-1,-1,-1,-1,71,54,35,35,24
+#PowerDraw
+configuration=lowpoweruse,-1,-1,-1,-1,72,52,33,33,22
+#Efficiency
+configuration=boost,-1,-1,-1,-1,70,52,33,33,22
+#Sturdiness
+configuration=defence,83,83,23,53,73,53,34,34,23
+end module
+
+
+begin module
+type=ladar
+id=mtlc150
+name=MTL-C150
+shortname=Ladar
+manufacturer=Cosmos
+description=A short-range target painting system.
+damagethreshold=80
+destroyedthreshold=10
+
+ladarrange=145
+ladarradius=60
+
+normalpowerusage=0.1
+highpowerusage=4
+emissionstrength=0
+emissionhighstrength=120
+emissionfrequency=1320
+
+computer=true
+softwareversion=1
+
+boottime=12
+boot=0,`!Signals Ltd. LADAR-X unit v`%1.3.01
+boot=5,`7Warming up laser array...
+boot=22,`!Temperature nominal.
+boot=23,`7Configuring laser return mirrors...
+boot=37,`7...`!configured
+boot=38-40,`7Calibrating laser... |
+boot=41-45,`7Calibrating laser... /
+boot=46-50,`7Calibrating laser... -
+boot=51-55,`7Calibrating laser... \
+boot=56-60,`7Calibrating laser... |
+boot=61-65,`7Calibrating laser... /
+boot=66-70,`7Calibrating laser... -
+boot=71-75,`7Calibrating laser... \
+boot=76-80,`7Calibrating laser... |
+boot=81-85,`7Calibrating laser... /
+boot=86,`7Calibrated laser...
+boot=91,`!System loaded.
+
+basevalue=3480
+#ORIGINAL
+configuration=new,80,80,20,50,70,50,30,20,40
+#stealth
+configuration=stealth,-1,-1,-1,-1,71,54,35,24,44
+#PowerDraw
+configuration=lowpoweruse,-1,-1,-1,-1,72,52,33,22,43
+#Efficiency
+configuration=boost,-1,-1,-1,-1,70,52,33,22,43
+#Sturdiness
+configuration=defence,83,83,23,53,73,53,34,23,43
+end module
+
+
+begin module
+type=ladar
+id=mtlcc
+name=MTL-CC
+shortname=Ladar
+manufacturer=Cosmos
+description=A short-range target painting system.
+damagethreshold=80
+destroyedthreshold=10
+
+ladarrange=150
+ladarradius=80
+
+normalpowerusage=0.1
+highpowerusage=4
+emissionstrength=0
+emissionhighstrength=120
+emissionfrequency=1320
+
+computer=true
+softwareversion=1
+
+boottime=12
+boot=0,`!Signals Ltd. LADAR-X unit v`%1.3.01
+boot=5,`7Warming up laser array...
+boot=22,`!Temperature nominal.
+boot=23,`7Configuring laser return mirrors...
+boot=37,`7...`!configured
+boot=38-40,`7Calibrating laser... |
+boot=41-45,`7Calibrating laser... /
+boot=46-50,`7Calibrating laser... -
+boot=51-55,`7Calibrating laser... \
+boot=56-60,`7Calibrating laser... |
+boot=61-65,`7Calibrating laser... /
+boot=66-70,`7Calibrating laser... -
+boot=71-75,`7Calibrating laser... \
+boot=76-80,`7Calibrating laser... |
+boot=81-85,`7Calibrating laser... /
+boot=86,`7Calibrated laser...
+boot=91,`!System loaded.
+
+basevalue=3480
+#ORIGINAL
+configuration=new,80,80,20,50,70,50,20,40,40
+#stealth
+configuration=stealth,-1,-1,-1,-1,71,54,24,44,44
+#PowerDraw
+configuration=lowpoweruse,-1,-1,-1,-1,72,52,22,43,43
+#Efficiency
+configuration=boost,-1,-1,-1,-1,70,52,22,43,43
+#Sturdiness
+configuration=defence,83,83,23,53,73,53,23,43,43
+end module
+
+
+begin module
+type=ladar
+id=tblb40
+name=TBL-B40
+shortname=Ladar
+manufacturer=Cosmos
+description=A short-range target painting system.
+damagethreshold=80
+destroyedthreshold=10
+
+ladarrange=120
+ladarradius=50
+
+normalpowerusage=0.1
+highpowerusage=4
+emissionstrength=0
+emissionhighstrength=120
+emissionfrequency=1320
+
+computer=true
+softwareversion=1
+
+boottime=12
+boot=0,`!Signals Ltd. LADAR-X unit v`%1.3.01
+boot=5,`7Warming up laser array...
+boot=22,`!Temperature nominal.
+boot=23,`7Configuring laser return mirrors...
+boot=37,`7...`!configured
+boot=38-40,`7Calibrating laser... |
+boot=41-45,`7Calibrating laser... /
+boot=46-50,`7Calibrating laser... -
+boot=51-55,`7Calibrating laser... \
+boot=56-60,`7Calibrating laser... |
+boot=61-65,`7Calibrating laser... /
+boot=66-70,`7Calibrating laser... -
+boot=71-75,`7Calibrating laser... \
+boot=76-80,`7Calibrating laser... |
+boot=81-85,`7Calibrating laser... /
+boot=86,`7Calibrated laser...
+boot=91,`!System loaded.
+
+basevalue=2900
+#ORIGINAL
+configuration=new,80,80,20,50,70,50,20,40,40,40,40
+#stealth
+configuration=stealth,-1,-1,-1,-1,71,54,24,44,44,-1,-1
+#PowerDraw
+configuration=lowpoweruse,-1,-1,-1,-1,72,52,22,43,43,43,43
+#Efficiency
+configuration=boost,-1,-1,-1,-1,70,52,22,43,43,43,43
+#Sturdiness
+configuration=defence,83,83,23,53,73,53,23,43,43,43,43
+end module
+
+
+begin module
+type=ladar
+id=tblb42
+name=TBL-B42
+shortname=Ladar
+manufacturer=Cosmos
+description=A short-range target painting system.
+damagethreshold=80
+destroyedthreshold=10
+
+ladarrange=125
+ladarradius=40
+
+normalpowerusage=0.1
+highpowerusage=4
+emissionstrength=0
+emissionhighstrength=120
+emissionfrequency=1320
+
+computer=true
+softwareversion=1
+
+boottime=12
+boot=0,`!Signals Ltd. LADAR-X unit v`%1.3.01
+boot=5,`7Warming up laser array...
+boot=22,`!Temperature nominal.
+boot=23,`7Configuring laser return mirrors...
+boot=37,`7...`!configured
+boot=38-40,`7Calibrating laser... |
+boot=41-45,`7Calibrating laser... /
+boot=46-50,`7Calibrating laser... -
+boot=51-55,`7Calibrating laser... \
+boot=56-60,`7Calibrating laser... |
+boot=61-65,`7Calibrating laser... /
+boot=66-70,`7Calibrating laser... -
+boot=71-75,`7Calibrating laser... \
+boot=76-80,`7Calibrating laser... |
+boot=81-85,`7Calibrating laser... /
+boot=86,`7Calibrated laser...
+boot=91,`!System loaded.
+
+basevalue=2900
+#ORIGINAL
+configuration=new,80,80,70,40,40,40,40,30,30,30,30
+#stealth
+configuration=stealth,-1,-1,71,44,44,44,-1,-1,35,35,-1
+#PowerDraw
+configuration=lowpoweruse,-1,-1,72,43,43,43,-1,-1,33,33,-1
+#Efficiency
+configuration=boost,-1,-1,70,43,43,43,-1,-1,33,33,-1
+#Sturdiness
+configuration=defence,83,83,73,43,43,43,43,34,34,34,34
+end module
+
+
+begin module
+type=ladar
+id=tblb80
+name=TBL-B80
+shortname=Ladar
+manufacturer=Cosmos
+description=A short-range target painting system.
+damagethreshold=80
+destroyedthreshold=10
+
+ladarrange=130
+ladarradius=30
+
+normalpowerusage=0.1
+highpowerusage=4
+emissionstrength=0
+emissionhighstrength=120
+emissionfrequency=1320
+
+computer=true
+softwareversion=1
+
+boottime=12
+boot=0,`!Signals Ltd. LADAR-X unit v`%1.3.01
+boot=5,`7Warming up laser array...
+boot=22,`!Temperature nominal.
+boot=23,`7Configuring laser return mirrors...
+boot=37,`7...`!configured
+boot=38-40,`7Calibrating laser... |
+boot=41-45,`7Calibrating laser... /
+boot=46-50,`7Calibrating laser... -
+boot=51-55,`7Calibrating laser... \
+boot=56-60,`7Calibrating laser... |
+boot=61-65,`7Calibrating laser... /
+boot=66-70,`7Calibrating laser... -
+boot=71-75,`7Calibrating laser... \
+boot=76-80,`7Calibrating laser... |
+boot=81-85,`7Calibrating laser... /
+boot=86,`7Calibrated laser...
+boot=91,`!System loaded.
+
+basevalue=2900
+#ORIGINAL
+configuration=new,80,80,70,40,40,30,30,30,30,30,30
+#stealth
+configuration=stealth,80,-1,-1,44,44,-1,35,35,-1,35,-1
+#PowerDraw
+configuration=lowpoweruse,81,-1,-1,43,43,-1,33,33,-1,33,-1
+#Efficiency
+configuration=boost,80,-1,-1,43,43,-1,33,33,-1,33,-1
+#Sturdiness
+configuration=defence,83,83,73,43,43,34,34,34,34,34,34
+end module

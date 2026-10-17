@@ -1,0 +1,321 @@
+begin module
+type=generator
+id=mkiv
+name=MkIV
+shortname=React.
+manufacturer=Akimov
+description=The MkVII Fission Reactor is the old workhorse of the fleet.
+ui=1
+damagethreshold=85
+destroyedthreshold=10
+
+
+sound=Reactor_Good
+
+boottime=2
+
+generationrate=6
+emissionstrength=80
+emissionfrequency=1098
+
+basevalue=5904
+
+#ORIGINAL
+configuration=new,110,30,30,30,30,40,20,20,20,20,50,50,50,50,-1
+#STEALTH/EMISSION
+configuration=stealth,111,-1,35,35,35,44,-1,-1,-1,-1,-1,-1,-1,-1,-1
+#POWER DRAW
+configuration=lowpoweruse,112,-1,33,33,33,43,-1,-1,-1,-1,-1,-1,-1,-1,-1
+#Efficiency
+configuration=boost,114,33,33,33,33,43,22,22,22,22,52,52,52,52,-1
+#Sturdiness
+configuration=defence,115,34,34,34,34,42,23,23,23,23,23,53,53,53,73
+end module
+
+
+begin module
+type=generator
+id=mkv
+name=MkV
+shortname=React.
+manufacturer=Akimov
+description=The MkVII Fission Reactor is the old workhorse of the fleet.
+ui=1
+damagethreshold=85
+destroyedthreshold=10
+
+
+sound=Reactor_Good
+
+boottime=3
+
+generationrate=5
+emissionstrength=90
+emissionfrequency=1100
+
+basevalue=5904
+
+#ORIGINAL
+configuration=new,110,30,30,40,20,20,20,20,50,50,50,50,-1,40,40
+#STEALTH/EMISSION
+configuration=stealth,111,35,35,44,-1,-1,-1,-1,-1,-1,-1,-1,-1,44,-1
+#POWER DRAW
+configuration=lowpoweruse,112,33,33,43,-1,-1,-1,-1,-1,-1,-1,-1,-1,43,-1
+#Efficiency
+configuration=boost,114,33,33,43,22,22,22,22,52,52,52,52,-1,43,-1
+#Sturdiness
+configuration=defence,115,34,34,42,23,23,23,23,53,53,53,53,73,42,42
+end module
+
+
+begin module
+type=generator
+id=mkvi
+name=MkVI
+shortname=React.
+manufacturer=Akimov
+description=The MkVII Fission Reactor is the old workhorse of the fleet.
+ui=1
+damagethreshold=85
+destroyedthreshold=10
+
+
+sound=Reactor_Good
+
+boottime=4
+
+generationrate=4
+emissionstrength=100
+emissionfrequency=1102
+
+basevalue=5904
+
+#ORIGINAL
+configuration=new,110,30,30,40,20,20,20,20,50,50,-1,40,40,30,30
+#STEALTH/EMISSION
+configuration=stealth,111,35,35,44,-1,-1,-1,-1,-1,-1,-1,-1,44,-1,-1
+#POWER DRAW
+configuration=lowpoweruse,112,33,33,43,-1,-1,-1,-1,-1,-1,-1,-1,43,-1,-1
+#Efficiency
+configuration=boost,114,33,33,43,22,22,22,22,52,52,-1,43,43,33,33
+#Sturdiness
+configuration=defence,115,34,34,42,23,23,23,23,53,53,73,42,42,34,34
+
+end module
+
+
+begin module
+type=generator
+id=v7
+name=MkVII
+shortname=React.
+manufacturer=Beaumont
+description=The MkVII Fission Reactor is the old workhorse of the fleet.
+ui=1
+damagethreshold=85
+destroyedthreshold=10
+
+
+sound=Reactor_Bad
+
+boottime=2
+
+generationrate=3
+emissionstrength=80
+emissionfrequency=1104
+
+basevalue=4510
+
+#NOTE FROM EN: This needs work - original config has components removed. Hard to figure out what components are needed for specific builds :(
+#ORIGINAL
+configuration=new,110,30,-1,-1,20,50,-1,-1,40,-1,50,-1
+#STEALTH/EMISSION
+configuration=stealth,111,35,-1,-1,24,54,-1,-1,44,-1,54,-1
+#POWER DRAW
+configuration=lowpoweruse,112,33,-1,-1,22,52,-1,-1,43,-1,52,-1
+#Efficiency
+configuration=boost,114,33,33,24,24,52,52,-1,43,43,52,52
+#Sturdiness
+configuration=defence,115,34,34,23,23,53,53,73,42,42,53,53
+
+end module
+
+
+begin module
+type=generator
+id=v8
+name=MkVIII
+shortname=React.
+manufacturer=Beaumont
+description=The MkVII Fission Reactor is the old workhorse of the fleet.
+ui=1
+damagethreshold=85
+destroyedthreshold=10
+
+
+sound=Reactor_Bad
+
+boottime=3
+
+generationrate=3
+emissionstrength=100
+emissionfrequency=1103
+
+basevalue=4510
+
+#ORIGINAL
+configuration=new,110,20,20,50,50,-1,40,40,50,50,20,20
+#STEALTH/EMISSION
+configuration=stealth,111,24,-1,-1,54,-1,-1,44,-1,54,24,-1
+#POWER DRAW
+configuration=lowpoweruse,112,22,-1,-1,52,-1,-1,43,-1,52,22,-1
+#Efficiency
+configuration=boost,114,22,22,52,52,-1,43,43,52,52,22,22
+#Sturdiness
+configuration=defence,115,23,24,53,53,73,42,42,53,53,23,23
+
+end module
+
+
+begin module
+type=generator
+id=v9
+name=MkIX
+shortname=React.
+manufacturer=Beaumont
+description=The MkVII Fission Reactor is the old workhorse of the fleet.
+ui=1
+damagethreshold=85
+destroyedthreshold=10
+
+
+sound=Reactor_Bad
+
+boottime=4
+
+generationrate=4
+emissionstrength=120
+emissionfrequency=1105
+
+basevalue=4510
+
+#ORIGINAL
+configuration=new,110,20,20,50,50,-1,50,50,20,20,20,20
+#STEALTH/EMISSION
+configuration=stealth,111,24,-1,-1,54,-1,-1,54,24,-1,-1,24
+#POWER DRAW
+configuration=lowpoweruse,112,22,-1,-1,52,-1,-1,52,22,-1,-1,22
+#Efficiency
+configuration=boost,114,22,22,52,52,-1,52,52,22,22,22,22
+#Sturdiness
+configuration=defence,115,23,23,53,53,73,53,53,23,23,23,23
+
+end module
+
+
+begin module
+type=generator
+id=model1
+name=Model One
+shortname=React.
+manufacturer=Camhill
+description=The MkVII Fission Reactor is the old workhorse of the fleet.
+ui=1
+damagethreshold=85
+destroyedthreshold=10
+
+
+sound=Reactor_Okay
+
+boottime=1
+
+generationrate=3.5
+emissionstrength=40
+emissionfrequency=1107
+
+basevalue=5412
+
+#ORIGINAL
+configuration=new,110,30,30,-1,40,40,50,50,20,20
+#STEALTH/EMISSION
+configuration=stealth,111,-1,35,-1,-1,44,-1,54,24,-1
+#POWER DRAW
+configuration=lowpoweruse,112,-1,33,-1,-1,43,-1,52,22,-1
+#Efficiency
+configuration=boost,114,33,33,-1,43,43,52,52,22,22
+#Sturdiness
+configuration=defence,115,34,34,73,42,42,53,53,23,23
+
+end module
+
+
+begin module
+type=generator
+id=cm2
+name=MkVII
+shortname=React.
+manufacturer=Camhill
+description=The MkVII Fission Reactor is the old workhorse of the fleet.
+ui=1
+damagethreshold=85
+destroyedthreshold=10
+
+
+sound=Reactor_Okay
+
+boottime=2
+
+generationrate=4
+emissionstrength=45
+emissionfrequency=1109
+
+basevalue=5412
+
+#ORIGINAL
+configuration=new,110,30,30,-1,50,50,20,20,30,30
+#STEALTH/EMISSION
+configuration=stealth,111,-1,35,-1,-1,54,24,-1,35,-1
+#POWER DRAW
+configuration=lowpoweruse,112,-1,33,-1,-1,52,22,-1,33,-1
+#EFFICIENCY
+configuration=boost,114,33,33,-1,52,52,22,22,33,33
+#STURDINESS
+configuration=defence,115,34,34,73,53,53,23,23,34,34
+
+end module
+
+
+begin module
+type=generator
+id=cm4
+name=MkVIII
+shortname=React.
+manufacturer=Camhill
+description=The MkVIII Fission Reactor is the old workhorse of the fleet.
+ui=1
+damagethreshold=85
+destroyedthreshold=10
+
+
+sound=Reactor_Okay
+
+boottime=3
+
+generationrate=4.5
+emissionstrength=60
+emissionfrequency=1111
+
+basevalue=5412
+
+#ORIGINAL
+configuration=new,110,-1,50,50,20,20,30,30,40,40
+#STEALTH/EMISSION
+configuration=stealth,111,-1,-1,54,24,-1,35,-1,44,-1
+#POWER DRAW
+configuration=lowpoweruse,112,-1,-1,52,22,-1,33,-1,43,-1
+#Efficiency
+configuration=boost,114,-1,52,52,22,22,33,33,43,43
+#Sturdiness
+configuration=defence,115,73,53,53,23,23,34,34,42,42
+
+end module

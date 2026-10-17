@@ -1,0 +1,145 @@
+begin module
+type=arm
+id=drak
+name=DRAK
+shortname=Grppl.
+manufacturer=Kruger
+description=A standard grappling arm.
+damagethreshold=80
+destroyedthreshold=10
+
+emissionstrength=.1
+emissionhighstrength=15
+emissionfrequency=1234
+
+normalpowerusage=0.4
+highpowerusage=4
+
+grappletime=9
+
+
+basevalue=2783
+#configuration=0,1,2,3,1,2,3,3,1,2,0
+#base
+configuration=new,30,50,50,50,20,20,20,20,20,20,-1
+#stealth
+configuration=stealth,35,-1,-1,54,-1,-1,24,24,-1,-1,-1
+#health
+configuration=defence,34,53,53,53,23,23,23,23,23,23,73
+#p.draw
+configuration=lowpoweruse,33,-1,-1,52,-1,-1,22,22,-1,-1,-1
+#eff.
+configuration=boost,33,52,52,52,22,22,22,22,22,22,-1
+
+email=Congratulations on purchasing your Kruger Interstellar DRAK Grappling Arm!^^This module attaches to most light freighter and medium cruiser model ships, and allows for the safe retrieval of cargo from space. By default, this module can be operated via your helm screen, and can be selected by using your cursor to select the appropriate tab in the top-left.^^When your sensors detect any debris in space, it will appear inside a narrowing orange cone on your nav map. Plot a course to that object to moor with it, and if it contains cargo pods, your Grappling Arm's in-built sensors will auto-detect what cargo it contains and display it on the cargo screen on your bridge.^^From there, you can move pods to your ship one at a time or all at once. It's that easy!^^Many merchants and traders report errant cargo on the outskirts of solar systems, but be warned that there is usually a good reason why someone might leave valuable cargo behind.^^Sorry to be such a downer. I'm sure *your* journeys will be safe and profitable!^^Happy scavenging!^^Your friendly Kruger Interstellar rep.
+end module
+
+begin module
+type=arm
+id=drak2
+name=DRAK 2
+shortname=Grppl.
+manufacturer=Kruger
+description=A standard grappling arm.
+damagethreshold=80
+destroyedthreshold=10
+
+emissionstrength=.2
+emissionhighstrength=14
+emissionfrequency=1232
+
+normalpowerusage=0.3
+highpowerusage=3.5
+
+grappletime=12
+
+
+basevalue=2783
+#configuration=0,1,2,3,2,3,1,0,2,3
+#base
+configuration=new,30,50,50,50,20,20,20,-1,30,30,30
+#stealth
+configuration=stealth,35,54,-1,-1,-1,-1,24,-1,35,-1,-1
+#health
+configuration=defence,34,53,53,53,23,23,23,73,34,34,34
+#p.draw
+configuration=lowpoweruse,33,52,-1,-1,-1,-1,22,-1,33,-1,-1
+#eff.
+configuration=boost,33,52,52,52,22,22,22,-1,33,33,33
+
+email=Congratulations on purchasing your Kruger Interstellar DRAK 2 Grappling Arm!^^This module attaches to most light freighter and medium cruiser model ships, and allows for the safe retrieval of cargo from space. By default, this module can be operated via your helm screen, and can be selected by using your cursor to select the appropriate tab in the top-left.^^When your sensors detect any debris in space, it will appear inside a narrowing orange cone on your nav map. Plot a course to that object to moor with it, and if it contains cargo pods, your Grappling Arm's in-built sensors will auto-detect what cargo it contains and display it on the cargo screen on your bridge.^^From there, you can move pods to your ship one at a time or all at once. It's that easy!^^Many merchants and traders report errant cargo on the outskirts of solar systems, but be warned that there is usually a good reason why someone might leave valuable cargo behind.^^Sorry to be such a downer. I'm sure *your* journeys will be safe and profitable!^^Happy scavenging!^^Your friendly Kruger Interstellar rep.
+
+end module
+
+begin module
+type=arm
+id=gra
+name=GRA
+shortname=Grppl.
+manufacturer=Galaxy
+description=A standard grappling arm.
+damagethreshold=80
+destroyedthreshold=10
+
+emissionstrength=.2
+emissionhighstrength=24
+emissionfrequency=1235
+
+normalpowerusage=0.6
+highpowerusage=6
+
+grappletime=16
+
+
+basevalue=2530
+#configuration=0,-1,-2,-3,-2,-1,-3,0
+#base
+configuration=new,20,30,30,30,50,50,50,-1
+#stealth
+configuration=stealth,24,35,-1,-1,-1,54,-1,-1
+#health
+configuration=defence,23,34,34,34,53,53,53,73
+#p.draw
+configuration=lowpoweruse,22,33,-1,-1,-1,52,-1,-1
+#eff.
+configuration=boost,22,33,33,33,52,52,52,-1
+
+email=Congratulations on purchasing your Galaxy GRA Grappling Arm!^^This module attaches to most light freighter and medium cruiser model ships, and allows for the safe retrieval of cargo from space. By default, this module can be operated via your helm screen, and can be selected by using your cursor to select the appropriate tab in the top-left.^^When your sensors detect any debris in space, it will appear inside a narrowing orange cone on your nav map. Plot a course to that object to moor with it, and if it contains cargo pods, your Grappling Arm's in-built sensors will auto-detect what cargo it contains and display it on the cargo screen on your bridge.^^From there, you can move pods to your ship one at a time or all at once. It's that easy!^^Many merchants and traders report errant cargo on the outskirts of solar systems, but be warned that there is usually a good reason why someone might leave valuable cargo behind.^^Sorry to be such a downer. I'm sure *your* journeys will be safe and profitable!^^Happy scavenging!^^Your friendly Galaxy rep.
+
+end module
+
+begin module
+type=arm
+id=gra5
+name=GRA 5
+shortname=Grppl.
+manufacturer=Galaxy
+description=A standard grappling arm.
+damagethreshold=80
+destroyedthreshold=10
+
+emissionstrength=.3
+emissionhighstrength=22
+emissionfrequency=1236
+
+normalpowerusage=0.6
+highpowerusage=6
+
+grappletime=18
+
+basevalue=2760
+#configuration=0,-1,-2,-4,-2,-1,-4,0,-3,-3
+#base
+configuration=new,20,30,30,30,50,50,50,-1,30,50
+#stealth
+configuration=stealth,24,35,-1,-1,-1,54,-1,-1,35,54
+#health
+configuration=defence,23,34,34,34,53,53,53,73,34,53
+#p.draw
+configuration=lowpoweruse,22,33,-1,-1,-1,52,-1,-1,33,52
+#eff.
+configuration=boost,22,33,33,33,52,52,52,-1,33,52
+
+email=Congratulations on purchasing your Galaxy GRA 5 Grappling Arm!^^This module attaches to most light freighter and medium cruiser model ships, and allows for the safe retrieval of cargo from space. By default, this module can be operated via your helm screen, and can be selected by using your cursor to select the appropriate tab in the top-left.^^When your sensors detect any debris in space, it will appear inside a narrowing orange cone on your nav map. Plot a course to that object to moor with it, and if it contains cargo pods, your Grappling Arm's in-built sensors will auto-detect what cargo it contains and display it on the cargo screen on your bridge.^^From there, you can move pods to your ship one at a time or all at once. It's that easy!^^Many merchants and traders report errant cargo on the outskirts of solar systems, but be warned that there is usually a good reason why someone might leave valuable cargo behind.^^Sorry to be such a downer. I'm sure *your* journeys will be safe and profitable!^^Happy scavenging!^^Your friendly Galaxy rep.
+
+end module

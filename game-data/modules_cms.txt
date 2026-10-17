@@ -1,0 +1,313 @@
+begin module
+type=cm
+id=cml2
+name=CML/2
+shortname=CM
+manufacturer=Mallard
+description=A CM launcher.
+
+tubes=3
+reloadtime=8
+
+normalpowerusage=0.1
+emissionstrength=2
+emissionfrequency=1280
+
+computer=true
+softwareversion=1
+
+boottime=4
+
+basevalue=2871
+#Original
+configuration=new,60,60,20,20,50,50,10,10,10,10,-1
+#stealth
+configuration=stealth,-1,60,24,-1,54,-1,15,15,15,15,-1
+#PowerDraw
+configuration=lowpoweruse,-1,61,22,-1,52,-1,11,11,11,11,-1
+#Efficiency
+#configuration=boost,-1,63,22,-1,52,-1,13,13,13,13,-1
+#Sturdiness
+configuration=defence,60,60,23,23,53,53,14,14,14,14,73
+email=Thank you for purchasing your Mallard CML/2 countermeasure module!^^Countermeasures are a great defensive tool, and can be used by purchasing ammunition from the Ammunition Terminals on starbases, then activating them from the weapons terminal on your bridge, which can be found by selecting the appropriate tab on the helm screen.^^Countermeasures act as 'decoys' to try and attract incoming torpedoes. They take no power to drop, but cost money to purchase each one.^^For maximum effectiveness, wait until a torpedo is getting close, but not too close - you can still get caught in an explosion even if it doesn't strike your ship directly!
+end module
+
+begin module
+type=cm
+id=cml3
+name=CML/3
+shortname=CM
+manufacturer=Mallard
+description=A CM launcher.
+
+tubes=4
+reloadtime=9
+
+normalpowerusage=0.15
+emissionstrength=2.4
+emissionfrequency=1281
+
+computer=true
+softwareversion=1
+
+boottime=4
+
+basevalue=2871
+#Original
+configuration=new,60,60,20,20,50,50,-1,20,20,20,20
+#stealth
+configuration=stealth,-1,60,24,-1,54,-1,-1,24,24,24,24
+#PowerDraw
+configuration=lowpoweruse,-1,61,22,-1,52,-1,-1,22,22,22,22
+#Efficiency
+#configuration=boost,-1,63,22,22,52,-1,-1,22,22,22,22
+#Sturdiness
+configuration=defence,60,60,23,23,53,53,73,23,23,23,23
+
+email=Thank you for purchasing your Mallard CML/3 countermeasure module!^^Countermeasures are a great defensive tool, and can be used by purchasing ammunition from the Ammunition Terminals on starbases, then activating them from the weapons terminal on your bridge, which can be found by selecting the appropriate tab on the helm screen.^^Countermeasures act as 'decoys' to try and attract incoming torpedoes. They take no power to drop, but cost money to purchase each one.^^For maximum effectiveness, wait until a torpedo is getting close, but not too close - you can still get caught in an explosion even if it doesn't strike your ship directly!
+end module
+
+begin module
+type=cm
+id=cm42
+name=CM/42
+shortname=CM
+manufacturer=Mallard
+description=A CM launcher.
+
+tubes=6
+reloadtime=10
+
+normalpowerusage=0.2
+emissionstrength=2.8
+emissionfrequency=1282
+
+computer=true
+softwareversion=1
+
+boottime=4
+
+basevalue=3190
+#Original
+configuration=new,60,60,20,20,50,50,-1,20,20,30,30
+#stealth
+configuration=stealth,-1,60,24,-1,54,-1,-1,24,24,35,35
+#PowerDraw
+configuration=lowpoweruse,-1,61,22,22,52,52,-1,22,22,33,33
+#Efficiency
+#configuration=boost,-1,63,22,-1,52,-1,-1,22,22,33,33
+#Sturdiness
+configuration=defence,60,60,23,23,53,53,73,23,23,34,34
+
+email=Thank you for purchasing your Mallard CM/42 countermeasure module!^^Countermeasures are a great defensive tool, and can be used by purchasing ammunition from the Ammunition Terminals on starbases, then activating them from the weapons terminal on your bridge, which can be found by selecting the appropriate tab on the helm screen.^^Countermeasures act as 'decoys' to try and attract incoming torpedoes. They take no power to drop, but cost money to purchase each one.^^For maximum effectiveness, wait until a torpedo is getting close, but not too close - you can still get caught in an explosion even if it doesn't strike your ship directly!
+end module
+
+begin module
+type=cm
+id=pcm9
+name=PCM/9
+shortname=CM
+manufacturer=Pritchard
+description=A CM launcher.
+
+tubes=2
+reloadtime=8
+
+normalpowerusage=0.2
+emissionstrength=2
+emissionfrequency=1284
+
+computer=true
+softwareversion=1
+
+boottime=4
+
+basevalue=3190
+#Original
+configuration=new,60,60,20,20,50,50,-1,20,20,30,30,60,50,20
+#stealth
+configuration=stealth,-1,-1,24,-1,54,-1,-1,24,24,35,35,60,-1,-1
+#PowerDraw
+#configuration=lowpoweruse,61,61,22,22,52,52,-1,22,22,33,33,61,52,20
+#Efficiency
+configuration=boost,63,63,22,22,52,52,-1,22,22,33,33,63,52,22
+#Sturdiness
+configuration=defence,60,60,23,23,53,53,73,23,23,34,34,60,53,23
+
+email=Thank you for purchasing your Pritchard PCM/9 countermeasure module!^^Countermeasures are a great defensive tool, and can be used by purchasing ammunition from the Ammunition Terminals on starbases, then activating them from the weapons terminal on your bridge, which can be found by selecting the appropriate tab on the helm screen.^^Countermeasures act as 'decoys' to try and attract incoming torpedoes. They take no power to drop, but cost money to purchase each one.^^For maximum effectiveness, wait until a torpedo is getting close, but not too close - you can still get caught in an explosion even if it doesn't strike your ship directly!
+end module
+
+begin module
+type=cm
+id=pcm9s
+name=PCM/9S
+shortname=CM
+manufacturer=Pritchard
+description=A CM launcher.
+
+tubes=4
+reloadtime=9
+
+normalpowerusage=0.25
+emissionstrength=2.4
+emissionfrequency=1285
+
+computer=true
+softwareversion=1
+
+boottime=4
+
+basevalue=3190
+#Original
+configuration=new,60,60,20,20,50,50,-1,20,20,60,50,20,40,40
+#stealth
+configuration=stealth,-1,-1,24,-1,54,-1,-1,24,24,60,-1,-1,44,44
+#PowerDraw
+configuration=lowpoweruse,-1,-1,22,-1,52,-1,-1,22,22,61,-1,-1,43,43
+#Efficiency
+#configuration=boost,-1,-1,22,-1,52,-1,-1,22,22,63,-1,-1,43,43
+#Sturdiness
+configuration=defence,60,60,23,23,53,53,73,23,23,60,53,23,43,43
+
+email=Thank you for purchasing your Pritchard PCM/9S countermeasure module!^^Countermeasures are a great defensive tool, and can be used by purchasing ammunition from the Ammunition Terminals on starbases, then activating them from the weapons terminal on your bridge, which can be found by selecting the appropriate tab on the helm screen.^^Countermeasures act as 'decoys' to try and attract incoming torpedoes. They take no power to drop, but cost money to purchase each one.^^For maximum effectiveness, wait until a torpedo is getting close, but not too close - you can still get caught in an explosion even if it doesn't strike your ship directly!
+end module
+
+begin module
+type=cm
+id=pcm9g
+name=PCM/9G
+shortname=CM
+manufacturer=Pritchard
+description=A CM launcher.
+
+tubes=6
+reloadtime=10
+
+normalpowerusage=0.3
+emissionstrength=2.8
+emissionfrequency=1288
+
+computer=true
+softwareversion=1
+
+boottime=4
+
+basevalue=3190
+#Original
+configuration=new,60,60,20,20,50,50,-1,60,50,20,40,40,40,40
+#stealth
+configuration=stealth,-1,-1,24,-1,54,-1,-1,60,-1,-1,44,44,44,44
+#PowerDraw
+configuration=lowpoweruse,-1,-1,22,-1,52,-1,-1,61,-1,-1,43,43,43,43
+#Efficiency
+#configuration=boost,-1,-1,22,-1,52,-1,-1,63,-1,-1,43,43,43,43
+#Sturdiness
+configuration=defence,60,60,23,23,53,53,73,60,53,23,43,43,43,43
+
+email=Thank you for purchasing your Pritchard PCM/9G countermeasure module!^^Countermeasures are a great defensive tool, and can be used by purchasing ammunition from the Ammunition Terminals on starbases, then activating them from the weapons terminal on your bridge, which can be found by selecting the appropriate tab on the helm screen.^^Countermeasures act as 'decoys' to try and attract incoming torpedoes. They take no power to drop, but cost money to purchase each one.^^For maximum effectiveness, wait until a torpedo is getting close, but not too close - you can still get caught in an explosion even if it doesn't strike your ship directly!
+end module
+
+begin module
+type=cm
+id=scm4
+name=SCM/4
+shortname=CM
+manufacturer=Stillwater
+description=A CM launcher.
+
+tubes=8
+reloadtime=8
+
+normalpowerusage=0.32
+emissionstrength=2.6
+emissionfrequency=1289
+
+computer=true
+softwareversion=1
+
+boottime=4
+
+basevalue=2900
+#Original
+configuration=new,60,60,30,30,50,50,20,20,-1
+#stealth
+configuration=stealth,60,60,-1,35,54,-1,-1,24,-1
+#PowerDraw
+configuration=lowpoweruse,61,61,-1,33,52,-1,-1,22,-1
+#Efficiency
+#configuration=boost,63,63,-1,33,52,-1,-1,22,-1
+#Sturdiness
+configuration=defence,60,60,34,34,53,53,23,23,73
+
+email=Thank you for purchasing your Stillwater SCM/4 countermeasure module!^^Countermeasures are a great defensive tool, and can be used by purchasing ammunition from the Ammunition Terminals on starbases, then activating them from the weapons terminal on your bridge, which can be found by selecting the appropriate tab on the helm screen.^^Countermeasures act as 'decoys' to try and attract incoming torpedoes. They take no power to drop, but cost money to purchase each one.^^For maximum effectiveness, wait until a torpedo is getting close, but not too close - you can still get caught in an explosion even if it doesn't strike your ship directly!
+end module
+
+begin module
+type=cm
+id=scm2
+name=SCM/2
+shortname=CM
+manufacturer=Stillwater
+description=A CM launcher.
+
+tubes=8
+reloadtime=10
+
+normalpowerusage=0.32
+emissionstrength=3
+emissionfrequency=1292
+
+computer=true
+softwareversion=1
+
+boottime=4
+
+basevalue=2900
+#Original
+configuration=new,60,60,30,30,20,20,-1,20,20
+#stealth
+configuration=stealth,60,60,35,-1,-1,24,-1,-1,24
+#PowerDraw
+configuration=lowpoweruse,61,61,33,-1,-1,22,-1,-1,22
+#Efficiency
+#configuration=boost,63,63,33,-1,-1,22,-1,-1,22
+#Sturdiness
+configuration=defence,60,60,34,34,23,23,73,23,23
+
+email=Thank you for purchasing your Stillwater SCM/2 countermeasure module!^^Countermeasures are a great defensive tool, and can be used by purchasing ammunition from the Ammunition Terminals on starbases, then activating them from the weapons terminal on your bridge, which can be found by selecting the appropriate tab on the helm screen.^^Countermeasures act as 'decoys' to try and attract incoming torpedoes. They take no power to drop, but cost money to purchase each one.^^For maximum effectiveness, wait until a torpedo is getting close, but not too close - you can still get caught in an explosion even if it doesn't strike your ship directly!
+end module
+
+begin module
+type=cm
+id=sc90
+name=SC/90
+shortname=CM
+manufacturer=Stillwater
+description=A CM launcher.
+
+tubes=10
+reloadtime=9
+
+normalpowerusage=0.34
+emissionstrength=3.4
+emissionfrequency=1294
+
+computer=true
+softwareversion=1
+
+boottime=4
+
+basevalue=2900
+#Original
+configuration=new,60,60,50,50,20,20,-1,20,20,50,50
+#Stealth
+configuration=stealth,60,60,54,-1,-1,24,-1,-1,24,-1,54
+#PowerDraw
+#configuration=lowpoweruse,61,61,52,52,22,22,72,22,22,52,52
+#Efficiency
+configuration=boost,63,63,52,52,22,22,-1,22,22,52,52
+#Sturdiness
+configuration=defence,60,60,53,53,23,23,73,23,23,53,53
+
+email=Thank you for purchasing your Stillwater SC/90 countermeasure module!^^Countermeasures are a great defensive tool, and can be used by purchasing ammunition from the Ammunition Terminals on starbases, then activating them from the weapons terminal on your bridge, which can be found by selecting the appropriate tab on the helm screen.^^Countermeasures act as 'decoys' to try and attract incoming torpedoes. They take no power to drop, but cost money to purchase each one.^^For maximum effectiveness, wait until a torpedo is getting close, but not too close - you can still get caught in an explosion even if it doesn't strike your ship directly!
+end module

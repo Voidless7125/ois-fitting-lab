@@ -1,0 +1,204 @@
+begin module
+    type=battery
+    id=wp_battery
+    name=W1000
+    shortname=Batt.
+    manufacturer=AACP
+    description=A medium-power battery exclusively used in weapons.
+    damagethreshold=80
+    destroyedthreshold=10
+
+    maxpowercontent=1200
+
+    interface=dummyinterface
+
+
+
+    configuration=new,-1,60,20,50,-1,-1,20,50,80,30,10,-1
+end module
+
+begin module
+    type=battery
+    id=wp_battery2
+    name=W2000
+    shortname=Batt.
+    manufacturer=AACP
+    description=A high-power battery exlusively used in weapons.
+    damagethreshold=80
+    destroyedthreshold=10
+
+    maxpowercontent=1200
+
+    interface=dummyinterface
+
+
+
+    configuration=new,60,20,50,-1,-1,20,50,80,30,10,-1
+end module
+
+begin module
+    type=rcs
+    id=wp_rcs
+    name=RCS Suite
+    shortname=RCS
+    manufacturer=AACP
+    description=A weapon or probe's RCS suite.
+    damagethreshold=80
+    destroyedthreshold=10
+
+    rotationrate=65.0
+
+    highpowerusage=0.5
+    emissionfrequency=14
+    emissionhighstrength=60
+
+    interface=dummyinterface
+
+
+    configuration=new,60,20,50,-1,-1,20,50,80,30,10,-1
+end module
+
+begin module
+    type=maindrive
+    id=wp_mpd
+    name=WP/MDP Thruster
+    shortname=Engine
+    manufacturer=AACP
+    description=A high-power MPD thruster for propelling probes and weapons.
+    damagethreshold=80
+    destroyedthreshold=10
+
+    thrust=0.6
+
+    soundhigh=mpd
+
+    highpowerusage=3
+    emissionhighstrength=200
+    emissionfrequency=2
+
+    interface=dummyinterface
+
+
+
+    configuration=new,60,20,50,-1,-1,20,50,80,30,10,-1
+end module
+
+begin module
+	type=ladar
+	id=wp_ladar
+	name=MKX-LADAR-A
+	shortname=Ladar
+	manufacturer=Cosmos
+	description=A short-range target painting system.
+	damagethreshold=80
+	destroyedthreshold=10
+
+	ladarrange=120
+	ladarradius=120
+
+	normalpowerusage=0.1
+	highpowerusage=4
+	emissionstrength=0
+	emissionhighstrength=120
+	emissionfrequency=1320
+	interface=dummyinterface
+
+	computer=true
+	softwareversion=1
+
+	boottime=12
+
+	configuration=new,60,20,50,-1,-1,20,50,80,30,10,-1
+end module
+
+begin module
+    type=sensor
+    id=p_sensor
+    name=Probe Sensor
+    shortname=Sens.
+    manufacturer=Dal Pozzo
+    description=A standard sensor suite.
+    damagethreshold=80
+    destroyedthreshold=10
+    sensorquality=1.2
+
+
+    normalpowerusage=0.3
+    emissionstrength=10
+    emissionfrequency=830
+    ghosttimer=8d12+24
+    analysistime=12d4+10
+    computer=true
+    softwareversion=1
+    boottime=1
+    basevalue=1872
+    configuration=new,70,50,50,20,20,10,10,80,40,40
+end module
+
+# REMORA specific modules
+
+begin module
+    type=rcs
+    id=remorareact
+    name=AP-RCS1
+    shortname=RCS
+    manufacturer=Kyber Industrial
+    description=A standard RCS suite.
+    damagethreshold=80
+    destroyedthreshold=10
+
+    rotationrate=60.0
+
+    emissionstrength=2
+    highpowerusage=2
+    emissionfrequency=401
+    # in other words, only emits this when 'firing' the RCS
+    emissionhighstrength=11
+
+    basevalue=2505
+    configuration=new,50,100,100,100,70,50,50,10,10,10,10,30,10,10,10
+end module
+
+begin module
+type=sensor
+id=remorasensor
+name=RM-SNS
+shortname=Sens.
+manufacturer=Signals Ltd.
+description=A standard sensor suite.
+damagethreshold=80
+destroyedthreshold=10
+sensorquality=5
+
+
+normalpowerusage=0.2
+emissionstrength=2
+emissionfrequency=828
+ghosttimer=14d32+32
+analysistime=8d4+10
+computer=true
+softwareversion=3
+
+boottime=14
+boot=0,`!Signals Ltd. Sensor System `%1.0.81
+boot=5,`7Syncing with SL-Passive unit...
+boot=14,`!Sync complete.
+boot=15,`7Priming storage...
+boot=37,`!Primed.
+boot=38-40,`7Calibrating array... |
+boot=41-45,`7Calibrating array... /
+boot=46-50,`7Calibrating array... -
+boot=51-55,`7Calibrating array... \
+boot=56-60,`7Calibrating array... |
+boot=61-65,`7Calibrating array... /
+boot=66-70,`7Calibrating array... -
+boot=71-75,`7Calibrating array... \
+boot=76-80,`7Calibrating array... |
+boot=81-85,`7Calibrating array... /
+boot=86,`7Calibrating array...
+boot=86,`!Calibrated.
+boot=92,`!System loaded.
+
+basevalue=0
+configuration=new,70,50,50,20,20,80,40,50
+end module

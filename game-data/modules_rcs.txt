@@ -1,0 +1,222 @@
+begin module
+type=rcs
+id=react2
+name=RCSYS-2
+shortname=RCS
+manufacturer=Kruger
+description=A standard RCS suite.
+damagethreshold=80
+destroyedthreshold=10
+
+rotationrate=35.0
+
+emissionstrength=2
+highpowerusage=8
+emissionfrequency=404
+# in other words, only emits this when 'firing' the RCS
+emissionhighstrength=10
+
+basevalue=3340
+#base
+configuration=new,30,50,50,100,100,100,100,100,100,-1,50,50,50,50
+#stealth
+configuration=stealth,35,54,54,-1,103,-1,103,-1,-1,-1,-1,-1,-1,-1
+#health
+configuration=defence,34,53,53,101,101,101,101,101,101,73,53,53,53,53
+#p.draw
+configuration=lowpoweruse,33,52,52,-1,103,-1,103,-1,-1,-1,-1,-1,-1,-1
+#eff.
+configuration=boost,33,52,52,102,102,102,102,102,102,-1,52,52,52,52
+end module
+
+
+begin module
+type=rcs
+id=react4
+name=RCSYS-4
+shortname=RCS
+manufacturer=Kruger
+description=A standard RCS suite.
+damagethreshold=80
+destroyedthreshold=10
+
+rotationrate=30.0
+
+emissionstrength=2
+highpowerusage=9
+emissionfrequency=403
+# in other words, only emits this when 'firing' the RCS
+emissionhighstrength=10
+
+basevalue=3036
+#base
+configuration=new,30,50,50,100,100,100,-1,50,50,50,50,10,10,10
+#stealth
+configuration=stealth,35,54,54,103,-1,-1,-1,-1,-1,-1,-1,-1,15,-1
+#health
+configuration=defence,34,53,53,101,101,101,73,53,53,53,53,14,14,14
+#p.draw
+configuration=lowpoweruse,33,52,52,103,-1,-1,-1,-1,-1,-1,-1,-1,11,-1
+#eff.
+configuration=boost,33,52,52,102,102,102,-1,52,52,52,52,13,13,13
+end module
+
+
+begin module
+type=rcs
+id=reactks
+name=RCSYS-KS
+shortname=RCS
+manufacturer=Kruger
+description=A standard RCS suite.
+damagethreshold=80
+destroyedthreshold=10
+
+rotationrate=15.0
+
+emissionstrength=3
+highpowerusage=7
+emissionfrequency=404
+# in other words, only emits this when 'firing' the RCS
+emissionhighstrength=11
+
+basevalue=3036
+#base
+configuration=new,50,50,100,100,100,-1,50,50,50,50,10,10,10,100
+#stealth
+configuration=stealth,54,54,103,-1,-1,-1,-1,-1,-1,-1,-1,15,-1,103
+#health
+configuration=defence,53,53,101,101,101,73,53,53,53,53,14,14,14,101
+#p.draw
+configuration=lowpoweruse,52,52,103,-1,-1,-1,-1,-1,-1,-1,-1,11,-1,103
+#eff.
+configuration=boost,52,52,102,102,102,-1,52,52,52,52,13,13,13,102
+end module
+
+
+begin module
+type=rcs
+id=reactksm
+name=RCSYS-KSM
+shortname=RCS
+manufacturer=Kruger
+description=A standard RCS suite.
+damagethreshold=80
+destroyedthreshold=10
+
+rotationrate=50.0
+
+emissionstrength=1
+highpowerusage=6
+emissionfrequency=401
+# in other words, only emits this when 'firing' the RCS
+emissionhighstrength=9
+
+basevalue=2505
+#base
+configuration=new,50,100,100,100,-1,50,50,10,10,10,10,30,10,10,10
+#stealth
+configuration=stealth,54,103,-1,-1,-1,-1,-1,-1,15,-1,15,35,15,-1,-1
+#health
+configuration=defence,53,101,101,101,73,53,53,14,14,14,14,34,14,14,14
+#p.draw
+configuration=lowpoweruse,52,103,-1,-1,-1,-1,-1,-1,11,-1,11,33,11,-1,-1
+#eff.
+configuration=boost,52,102,102,102,-1,52,52,13,13,13,13,33,13,13,13
+end module
+
+
+begin module
+type=rcs
+id=reactgss
+name=RCSYS-GSS
+shortname=RCS
+manufacturer=Gemini
+description=A standard RCS suite.
+damagethreshold=80
+destroyedthreshold=10
+
+rotationrate=25.0
+
+emissionstrength=2
+highpowerusage=9
+emissionfrequency=400
+# in other words, only emits this when 'firing' the RCS
+emissionhighstrength=12
+
+basevalue=2226
+#base
+configuration=new,30,50,50,100,-1,-1,-1,100,-1,-1
+#stealth
+configuration=stealth,35,54,54,103,-1,-1,-1,103,-1,-1
+#health
+configuration=defence,34,53,53,101,101,101,101,101,101,73
+#p.draw
+configuration=lowpoweruse,33,52,52,103,-1,-1,-1,103,-1,-1
+#eff.
+configuration=boost,33,52,52,102,102,102,102,102,102,-1
+end module
+
+
+begin module
+type=rcs
+id=reactg9
+name=RCSYS-G9
+shortname=RCS
+manufacturer=Gemini
+description=A standard RCS suite.
+damagethreshold=80
+destroyedthreshold=10
+
+rotationrate=16.0
+
+emissionstrength=1
+highpowerusage=10
+emissionfrequency=398
+# in other words, only emits this when 'firing' the RCS
+emissionhighstrength=14
+
+basevalue=2024
+#base
+configuration=new,30,50,50,100,100,100,100,-1
+#stealth
+configuration=stealth,35,54,54,103,-1,103,-1,-1
+#health
+configuration=defence,34,53,53,101,101,101,101,73
+#p.draw
+configuration=lowpoweruse,33,52,52,103,-1,103,-1,-1
+#eff.
+configuration=boost,33,52,52,102,102,102,102,-1
+end module
+
+
+begin module
+type=rcs
+id=reactg9s
+name=RCSYS-G9S
+shortname=RCS
+manufacturer=Gemini
+description=A standard RCS suite.
+damagethreshold=80
+destroyedthreshold=10
+
+rotationrate=12.0
+
+emissionstrength=1
+highpowerusage=10
+emissionfrequency=396
+# in other words, only emits this when 'firing' the RCS
+emissionhighstrength=18
+
+basevalue=1619
+#base
+configuration=new,30,50,50,100,100,-1
+#stealth
+configuration=stealth,35,54,54,103,103,-1
+#health
+configuration=defence,34,53,53,101,101,73
+#p.draw
+configuration=lowpoweruse,33,52,52,103,103,-1
+#eff.
+configuration=boost,33,52,52,102,102,-1
+end module

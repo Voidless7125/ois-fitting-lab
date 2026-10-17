@@ -1,0 +1,337 @@
+begin module
+type=jumpdrive
+id=dvjd400
+name=DVJD-400
+shortname=J/D
+manufacturer=De Vass
+description=A model DVJD-400 jump drive for moving between solar systems.
+damagethreshold=80
+destroyedthreshold=10
+
+soundhigh=JumpDriveCharge
+
+highpowerusage=20
+emissionhighstrength=260
+emissionfrequency=1362
+
+spinuptime=30
+
+jumpdistance=160
+calctime=16
+
+basevalue=4277
+#ORIGINAL
+configuration=new,90,10,10,10,10,10,10,10,10,50,50,50,50,-1
+#stealth
+configuration=stealth,93,-1,-1,15,15,-1,-1,-1,-1,-1,54,-1,-1,-1
+#PowerDraw
+configuration=lowpoweruse,91,-1,-1,11,11,-1,-1,-1,-1,-1,52,-1,-1,-1
+#Efficiency
+configuration=boost,91,-1,-1,13,13,-1,-1,-1,-1,-1,52,-1,-1,-1
+#Sturdiness
+configuration=defence,92,14,14,14,14,14,14,14,14,53,53,53,53,70
+email=Thank you for purchasing your De Vass DVJD-400 jump drive module!^^Jump Drives allow you to jump between star systems without the use of the jumpgate network. To use it, click on 'cluster' on your nav map and select the star system you wish to travel to. Note that the purple circle around your current location indicates the range of your jump drive. Click on 'set dest', then exit cluster view by clicking on 'sector'.^^You must be in the appropriate quadrant and at a full stop in order to perform a jump. The quadrant you need to be in is highlighted on your minimap and flashing in purple.^^Once there and stopped, press 'spin up' to turn on your jump drive', then 'calc. sol' to calculate your jump solution. Good luck!
+end module
+
+
+begin module
+type=jumpdrive
+id=dvjd450
+name=DVJD-450
+shortname=J/D
+manufacturer=De Vass
+description=A model DVJD-400 jump drive for moving between solar systems.
+damagethreshold=80
+destroyedthreshold=10
+
+soundhigh=JumpDriveCharge
+
+highpowerusage=22
+emissionhighstrength=240
+emissionfrequency=1360
+
+spinuptime=27
+calctime=14
+
+jumpdistance=190
+
+
+basevalue=4277
+#ORIGINAL
+configuration=new,90,10,10,10,10,50,50,50,50,-1,20,20,20,20
+#stealth
+configuration=stealth,93,-1,15,-1,-1,-1,54,-1,-1,-1,-1,24,-1,-1
+#PowerDraw
+configuration=lowpoweruse,91,-1,11,-1,-1,-1,52,-1,-1,-1,-1,22,-1,-1
+#Efficiency
+configuration=boost,91,-1,13,-1,-1,-1,52,-1,-1,-1,-1,22,-1,-1
+#Sturdiness
+configuration=defence,90,14,14,14,14,53,53,53,53,73,23,23,23,23
+
+email=Thank you for purchasing your De Vass DVJD-450 jump drive module!^^Jump Drives allow you to jump between star systems without the use of the jumpgate network. To use it, click on 'cluster' on your nav map and select the star system you wish to travel to. Note that the purple circle around your current location indicates the range of your jump drive. Click on 'set dest', then exit cluster view by clicking on 'sector'.^^You must be in the appropriate quadrant and at a full stop in order to perform a jump. The quadrant you need to be in is highlighted on your minimap and flashing in purple.^^Once there and stopped, press 'spin up' to turn on your jump drive', then 'calc. sol' to calculate your jump solution. Good luck!
+end module
+
+
+begin module
+type=jumpdrive
+id=dvjd500
+name=DVJD-500
+shortname=J/D
+manufacturer=De Vass
+description=A model DVJD-400 jump drive for moving between solar systems.
+damagethreshold=80
+destroyedthreshold=10
+
+soundhigh=JumpDriveCharge
+
+highpowerusage=18
+emissionhighstrength=230
+emissionfrequency=1364
+
+spinuptime=24
+calctime=18
+
+jumpdistance=200
+
+
+basevalue=4752
+#ORIGINAL
+configuration=new,90,50,50,50,50,-1,20,20,20,20,20,20,20,20
+#stealth
+configuration=stealth,93,-1,54,-1,-1,-1,-1,24,-1,-1,24,-1,-1,-1
+#PowerDraw
+configuration=lowpoweruse,91,-1,52,-1,-1,-1,-1,22,-1,-1,22,-1,-1,-1
+#Efficiency
+configuration=boost,91,-1,52,-1,-1,-1,-1,22,-1,-1,22,-1,-1,-1
+#Sturdiness
+configuration=defence,92,53,53,53,53,73,23,23,23,23,23,23,23,23
+
+email=Thank you for purchasing your De Vass DVJD-500 jump drive module!^^Jump Drives allow you to jump between star systems without the use of the jumpgate network. To use it, click on 'cluster' on your nav map and select the star system you wish to travel to. Note that the purple circle around your current location indicates the range of your jump drive. Click on 'set dest', then exit cluster view by clicking on 'sector'.^^You must be in the appropriate quadrant and at a full stop in order to perform a jump. The quadrant you need to be in is highlighted on your minimap and flashing in purple.^^Once there and stopped, press 'spin up' to turn on your jump drive', then 'calc. sol' to calculate your jump solution. Good luck!
+end module
+
+
+begin module
+type=jumpdrive
+id=dvjd600
+name=DVJD-600
+shortname=J/D
+manufacturer=De Vass
+description=A model DVJD-400 jump drive for moving between solar systems.
+damagethreshold=80
+destroyedthreshold=10
+
+soundhigh=JumpDriveCharge
+
+highpowerusage=16
+emissionhighstrength=180
+emissionfrequency=1366
+
+spinuptime=21
+calctime=16
+
+jumpdistance=220
+
+
+basevalue=3802
+#ORIGINAL
+configuration=new,90,-1,20,20,20,20,20,20,20,20,10,10,10,10
+#stealth
+configuration=stealth,93,-1,-1,24,-1,-1,24,-1,-1,-1,15,-1,-1,-1
+#PowerDraw
+configuration=lowpoweruse,91,-1,-1,22,-1,-1,22,-1,-1,-1,11,-1,-1,-1
+#Efficiency
+configuration=boost,91,-1,-1,22,-1,-1,22,-1,-1,-1,13,-1,-1,-1
+#Sturdiness
+configuration=defence,92,73,23,23,23,23,23,23,23,23,14,14,14,14
+
+email=Thank you for purchasing your De Vass DVJD-600 jump drive module!^^Jump Drives allow you to jump between star systems without the use of the jumpgate network. To use it, click on 'cluster' on your nav map and select the star system you wish to travel to. Note that the purple circle around your current location indicates the range of your jump drive. Click on 'set dest', then exit cluster view by clicking on 'sector'.^^You must be in the appropriate quadrant and at a full stop in order to perform a jump. The quadrant you need to be in is highlighted on your minimap and flashing in purple.^^Once there and stopped, press 'spin up' to turn on your jump drive', then 'calc. sol' to calculate your jump solution. Good luck!
+end module
+
+
+begin module
+type=jumpdrive
+id=kijd10
+name=KIJD-10
+shortname=J/D
+manufacturer=Kruger
+description=A model DVJD-400 jump drive for moving between solar systems.
+damagethreshold=80
+destroyedthreshold=10
+
+soundhigh=JumpDriveCharge
+
+highpowerusage=15
+emissionhighstrength=180
+emissionfrequency=1368
+
+spinuptime=15
+calctime=12
+
+jumpdistance=260
+
+
+basevalue=5280
+#ORIGINAL
+configuration=new,90,10,10,10,10,50,50,50,50,-1
+#stealth
+configuration=stealth,93,-1,15,-1,-1,-1,54,-1,-1,-1
+#PowerDraw
+configuration=lowpoweruse,91,-1,11,-1,-1,-1,52,-1,-1,-1
+#Efficiency
+configuration=boost,91,-1,13,-1,-1,-1,52,-1,-1,-1
+#Sturdiness
+configuration=defence,92,-1,14,-1,-1,-1,53,-1,-1,-1
+
+email=Thank you for purchasing your Kruger KIJD-10 jump drive module!^^Jump Drives allow you to jump between star systems without the use of the jumpgate network. To use it, click on 'cluster' on your nav map and select the star system you wish to travel to. Note that the purple circle around your current location indicates the range of your jump drive. Click on 'set dest', then exit cluster view by clicking on 'sector'.^^You must be in the appropriate quadrant and at a full stop in order to perform a jump. The quadrant you need to be in is highlighted on your minimap and flashing in purple.^^Once there and stopped, press 'spin up' to turn on your jump drive', then 'calc. sol' to calculate your jump solution. Good luck!
+end module
+
+
+begin module
+type=jumpdrive
+id=kijd20
+name=KIJD-20
+shortname=J/D
+manufacturer=De Vass
+description=A model DVJD-400 jump drive for moving between solar systems.
+damagethreshold=80
+destroyedthreshold=10
+
+soundhigh=JumpDriveCharge
+
+highpowerusage=14
+emissionhighstrength=190
+emissionfrequency=1370
+
+spinuptime=16
+calctime=14
+
+jumpdistance=255
+
+
+basevalue=5280
+#ORIGINAL
+configuration=new,90,50,50,50,50,-1,20,20,20,20
+#stealth
+configuration=stealth,93,-1,54,-1,-1,-1,24,-1,-1,-1
+#PowerDraw
+configuration=lowpoweruse,91,-1,52,-1,-1,-1,22,-1,-1,-1
+#Efficiency
+configuration=boost,91,-1,52,-1,-1,-1,22,-1,-1,-1
+#Sturdiness
+configuration=defence,92,53,53,53,53,73,23,23,23,23
+
+email=Thank you for purchasing your De Vass KIJD-20 jump drive module!^^Jump Drives allow you to jump between star systems without the use of the jumpgate network. To use it, click on 'cluster' on your nav map and select the star system you wish to travel to. Note that the purple circle around your current location indicates the range of your jump drive. Click on 'set dest', then exit cluster view by clicking on 'sector'.^^You must be in the appropriate quadrant and at a full stop in order to perform a jump. The quadrant you need to be in is highlighted on your minimap and flashing in purple.^^Once there and stopped, press 'spin up' to turn on your jump drive', then 'calc. sol' to calculate your jump solution. Good luck!
+end module
+
+
+begin module
+type=jumpdrive
+id=kijd140
+name=KIJD-140
+shortname=J/D
+manufacturer=Kruger
+description=A model DVJD-400 jump drive for moving between solar systems.
+damagethreshold=80
+destroyedthreshold=10
+
+soundhigh=JumpDriveCharge
+
+highpowerusage=20
+emissionhighstrength=200
+emissionfrequency=1372
+
+spinuptime=18
+calctime=10
+
+jumpdistance=235
+
+
+basevalue=5808
+#ORIGINAL
+configuration=new,90,50,50,50,50,-1,30,30,30,30
+#stealth
+configuration=stealth,93,-1,54,-1,-1,-1,35,-1,-1,-1
+#PowerDraw
+configuration=lowpoweruse,91,-1,52,-1,-1,-1,33,-1,-1,-1
+#Efficiency
+configuration=boost,91,-1,52,-1,-1,-1,33,-1,-1,-1
+#Sturdiness
+configuration=defence,92,53,53,53,53,73,34,34,34,34
+
+email=Thank you for purchasing your Kruger KIJD-140 jump drive module!^^Jump Drives allow you to jump between star systems without the use of the jumpgate network. To use it, click on 'cluster' on your nav map and select the star system you wish to travel to. Note that the purple circle around your current location indicates the range of your jump drive. Click on 'set dest', then exit cluster view by clicking on 'sector'.^^You must be in the appropriate quadrant and at a full stop in order to perform a jump. The quadrant you need to be in is highlighted on your minimap and flashing in purple.^^Once there and stopped, press 'spin up' to turn on your jump drive', then 'calc. sol' to calculate your jump solution. Good luck!
+end module
+
+
+begin module
+type=jumpdrive
+id=kijd140r
+name=KIJD-140R
+shortname=J/D
+manufacturer=Kruger
+description=A model DVJD-400 jump drive for moving between solar systems.
+damagethreshold=80
+destroyedthreshold=10
+
+soundhigh=JumpDriveCharge
+
+highpowerusage=18
+emissionhighstrength=200
+emissionfrequency=1372
+
+spinuptime=19
+calctime=16
+
+jumpdistance=220
+
+
+basevalue=4752
+#ORIGINAL
+configuration=new,90,-1,30,30,30,30,20,20,20,20
+#stealth
+configuration=stealth,93,-1,35,-1,-1,-1,-1,24,-1,-1
+#PowerDraw
+configuration=lowpoweruse,91,-1,33,-1,-1,-1,-1,22,-1,-1
+#Efficiency
+configuration=boost,91,-1,33,-1,-1,-1,-1,22,-1,-1
+#Sturdiness
+configuration=defence,92,73,30,34,34,34,23,23,23,23
+
+email=Thank you for purchasing your Kruger KIJD-140R jump drive module!^^Jump Drives allow you to jump between star systems without the use of the jumpgate network. To use it, click on 'cluster' on your nav map and select the star system you wish to travel to. Note that the purple circle around your current location indicates the range of your jump drive. Click on 'set dest', then exit cluster view by clicking on 'sector'.^^You must be in the appropriate quadrant and at a full stop in order to perform a jump. The quadrant you need to be in is highlighted on your minimap and flashing in purple.^^Once there and stopped, press 'spin up' to turn on your jump drive', then 'calc. sol' to calculate your jump solution. Good luck!
+end module
+
+begin module
+type=jumpdrive
+id=kijd140s
+name=KIJD-140S
+shortname=J/D
+manufacturer=Kruger
+description=A model DVJD-400 jump drive for moving between solar systems.
+damagethreshold=80
+destroyedthreshold=10
+
+soundhigh=JumpDriveCharge
+
+highpowerusage=16
+emissionhighstrength=220
+emissionfrequency=1374
+
+spinuptime=22
+calctime=14
+
+jumpdistance=210
+
+
+basevalue=5280
+#ORIGINAL
+configuration=new,90,-1,30,30,30,30,30,30,30,30
+#stealth
+configuration=stealth,93,-1,35,-1,-1,-1,-1,35,-1,-1
+#PowerDraw
+configuration=lowpoweruse,91,-1,33,-1,-1,-1,-1,33,-1,-1
+#Efficiency
+configuration=boost,91,-1,33,-1,-1,-1,-1,33,-1,-1
+#Sturdiness
+configuration=defence,92,73,34,30,30,30,30,30,30,30
+
+email=Thank you for purchasing your Kruger KIJD-140S jump drive module!^^Jump Drives allow you to jump between star systems without the use of the jumpgate network. To use it, click on 'cluster' on your nav map and select the star system you wish to travel to. Note that the purple circle around your current location indicates the range of your jump drive. Click on 'set dest', then exit cluster view by clicking on 'sector'.^^You must be in the appropriate quadrant and at a full stop in order to perform a jump. The quadrant you need to be in is highlighted on your minimap and flashing in purple.^^Once there and stopped, press 'spin up' to turn on your jump drive', then 'calc. sol' to calculate your jump solution. Good luck!
+end module

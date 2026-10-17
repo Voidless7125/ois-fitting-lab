@@ -1,0 +1,239 @@
+begin module
+type=helm
+id=chlm1
+name=C-HLM1
+shortname=Helm
+manufacturer=Cosmos
+description=A standard helm suite.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=12
+
+normalpowerusage=0.6
+computer=true
+
+emissionstrength=2.8
+emissionfrequency=670
+
+#bootup
+boot=0,`0Helm Control (c) Ventarii
+boot=1,Modules:
+boot=10,...ShipORNT.o
+boot=25,...Cargo.o
+boot=48,...Buttons.o
+boot=78,...Layout.o
+boot=94,Loaded
+
+basevalue=3036
+#base
+configuration=new,60,60,20,20,50,50,10,10,40,40,-1
+#stealth
+configuration=stealth,-1,60,24,-1,-1,54,-1,15,44,-1,-1
+#health
+configuration=defence,60,60,23,23,53,53,14,14,43,43,73
+#p.draw
+configuration=lowpoweruse,-1,61,22,-1,-1,52,-1,11,43,-1,-1
+#eff.
+configuration=boost,63,63,22,22,52,52,13,13,43,43,-1
+end module
+
+begin module
+type=helm
+id=ch440
+name=C-H440
+shortname=Helm
+manufacturer=Cosmos
+description=A standard helm suite.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=14
+
+normalpowerusage=0.2
+computer=true
+
+emissionstrength=2
+emissionfrequency=670
+
+#bootup
+boot=0,`0Helm Control (c) Ventarii
+boot=1,Modules:
+boot=10,...ShipORNT.o
+boot=25,...Cargo.o
+boot=48,...Buttons.o
+boot=78,...Layout.o
+boot=94,Loaded
+
+basevalue=3036
+#base
+configuration=new,60,60,20,20,50,50,10,10,40,40,-1,50,50
+#stealth
+configuration=stealth,-1,60,24,-1,-1,54,-1,15,44,-1,-1,-1,54
+#health
+configuration=defence,60,60,23,23,53,53,14,14,43,43,73,53,53
+#p.draw
+configuration=lowpoweruse,-1,61,22,-1,-1,52,-1,11,43,-1,-1,-1,52
+#eff.
+configuration=boost,63,63,22,22,52,52,13,13,43,43,-1,52,52
+end module
+
+begin module
+type=helm
+id=dh10
+name=D-H10
+shortname=Helm
+manufacturer=Dal Pozzo
+description=A standard helm suite.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=8
+
+normalpowerusage=0.4
+computer=true
+
+emissionstrength=3.4
+emissionfrequency=672
+
+#bootup
+boot=0,`0Helm Control (c) Ventarii
+boot=1,Modules:
+boot=10,...ShipORNT.o
+boot=25,...Cargo.o
+boot=48,...Buttons.o
+boot=78,...Layout.o
+boot=94,Loaded
+
+basevalue=1491
+#base
+configuration=new,60,20,50,10,40,-1,10
+#stealth
+configuration=stealth,60,24,54,15,44,-1,15
+#health
+configuration=defence,60,22,53,14,43,73,14
+#p.draw
+configuration=lowpoweruse,61,22,52,11,43,-1,11
+#eff.
+configuration=boost,63,22,52,13,43,-1,13
+end module
+
+begin module
+type=helm
+id=dh30
+name=D-H30
+shortname=Helm
+manufacturer=Dal Pozzo
+description=A standard helm suite.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=14
+
+normalpowerusage=0.3
+computer=true
+
+emissionstrength=2.4
+emissionfrequency=674
+
+#bootup
+boot=0,`0Helm Control (c) Ventarii
+boot=1,Modules:
+boot=10,...ShipORNT.o
+boot=25,...Cargo.o
+boot=48,...Buttons.o
+boot=78,...Layout.o
+boot=94,Loaded
+
+basevalue=1863
+#base
+configuration=new,60,20,50,10,40,-1,-1,-1
+#stealth
+configuration=stealth,60,24,54,15,44,-1,-1,-1
+#health
+configuration=defence,60,22,53,14,43,73,14,43
+#p.draw
+configuration=lowpoweruse,61,22,52,11,43,-1,-1,-1
+#eff.
+configuration=boost,63,22,52,13,43,-1,13,43
+end module
+
+begin module
+type=helm
+id=thlm4
+name=T-HLM4
+shortname=Helm
+manufacturer=Tribalt
+description=A standard helm suite.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=18
+
+normalpowerusage=0.5
+computer=true
+
+emissionstrength=4
+emissionfrequency=676
+
+#bootup
+boot=0,`0Helm Control (c) Ventarii
+boot=1,Modules:
+boot=10,...ShipORNT.o
+boot=25,...Cargo.o
+boot=48,...Buttons.o
+boot=78,...Layout.o
+boot=94,Loaded
+
+basevalue=2530
+#base
+configuration=new,20,50,10,40,-1,10,40,60,20,50
+#stealth
+configuration=stealth,-1,-1,15,44,-1,-1,-1,60,24,54
+#health
+configuration=defence,22,53,14,43,73,14,43,60,22,53
+#p.draw
+configuration=lowpoweruse,-1,-1,11,43,-1,-1,-1,61,22,52
+#eff.
+configuration=boost,22,52,13,43,-1,13,43,63,22,52
+end module
+
+begin module
+type=helm
+id=thlm8
+name=T-HLM8
+shortname=Helm
+manufacturer=Tribalt
+description=A standard helm suite.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=10
+
+normalpowerusage=0.5
+computer=true
+
+emissionstrength=2.6
+emissionfrequency=675
+
+#bootup
+boot=0,`0Helm Control (c) Ventarii
+boot=1,Modules:
+boot=10,...ShipORNT.o
+boot=25,...Cargo.o
+boot=48,...Buttons.o
+boot=78,...Layout.o
+boot=94,Loaded
+
+basevalue=2277
+#base
+configuration=new,20,50,10,40,-1,10,40,60,20,50,40,10
+#stealth
+configuration=stealth,-1,-1,-1,-1,-1,15,44,60,24,54,44,14
+#health
+configuration=defence,22,53,14,43,73,14,43,60,22,53,43,14
+#p.draw
+configuration=lowpoweruse,-1,-1,-1,-1,-1,11,43,61,22,52,43,11
+#eff.
+configuration=boost,22,52,13,43,-1,13,43,63,22,52,43,13
+end module

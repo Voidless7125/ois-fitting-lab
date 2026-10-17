@@ -1,0 +1,794 @@
+begin module
+type=weapon
+id=pl900
+name=PL-900
+shortname=Weap
+manufacturer=Mallard
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.1
+highpowerusage=4
+emissionstrength=2
+emissionhighstrength=20
+emissionfrequency=1542
+
+boottime=32
+
+tubes=4
+spinuptime=24
+
+# Boot Sequence
+boot=0,`!Mallard `2Probe Launcher / 900x
+boot=5-9,`2Bootup sequence beginning...
+boot=10,`2Bootup sequence running...
+boot=26,`2No CRC errors
+boot=27,`2Tube configuration...
+boot=41,   `0SET
+boot=42,`2Micromotors...
+boot=61,   `0SET
+boot=61,`2Triangulation chip...
+boot=81,   `0SET
+boot=82-95,`2Weaponised Payload Mode: `$Enabling
+boot=96,`2Weaponised Payload Mode: `%Enabled
+boot=96,`2System launch-ready.
+
+basevalue=2871
+
+#ORIGINAL
+configuration=new,60,-1,60,20,50,10,10,10,10,50,20
+#stealth
+configuration=stealth,-1,-1,60,24,54,15,-1,15,-1,54,24
+#PowerDraw
+configuration=lowpoweruse,-1,-1,61,22,52,11,-1,11,-1,52,22
+#Efficiency
+configuration=boost,-1,-1,63,22,52,13,-1,13,-1,52,22
+#Sturdiness
+configuration=defence,60,73,60,23,53,14,14,14,14,53,23
+email=Thank you for purchasing your Mallard PL-900 weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=pl910
+name=PL-910
+shortname=Weap
+manufacturer=Mallard
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.2
+highpowerusage=3.6
+emissionstrength=2.5
+emissionhighstrength=22
+emissionfrequency=1540
+
+boottime=33
+
+tubes=4
+spinuptime=21.5
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=2871
+#ORIGINAL
+configuration=new,60,-1,60,20,50,10,10,10,10,50,20
+#stealth
+configuration=stealth,-1,-1,60,24,54,15,15,15,15,-1,-1
+#PowerDraw
+configuration=lowpoweruse,-1,-1,61,22,52,11,11,11,11,-1,-1
+#Efficiency
+configuration=boost,-1,-1,63,22,52,13,13,13,13,-1,-1
+#Sturdiness
+configuration=defence,60,73,60,23,53,14,14,14,14,53,23
+
+email=Thank you for purchasing your Mallard PL-910 weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=pl920
+name=PL-920
+shortname=Weap
+manufacturer=Mallard
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.2
+highpowerusage=4.4
+emissionstrength=2.25
+emissionhighstrength=23
+emissionfrequency=1537
+
+boottime=34
+
+tubes=4
+spinuptime=21.5
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=2871
+#Original
+configuration=new,60,-1,60,20,50,10,10,10,10,50,20,50,50
+#Stealth
+configuration=stealth,-1,-1,60,24,54,15,15,15,15,-1,-1,-1,54
+#PowerDraw
+configuration=lowpoweruse,-1,-1,61,22,52,11,11,11,11,-1,-1,-1,52
+#Efficiency
+configuration=boost,-1,-1,63,22,52,13,13,13,13,-1,-1,-1,52
+#Sturdiness
+configuration=defence,60,73,60,23,53,14,14,14,14,53,23,53,53
+
+email=Thank you for purchasing your Mallard PL-920 weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=pl940
+name=PL-940
+shortname=Weap
+manufacturer=Mallard
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.1
+highpowerusage=4.2
+emissionstrength=2.75
+emissionhighstrength=21
+emissionfrequency=1535
+
+boottime=31
+
+tubes=5
+spinuptime=24
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=3190
+#ORIGINAL
+configuration=new,60,-1,60,20,50,10,10,50,20,50,50
+#stealth
+configuration=stealth,-1,-1,60,24,54,15,15,-1,-1,54,54
+#PowerDraw
+configuration=lowpoweruse,-1,-1,61,22,52,11,11,-1,-1,52,52
+#Efficiency
+configuration=boost,-1,-1,63,22,52,13,13,-1,-1,52,52
+#Sturdiness
+configuration=defence,60,73,60,23,53,14,14,53,23,53,53
+
+email=Thank you for purchasing your Mallard PL-940 weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=mpl010
+name=MPL-010
+shortname=Weap
+manufacturer=Melville
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.4
+highpowerusage=5.8
+emissionstrength=3
+emissionhighstrength=28
+emissionfrequency=1534
+
+boottime=36
+
+tubes=1
+spinuptime=26.5
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=2088
+#ORIGINAL
+configuration=new,-1,60,10,10,50,20,30,10,10
+#stealth
+configuration=stealth,-1,60,15,15,54,24,35,-1,-1
+#PowerDraw
+configuration=lowpoweruse,-1,61,11,11,52,22,33,-1,-1
+#Efficiency
+configuration=boost,-1,63,13,13,52,22,33,-1,-1
+#Sturdiness
+configuration=defence,73,60,14,14,53,23,34,14,14
+
+email=Thank you for purchasing your Melville MPL-010 weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=mpl040
+name=MPL-040
+shortname=Weap
+manufacturer=Melville
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.4
+highpowerusage=6.2
+emissionstrength=3.5
+emissionhighstrength=30
+emissionfrequency=1533
+
+boottime=38
+
+tubes=2
+spinuptime=28
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=1856
+#ORIGINAL
+configuration=new,-1,60,10,10,50,20,10,10,10
+#stealth
+configuration=stealth,-1,60,15,15,54,24,-1,-1,15
+#PowerDraw
+configuration=lowpoweruse,-1,61,11,11,52,22,-1,-1,11
+#Efficiency
+configuration=boost,-1,63,13,13,52,22,-1,-1,13
+#Sturdiness
+configuration=defence,73,60,14,14,53,23,14,14,14
+
+
+email=Thank you for purchasing your Melville MPL-040 weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=mpl060
+name=MPL-060
+shortname=Weap
+manufacturer=Melville
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.3
+highpowerusage=6.4
+emissionstrength=3.75
+emissionhighstrength=33
+emissionfrequency=1530
+
+boottime=40
+
+tubes=2
+spinuptime=26.5
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=1856
+#ORIGINAL
+configuration=new,-1,60,10,10,10,10,10
+#stealth
+configuration=stealth,-1,60,15,-1,-1,15,15
+#PowerDraw
+configuration=lowpoweruse,-1,61,11,-1,-1,11,11
+#Efficiency
+configuration=boost,-1,63,13,-1,-1,13,13
+#Sturdiness
+configuration=defence,73,60,14,14,14,14,14
+
+email=Thank you for purchasing your Melville MPL-060 weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=mpl100
+name=MPL-100
+shortname=Weap
+manufacturer=Melville
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.3
+highpowerusage=7
+emissionstrength=3.5
+emissionhighstrength=31
+emissionfrequency=1527
+
+boottime=40
+
+tubes=3
+spinuptime=26
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=1856
+#ORIGINAL
+configuration=new,-1,60,10,10,10,10,20,40
+#stealth
+configuration=stealth,-1,60,15,-1,-1,15,24,44
+#PowerDraw
+configuration=lowpoweruse,-1,61,11,-1,-1,11,22,43
+#Efficiency
+#configuration=boost,-1,63,13,-1,-1,13,22,43
+#Sturdiness
+configuration=defence,73,60,14,14,14,14,23,43
+
+email=Thank you for purchasing your Melville MPL-100 weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=psp440
+name=PSP-440
+shortname=Weap
+manufacturer=Pritchard
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.2
+highpowerusage=4
+emissionstrength=2
+emissionhighstrength=25
+emissionfrequency=1544
+
+boottime=30
+
+tubes=5
+spinuptime=21.5
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=2610
+#ORIGINAL
+configuration=new,-1,60,10,10,10,10,20,50,30
+#stealth
+configuration=stealth,-1,60,15,-1,-1,15,24,54,35
+#PowerDraw
+configuration=lowpoweruse,-1,61,11,-1,-1,11,22,52,33
+#Efficiency
+configuration=boost,-1,63,13,-1,-1,13,22,52,33
+#Sturdiness
+configuration=defence,-1,60,14,14,14,14,23,53,34
+
+
+email=Thank you for purchasing your Pritchard PSP-440 weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=psp450
+name=PSP-450
+shortname=Weap
+manufacturer=Pritchard
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.2
+highpowerusage=4.2
+emissionstrength=2.25
+emissionhighstrength=26
+emissionfrequency=1548
+
+boottime=28
+
+tubes=5
+spinuptime=19
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=2610
+#ORIGINAL
+configuration=new,-1,60,10,10,20,50,30,20,20
+#stealth
+configuration=stealth,-1,60,-1,15,24,54,35,-1,24
+#PowerDraw
+configuration=lowpoweruse,-1,61,-1,11,22,52,33,-1,22
+#Efficiency
+configuration=boost,-1,63,-1,13,22,52,33,-1,22
+#Sturdiness
+configuration=defence,73,60,14,14,23,53,34,23,23
+
+
+
+email=Thank you for purchasing your Pritchard PSP-450 weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=psp460
+name=PSP-460
+shortname=Weap
+manufacturer=Pritchard
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.25
+highpowerusage=4.6
+emissionstrength=2.5
+emissionhighstrength=26
+emissionfrequency=1550
+
+boottime=26
+
+tubes=5
+spinuptime=19
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=2610
+#ORIGINAL
+configuration=new,-1,60,50,30,20,20,10,10,50
+#stealth
+configuration=stealth,-1,60,54,35,-1,24,15,15,-1
+#PowerDraw
+configuration=lowpoweruse,-1,61,52,33,-1,22,11,11,-1
+#Efficiency
+configuration=boost,-1,63,52,33,-1,22,13,13,-1
+#Sturdiness
+configuration=defence,73,60,53,34,23,23,14,14,53
+
+email=Thank you for purchasing your Pritchard PSP-460 weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=psp5x
+name=PSP-5X
+shortname=Weap
+manufacturer=Pritchard
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.3
+highpowerusage=4.4
+emissionstrength=2.5
+emissionhighstrength=28
+emissionfrequency=1553
+
+boottime=26
+
+tubes=6
+spinuptime=21.5
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=2610
+#ORIGINAL
+configuration=new,-1,60,50,20,20,10,10,50,40
+#stealth
+configuration=stealth,-1,60,54,-1,24,15,15,-1,44
+#PowerDraw
+configuration=lowpoweruse,-1,61,52,-1,22,11,11,-1,43
+#Efficiency
+configuration=boost,-1,63,52,-1,22,13,13,-1,43
+#Sturdiness
+configuration=defence,73,60,53,23,23,14,14,53,43
+
+email=Thank you for purchasing your Pritchard PSP-5X weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=spl5s
+name=SPL-5S
+shortname=Weap
+manufacturer=Stillwater
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.4
+highpowerusage=5
+emissionstrength=2
+emissionhighstrength=24
+emissionfrequency=1554
+
+boottime=24
+
+tubes=6
+spinuptime=17
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=2610
+#ORIGINAL
+configuration=new,-1,60,50,20,20,10,10,50,30
+#stealth
+configuration=stealth,-1,60,54,-1,24,15,15,-1,35
+#PowerDraw
+configuration=lowpoweruse,-1,61,52,-1,22,11,11,-1,33
+#Efficiency
+configuration=boost,-1,63,52,-1,22,13,13,-1,33
+#Sturdiness
+configuration=defence,73,60,53,23,23,14,14,53,34
+
+
+email=Thank you for purchasing your Stillwater SPL-5S weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+
+begin module
+type=weapon
+id=spl6s
+name=SPL-6S
+shortname=Weap
+manufacturer=Stillwater
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.3
+highpowerusage=5.2
+emissionstrength=2.25
+emissionhighstrength=23
+emissionfrequency=1525
+
+boottime=26
+
+tubes=7
+spinuptime=18
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=2610
+#ORIGINAL
+configuration=new,-1,60,50,20,20,10,10,50,30,20,20
+#stealth
+configuration=stealth,-1,60,54,-1,24,15,15,-1,30,-1,24
+#PowerDraw
+configuration=lowpoweruse,-1,61,52,-1,22,11,11,-1,33,-1,22
+#Efficiency
+configuration=boost,-1,63,52,-1,22,13,13,-1,33,-1,22
+#Sturdiness
+configuration=defence,73,60,53,23,23,14,14,53,34,23,23
+
+email=Thank you for purchasing your Stillwater SPL-6S weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+begin module
+type=weapon
+id=spl7
+name=SPL-7
+shortname=Weap
+manufacturer=Stillwater
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.2
+highpowerusage=5.4
+emissionstrength=2
+emissionhighstrength=25
+emissionfrequency=1523
+
+boottime=28
+
+tubes=7
+spinuptime=19
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=2900
+#ORIGINAL
+configuration=new,-1,60,50,20,20,50,30,20,20,20,50
+#stealth
+configuration=stealth,-1,60,54,-1,24,-1,35,-1,24,24,54
+#PowerDraw
+configuration=lowpoweruse,-1,61,52,22,22,52,33,22,22,22,52
+#Efficiency
+configuration=boost,-1,63,52,-1,22,-1,33,-1,22,22,52
+#Sturdiness
+configuration=defence,73,60,53,23,23,53,34,23,23,23,53
+
+
+email=Thank you for purchasing your Stillwater SPL-7 weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module
+
+
+
+begin module
+type=weapon
+id=spl9s
+name=SPL-9S
+shortname=Weap
+manufacturer=Mallard
+description=A probe and weapon launcher.
+damagethreshold=75
+destroyedthreshold=35
+
+normalpowerusage=0.2
+highpowerusage=5.6
+emissionstrength=2.25
+emissionhighstrength=24
+emissionfrequency=1522
+
+boottime=30
+
+tubes=8
+spinuptime=20
+
+# Boot Sequence
+boot=0,`!Ventarii `2Probe Launcher v1.09
+boot=5,`2Systems check...
+boot=26,`2No abnormalities
+boot=27,`2Tube configuration...
+boot=41,   `01: `%Okay
+boot=61,   `02: `%Okay
+boot=81,   `03: `%Okay
+boot=82-95,`2Weaponised Payload Mod:
+boot=96,`2Weaponised Payload Mod: `$Ready
+boot=96,`2System launch-ready.
+
+basevalue=2610
+#ORIGINAL
+configuration=new,-1,60,50,20,20,50,30,20,50,10,10
+#stealth
+configuration=stealth,-1,60,54,-1,24,-1,35,24,54,-1,15
+#PowerDraw
+configuration=lowpoweruse,-1,61,52,-1,22,-1,33,22,52,-1,11
+#Efficiency
+configuration=boost,-1,63,52,-1,22,-1,33,22,52,-1,13
+#Sturdiness
+configuration=defence,73,60,53,23,23,53,34,23,53,14,14
+
+
+email=Thank you for purchasing your Mallard SPL-9S weapons module!^^Weapons modules allow you to purchase torpedoes and probes from the Ammunition Terminals aboard space stations. In order to fire a weapon, select the torpedo you wish to shoot from the weapons screen (one of the tabs under the helm screen on your bridge), select 'spin up', choose a target from the nav map and press 'set target', then fire when the torpedo is ready. Note that the longer you have a target selected, the more accurate your torpedo will be. And yes, you CAN shoot incoming torpedoes with your own as a defensive measure.
+end module

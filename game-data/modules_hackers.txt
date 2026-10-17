@@ -1,0 +1,209 @@
+begin module
+type=hack
+id=lp92
+name=LP9-2
+shortname=Hack
+manufacturer=Purchase Technologies
+description=A standard security breaching unit.
+damagethreshold=80
+destroyedthreshold=10
+
+hacktime=2
+hackrange=20
+
+emissionstrength=.2
+emissionhighstrength=6
+emissionfrequency=203
+
+normalpowerusage=0.4
+highpowerusage=7
+
+basevalue=2860
+#base
+configuration=new,80,80,-1,30,30,50,50,10,10
+#stealth
+configuration=stealth,80,-1,-1,35,-1,54,-1,15,-1
+#health
+configuration=defence,83,83,73,34,34,53,53,14,14
+#p.draw
+configuration=lowpoweruse,81,-1,-1,33,-1,52,-1,11,-1
+#eff.
+configuration=boost,80,80,-1,33,33,52,52,13,13
+
+email=Thank you for purchasing your Purchase Technologies LP9-2 hacking module!^^Hacking modules allow the player, if unseen by another ship, to download its manifest and mechanics readouts.
+end module
+
+begin module
+type=hack
+id=lp9100
+name=LP9-100
+shortname=Hack
+manufacturer=Purchase Technologies
+description=A standard security breaching unit.
+damagethreshold=80
+destroyedthreshold=10
+
+hacktime=2
+hackrange=28
+
+emissionstrength=.2
+emissionhighstrength=5
+emissionfrequency=204
+
+normalpowerusage=0.4
+highpowerusage=4
+
+basevalue=2574
+#base
+configuration=new,80,80,-1,50,50,10,10,20,20
+#stealth
+configuration=stealth,-1,80,-1,54,-1,15,-1,24,-1
+#health
+configuration=defence,83,83,73,53,53,14,14,23,23
+#p.draw
+configuration=lowpoweruse,-1,81,-1,52,-1,11,-1,22,-1
+#eff.
+configuration=boost,80,80,-1,52,52,13,13,22,22
+
+email=Thank you for purchasing your Purchase Technologies LP9-100 hacking module!^^Hacking modules allow the player, if unseen by another ship, to download its manifest and mechanics readouts.
+end module
+
+begin module
+type=hack
+id=oths
+name=OTH-S
+shortname=Hack
+manufacturer=Omega Technologies
+description=A standard security breaching unit.
+damagethreshold=80
+destroyedthreshold=10
+
+hacktime=3
+hackrange=40
+
+emissionstrength=.3
+emissionhighstrength=4
+emissionfrequency=207
+
+normalpowerusage=0.5
+highpowerusage=6
+
+basevalue=2317
+#base
+configuration=new,80,80,20,-1,20,20,20,20,20
+#stealth
+configuration=stealth,-1,80,24,-1,24,-1,-1,24,24
+#health
+configuration=defence,83,83,23,73,23,23,23,23,23
+#p.draw
+configuration=lowpoweruse,-1,81,22,-1,22,-1,-1,22,22
+#eff.
+configuration=boost,80,80,22,-1,22,22,22,22,22
+
+email=Thank you for purchasing your Omega Technologies OTH-S hacking module!^^Hacking modules allow the player, if unseen by another ship, to download its manifest and mechanics readouts.
+end module
+
+begin module
+type=hack
+id=oth3s
+name=OTH-3S
+shortname=Hack
+manufacturer=Omega Technologies
+description=A standard security breaching unit.
+damagethreshold=80
+destroyedthreshold=10
+
+hacktime=3
+hackrange=34
+
+emissionstrength=.3
+emissionhighstrength=6
+emissionfrequency=210
+
+normalpowerusage=0.6
+highpowerusage=5
+
+basevalue=2059
+#base
+configuration=new,80,80,20,-1,20,20,20,30,30
+#stealth
+configuration=stealth,-1,80,24,-1,-1,24,24,-1,35
+#health
+configuration=defence,83,83,23,73,23,23,23,34,34
+#p.draw
+configuration=lowpoweruse,-1,81,22,-1,-1,22,22,-1,33
+#eff.
+configuration=boost,80,80,22,-1,22,22,22,33,33
+
+email=Thank you for purchasing your Omega Technologies OTH-3S hacking module!^^Hacking modules allow the player, if unseen by another ship, to download its manifest and mechanics readouts.
+end module
+
+begin module
+type=hack
+id=dacomm
+name=DA-COMM
+shortname=Hack
+manufacturer=Dal Pozzo Systems
+description=A standard security breaching unit.
+damagethreshold=80
+destroyedthreshold=10
+
+hacktime=1
+hackrange=16
+
+emissionstrength=.3
+emissionhighstrength=2
+emissionfrequency=214
+
+normalpowerusage=0.2
+highpowerusage=3
+
+basevalue=1685
+#base
+configuration=new,80,80,20,20,20,30,-1
+#stealth
+configuration=stealth,80,80,24,-1,24,35,-1
+#health
+configuration=defence,83,83,23,23,23,34,73
+#p.draw
+configuration=lowpoweruse,81,81,22,-1,22,33,-1
+#eff.
+configuration=boost,80,80,22,22,22,33,-1
+
+email=Thank you for purchasing your Dal Pozzo Systems DA-COMM hacking module!^^Hacking modules allow the player, if unseen by another ship, to download its manifest and mechanics readouts.
+end module
+
+begin module
+type=hack
+id=datcomm
+name=DAT-COMM
+shortname=Hack
+manufacturer=Dal Pozzo Systems
+description=A standard security breaching unit.
+damagethreshold=80
+destroyedthreshold=10
+
+hacktime=1
+hackrange=11
+
+emissionstrength=.1
+emissionhighstrength=7
+emissionfrequency=219
+
+normalpowerusage=0.3
+highpowerusage=4
+
+basevalue=1498
+#base
+configuration=new,80,80,20,30,-1,10,10
+#stealth
+configuration=stealth,80,80,24,34,-1,15,-1
+#health
+configuration=defence,83,83,23,34,73,14,14
+#p.draw
+configuration=lowpoweruse,81,81,22,33,-1,11,-1
+#eff.
+configuration=boost,80,80,22,33,-1,13,13
+
+email=Thank you for purchasing your Dal Pozzo Systems DAT-COMM hacking module!^^Hacking modules allow the player, if unseen by another ship, to download its manifest and mechanics readouts.
+end module

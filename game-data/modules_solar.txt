@@ -1,0 +1,123 @@
+begin module
+type=solar
+id=slsp
+name=SLSP
+shortname=Solar.
+manufacturer=Starlight
+description=The v12 Solar Wing is one of the most used solar addons for vessels.
+damagethreshold=85
+destroyedthreshold=10
+
+range=1.2
+
+boottime=1
+
+generationrate=3
+
+basevalue=3648
+#base
+configuration=new,-1,50,20,50,20,20,20
+#stealth
+configuration=stealth,-1,54,24,54,24,24,24
+#health
+configuration=defence,73,53,23,53,23,23,23
+#p.draw
+configuration=lowpoweruse,-1,52,22,52,22,22,22
+#eff.
+configuration=boost,-1,52,22,52,22,22,22
+
+email=Congratulations on purchasing your Starlight SLSP Solar Wing module!^^Solar power is always on and produces no emissions, so you can be getting power while still being hidden. They're not as powerful as reactors, but they're much better for stealth. The closer you are to the sun, the better, and avoid nebulae or asteroid belts if you want to be charging quickly.^^Enjoy!
+end module
+
+begin module
+type=solar
+id=slspae
+name=SLSP AE
+shortname=Solar.
+manufacturer=Starlight
+description=The v12 Solar Wing is one of the most used solar addons for vessels.
+damagethreshold=85
+destroyedthreshold=10
+
+range=1.05
+
+boottime=1
+
+generationrate=1
+
+basevalue=3648
+#base
+configuration=new,-1,50,20,50,20,30,30
+#stealth
+configuration=stealth,-1,54,24,54,24,35,35
+#health
+configuration=defence,73,53,23,53,23,34,34
+#p.draw
+configuration=lowpoweruse,-1,52,22,52,22,33,33
+#eff.
+configuration=boost,-1,52,22,52,22,33,33
+
+email=Congratulations on purchasing your Starlight SLSP AE Solar Wing module!^^Solar power is always on and produces no emissions, so you can be getting power while still being hidden! They're not as powerful as reactors, but they're much better for stealth. The closer you are to the sun, the better, and avoid nebulae or asteroid belts if you want to be charging quickly.^^Enjoy!
+end module
+
+begin module
+type=solar
+id=esolar
+name=E SOLAR
+shortname=Solar.
+manufacturer=Enceladus
+description=The v12 Solar Wing is one of the most used solar addons for vessels.
+damagethreshold=85
+destroyedthreshold=10
+
+range=1.35
+
+boottime=1
+
+generationrate=2
+
+basevalue=3344
+#base
+configuration=new,-1,50,20,50,20,30,30
+#stealth
+configuration=stealth,-1,54,24,54,24,35,-1
+#health
+configuration=defence,73,53,23,53,23,34,34
+#p.draw
+configuration=lowpoweruse,-1,52,22,52,22,33,-1
+#eff.
+configuration=boost,-1,52,22,52,22,33,33
+
+email=Congratulations on purchasing your Enceladus E SOLAR Solar Wing module!^^Solar power is always on and produces no emissions, so you can be getting power while still being hidden! They're not as powerful as reactors, but they're much better for stealth. The closer you are to the sun, the better, and avoid nebulae or asteroid belts if you want to be charging quickly.^^Enjoy!
+end module
+
+begin module
+type=solar
+id=esolarmk2
+name=E SOLAR MK 2
+shortname=Solar.
+manufacturer=Starlight
+description=The v12 Solar Wing is one of the most used solar addons for vessels.
+damagethreshold=85
+destroyedthreshold=10
+
+range=1.35sv
+
+boottime=1
+
+generationrate=1.5
+
+basevalue=3344
+#base
+configuration=new,-1,50,50,30,30,30,30
+#stealth
+configuration=stealth,-1,54,54,-1,35,35,35
+#health
+configuration=defence,73,53,53,34,34,34,34
+#p.draw
+configuration=lowpoweruse,-1,52,52,-1,33,33,33
+#eff.
+configuration=boost,-1,52,52,33,33,33,33
+
+email=Congratulations on purchasing your Starlight E SOLAR MK 2 Solar Wing module!^^Solar power is always on and produces no emissions, so you can be getting power while still being hidden! They're not as powerful as reactors, but they're much better for stealth. The closer you are to the sun, the better, and avoid nebulae or asteroid belts if you want to be charging quickly.^^Enjoy!
+end module

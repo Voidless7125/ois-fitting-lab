@@ -1,0 +1,67 @@
+#blank file
+
+begin shipclass
+	id=testship
+	type=ship
+	name=Ceres MkI FRT
+	shortname=CeresMkI
+	manufacturer=Ventarii
+	description=A mid-range bulk freighter, generally not equipped with a jump drive
+	defaultstructure=ceres3
+	airlockroom=4
+	maxspeed=1.3
+
+	uidefaultcolour=0,99,50
+	uiprefix=C
+
+	hullmaxtemperature=900
+
+	systemfrequency=21
+	systemstrength=8
+
+	# hull damage chance is broken down as bow,stern,port,starboard,primary
+	hulldamagechance=bow,90,0,0,0,10
+	hulldamagechance=port,0,0,40,0,60
+	hulldamagechance=starboard,0,0,0,40,60
+	hulldamagechance=stern,0,95,0,0,5
+
+	hullstrength=bow,140,critical
+	hullstrength=port,40
+	hullstrength=starboard,40
+	hullstrength=stern,110
+	hullstrength=primary,130,critical
+
+	batteryslots=6
+
+	engineeringunderlay=EngineOverlay_Ceres.png
+    modulelocation=major,0,107,18,primary
+    modulelocation=major,1,317,53,stern
+    modulelocation=engine,2,317,0,stern
+
+    modulelocation=ext,3,0,124,port
+    modulelocation=ext,4,0,83,port
+    modulelocation=ext,5,0,42,port
+
+    modulelocation=ext,6,233,124,starboard
+    modulelocation=ext,7,233,83,starboard
+    modulelocation=ext,8,233,42,starboard
+
+    modulelocation=ext,9,147,308,bow
+    modulelocation=ext,10,87,308,bow
+
+    modulelocation=comp,11,93,264,bow
+    modulelocation=comp,12,141,264,bow
+    modulelocation=comp,13,141,222,bow
+    modulelocation=comp,14,92,222,bow
+
+    modulelocation=comp,15,92,130,primary
+    modulelocation=comp,16,141,130,primary
+    modulelocation=comp,17,141,86,primary
+    modulelocation=comp,18,92,86,primary
+
+    configuration=stock,cm4,15:x100,16:x100,17:x100,nvt1,d2sns,dh30,gxastral,mk11,reactgss,kijd140s,pl900
+
+#defaults=sw12,x100,x100,x100,nvt1,d2sns,dh30,gxastral,mk11,reactgss,kijd140s,pl900
+	cargoslots=6
+	defaultcargoslots=1
+end shipclass

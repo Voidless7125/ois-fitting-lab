@@ -1,0 +1,500 @@
+begin module
+type=pds
+id=pdl101
+name=PDL 101
+shortname=PDL
+manufacturer=Kruger
+description=A PDS system.
+
+hitchance=1d6
+reloadtime=4
+range=5
+
+highpowerusage=4.7
+emissionfrequency=1482
+emissionhighstrength=92
+
+computer=true
+
+soundhigh=PDLActivated
+
+boottime=4
+
+
+
+basevalue=4235
+#ORIGINAL
+configuration=new,60,-1,20,50,50,20,50,50,20,20,20,20
+#stealth
+configuration=stealth,60,-1,24,54,-1,-1,-1,54,-1,24,-1,24
+#PowerDraw
+configuration=lowpoweruse,61,-1,22,52,-1,-1,-1,52,-1,22,-1,22
+#Efficiency
+configuration=boost,63,-1,22,52,-1,-1,-1,52,-1,22,-1,22
+#Sturdiness
+configuration=defence,60,73,23,53,53,23,53,53,23,23,23,23
+
+email=Thank you for purchasing your Kruger PDL 101 point defence system.^^Point defence is a module you turn on or off via the weapons screen on your bridge (one of the tabs of your helm screen). It chews up power but is a rapid-fire system which will keep on shooting at any incoming torpedoes until you ask it to stop. It requires no ammunition, but be sure to have a lot of batteries or a very powerful reactor before purchasing one of these.
+end module
+
+
+begin module
+type=pds
+id=pdl111
+name=PDL 111
+shortname=PDL
+manufacturer=Kruger
+description=A PDS system.
+
+hitchance=1d5
+reloadtime=4
+range=6
+
+normalpowerusage=0
+highpowerusage=5
+emissionfrequency=1484
+emissionhighstrength=88
+emissionstrength=0
+
+computer=true
+
+soundhigh=PDLActivated
+
+boottime=6
+
+
+
+basevalue=4235
+#ORIGINAL
+configuration=new,60,-1,20,50,50,20,50,50,20,20,20,20
+#stealth
+configuration=stealth,60,-1,24,54,-1,-1,-1,54,-1,24,-1,24
+#PowerDraw
+configuration=lowpoweruse,61,-1,22,52,-1,-1,-1,52,-1,22,-1,22
+#Efficiency
+configuration=boost,63,-1,22,52,-1,-1,-1,52,-1,22,-1,22
+#Sturdiness
+configuration=defence,60,73,23,53,53,23,53,53,23,23,23,23
+
+email=Thank you for purchasing your Kruger PDL 111 point defence system.^^Point defence is a module you turn on or off via the weapons screen on your bridge (one of the tabs of your helm screen). It chews up power but is a rapid-fire system which will keep on shooting at any incoming torpedoes until you ask it to stop. It requires no ammunition, but be sure to have a lot of batteries or a very powerful reactor before purchasing one of these.
+end module
+
+
+begin module
+type=pds
+id=pdl400
+name=PDL 400
+shortname=PDL
+manufacturer=Kruger
+description=A PDS system.
+
+hitchance=1d5
+reloadtime=4
+range=7
+
+normalpowerusage=0
+highpowerusage=4.8
+emissionfrequency=1486
+emissionhighstrength=86
+emissionstrength=0
+
+computer=true
+
+soundhigh=PDLActivated
+
+boottime=6
+
+
+
+basevalue=4235
+#ORIGINAL
+configuration=new,60,-1,50,50,20,20,20,20,30,30,30,30
+#stealth
+configuration=stealth,60,-1,-1,54,-1,24,-1,24,-1,35,35,-1
+#PowerDraw
+configuration=lowpoweruse,61,-1,-1,52,-1,22,-1,22,-1,33,33,-1
+#Efficiency
+configuration=boost,63,-1,-1,52,-1,22,-1,22,-1,33,33,-1
+#Sturdiness
+configuration=defence,60,73,53,53,23,23,23,23,34,34,34,34
+
+email=Thank you for purchasing your Kruger PDL 400 point defence system.^^Point defence is a module you turn on or off via the weapons screen on your bridge (one of the tabs of your helm screen). It chews up power but is a rapid-fire system which will keep on shooting at any incoming torpedoes until you ask it to stop. It requires no ammunition, but be sure to have a lot of batteries or a very powerful reactor before purchasing one of these.
+end module
+
+
+begin module
+type=pds
+id=mpd100
+name=MPD 100
+shortname=PDL
+manufacturer=Mallard
+description=A PDS system.
+
+hitchance=1d4
+reloadtime=3.5
+range=8
+
+normalpowerusage=0
+highpowerusage=4.5
+emissionfrequency=1488
+emissionhighstrength=70
+emissionstrength=0
+
+computer=true
+
+soundhigh=PDLActivated
+
+boottime=3
+
+
+
+basevalue=3850
+#ORIGINAL
+configuration=new,60,-1,50,50,20,20,30,30,10
+#stealth
+configuration=stealth,60,-1,-1,54,-1,24,35,-1,15
+#PowerDraw
+configuration=lowpoweruse,61,-1,-1,52,-1,22,33,-1,11
+#Efficiency
+configuration=boost,63,-1,-1,52,-1,22,33,-1,13
+#Sturdiness
+configuration=defence,60,73,53,53,23,23,34,34,14
+
+email=Thank you for purchasing your Mallard MPD 100 point defence system.^^Point defence is a module you turn on or off via the weapons screen on your bridge (one of the tabs of your helm screen). It chews up power but is a rapid-fire system which will keep on shooting at any incoming torpedoes until you ask it to stop. It requires no ammunition, but be sure to have a lot of batteries or a very powerful reactor before purchasing one of these.
+end module
+
+
+begin module
+type=pds
+id=mpd200
+name=MPD 200
+shortname=PDL
+manufacturer=Mallard
+description=A PDS system.
+
+hitchance=1d5
+reloadtime=3.5
+range=10
+
+normalpowerusage=0
+highpowerusage=4.3
+emissionfrequency=1490
+emissionhighstrength=75
+emissionstrength=0
+
+computer=true
+
+soundhigh=PDLActivated
+
+boottime=4
+
+
+
+basevalue=3465
+#ORIGINAL
+configuration=new,60,-1,50,50,20,20,10,20,20
+#stealth
+configuration=stealth,60,-1,-1,54,-1,24,15,-1,24
+#PowerDraw
+configuration=lowpoweruse,61,-1,-1,52,-1,22,11,-1,22
+#Efficiency
+configuration=boost,63,-1,-1,52,-1,22,13,-1,22
+#Sturdiness
+configuration=defence,60,73,53,53,23,23,14,23,23
+
+email=Thank you for purchasing your Mallard MPD 200 point defence system.^^Point defence is a module you turn on or off via the weapons screen on your bridge (one of the tabs of your helm screen). It chews up power but is a rapid-fire system which will keep on shooting at any incoming torpedoes until you ask it to stop. It requires no ammunition, but be sure to have a lot of batteries or a very powerful reactor before purchasing one of these.
+end module
+
+
+begin module
+type=pds
+id=mpd250
+name=MPD 250
+shortname=PDL
+manufacturer=Mallard
+description=A PDS system.
+
+hitchance=1d5
+reloadtime=3.5
+range=9
+
+normalpowerusage=0
+highpowerusage=4.2
+emissionfrequency=1492
+emissionhighstrength=73
+emissionstrength=0
+
+computer=true
+
+soundhigh=PDLActivated
+
+boottime=3
+
+
+
+basevalue=3080
+#ORIGINAL
+configuration=new,60,-1,20,20,10,20,20,10,10
+#stealth
+configuration=stealth,60,-1,-1,24,15,-1,24,-1,15
+#PowerDraw
+configuration=lowpoweruse,61,-1,-1,22,11,-1,22,-1,11
+#Efficiency
+configuration=boost,63,-1,-1,22,13,-1,22,-1,13
+#Sturdiness
+configuration=defence,60,73,23,23,14,23,23,14,14
+
+email=Thank you for purchasing your Mallard MPD 250 point defence system.^^Point defence is a module you turn on or off via the weapons screen on your bridge (one of the tabs of your helm screen). It chews up power but is a rapid-fire system which will keep on shooting at any incoming torpedoes until you ask it to stop. It requires no ammunition, but be sure to have a lot of batteries or a very powerful reactor before purchasing one of these.
+end module
+
+
+begin module
+type=pds
+id=psl900
+name=PSL 900
+shortname=PDL
+manufacturer=Pritchard
+description=A PDS system.
+
+hitchance=1d4
+reloadtime=3
+range=15
+
+normalpowerusage=0
+highpowerusage=4.5
+emissionfrequency=1493
+emissionhighstrength=84
+emissionstrength=0
+
+computer=true
+
+soundhigh=PDLActivated
+
+boottime=4
+
+
+
+basevalue=3850
+#ORIGINAL
+configuration=new,60,-1,20,20,10,10,50,50,50,60
+#stealth
+configuration=stealth,-1,-1,-1,24,-1,15,54,-1,54,60
+#PowerDraw
+configuration=lowpoweruse,-1,-1,-1,22,-1,11,52,-1,52,61
+#Efficiency
+configuration=boost,-1,-1,-1,22,-1,13,52,-1,52,63
+#Sturdiness
+configuration=defence,60,73,23,23,14,14,53,53,53,60
+
+email=Thank you for purchasing your Pritchard PSL 900 point defence system.^^Point defence is a module you turn on or off via the weapons screen on your bridge (one of the tabs of your helm screen). It chews up power but is a rapid-fire system which will keep on shooting at any incoming torpedoes until you ask it to stop. It requires no ammunition, but be sure to have a lot of batteries or a very powerful reactor before purchasing one of these.
+end module
+
+
+begin module
+type=pds
+id=psl940
+name=PSL 940
+shortname=PDL
+manufacturer=Pritchard
+description=A PDS system.
+
+hitchance=1d5
+reloadtime=3
+range=15
+
+normalpowerusage=0
+highpowerusage=4.8
+emissionfrequency=1495
+emissionhighstrength=83
+emissionstrength=0
+
+computer=true
+
+soundhigh=PDLActivated
+
+boottime=5
+
+
+
+basevalue=3465
+#ORIGINAL
+configuration=new,60,-1,20,20,10,10,50,50,60,20
+#stealth
+configuration=stealth,-1,-1,-1,24,-1,15,-1,54,60,24
+#PowerDraw
+configuration=lowpoweruse,-1,-1,-1,22,-1,11,-1,52,61,22
+#Efficiency
+configuration=boost,-1,-1,-1,22,-1,13,-1,52,63,22
+#Sturdiness
+configuration=defence,60,73,23,23,14,14,53,53,60,23
+
+email=Thank you for purchasing your Pritchard PSL 940 point defence system.^^Point defence is a module you turn on or off via the weapons screen on your bridge (one of the tabs of your helm screen). It chews up power but is a rapid-fire system which will keep on shooting at any incoming torpedoes until you ask it to stop. It requires no ammunition, but be sure to have a lot of batteries or a very powerful reactor before purchasing one of these.
+end module
+
+
+begin module
+type=pds
+id=psl10x
+name=PSL 10X
+shortname=PDL
+manufacturer=Pritchard
+description=A PDS system.
+
+hitchance=1d5
+reloadtime=3
+range=16
+
+normalpowerusage=0
+highpowerusage=5
+emissionfrequency=1496
+emissionhighstrength=86
+emissionstrength=0
+
+computer=true
+
+soundhigh=PDLActivated
+
+boottime=4
+
+
+
+basevalue=3150
+#ORIGINAL
+configuration=new,60,-1,20,20,10,10,50,50,60,20,50
+#stealth
+configuration=stealth,-1,-1,-1,24,-1,15,-1,54,60,24,54
+#PowerDraw
+configuration=lowpoweruse,-1,-1,-1,22,-1,11,-1,52,61,22,52
+#Efficiency
+configuration=boost,-1,-1,-1,22,-1,13,-1,52,63,22,52
+#Sturdiness
+configuration=defence,60,73,23,23,14,14,53,53,60,23,53
+
+email=Thank you for purchasing your Pritchard PSL 10X point defence system.^^Point defence is a module you turn on or off via the weapons screen on your bridge (one of the tabs of your helm screen). It chews up power but is a rapid-fire system which will keep on shooting at any incoming torpedoes until you ask it to stop. It requires no ammunition, but be sure to have a lot of batteries or a very powerful reactor before purchasing one of these.
+end module
+
+
+begin module
+type=pds
+id=sds080
+name=SDS 080
+shortname=PDL
+manufacturer=Stillwater
+description=A PDS system.
+
+hitchance=1d3
+reloadtime=3
+range=13
+
+normalpowerusage=0
+highpowerusage=4.8
+emissionfrequency=1498
+emissionhighstrength=90
+emissionstrength=0
+
+computer=true
+
+soundhigh=PDLActivated
+
+boottime=3
+
+
+
+basevalue=3150
+#ORIGINAL
+configuration=new,60,-1,20,10,10,50,60,20,50,30,10
+#stealth
+configuration=stealth,-1,-1,-1,15,15,-1,60,24,54,35,-1
+#PowerDraw
+configuration=lowpoweruse,-1,-1,-1,11,11,-1,61,22,52,33,-1
+#Efficiency
+configuration=boost,-1,-1,-1,13,13,-1,63,22,52,33,-1
+#Sturdiness
+configuration=defence,60,73,23,14,14,53,60,23,53,34,14
+
+email=Thank you for purchasing your Stillwater SDS 080 point defence system.^^Point defence is a module you turn on or off via the weapons screen on your bridge (one of the tabs of your helm screen). It chews up power but is a rapid-fire system which will keep on shooting at any incoming torpedoes until you ask it to stop. It requires no ammunition, but be sure to have a lot of batteries or a very powerful reactor before purchasing one of these.
+end module
+
+
+begin module
+type=pds
+id=sds090
+name=SDS 090
+shortname=PDL
+manufacturer=Stillwater
+description=A PDS system.
+
+hitchance=1d4
+reloadtime=3
+range=15
+
+normalpowerusage=0
+highpowerusage=5
+emissionfrequency=1499
+emissionhighstrength=94
+emissionstrength=0
+
+computer=true
+
+soundhigh=PDLActivated
+
+boottime=2
+
+
+
+basevalue=3150
+#ORIGINAL
+configuration=new,60,-1,20,10,50,60,20,50,30,20,20
+#stealth
+configuration=stealth,-1,-1,-1,15,-1,60,24,54,35,24,-1
+#PowerDraw
+configuration=lowpoweruse,-1,-1,-1,11,-1,61,22,52,33,22,-1
+#Efficiency
+configuration=boost,-1,-1,-1,13,-1,63,22,52,33,22,-1
+#Sturdiness
+configuration=defence,60,73,23,14,53,60,23,53,34,23,23
+
+email=Thank you for purchasing your Stillwater SDS 090 point defence system.^^Point defence is a module you turn on or off via the weapons screen on your bridge (one of the tabs of your helm screen). It chews up power but is a rapid-fire system which will keep on shooting at any incoming torpedoes until you ask it to stop. It requires no ammunition, but be sure to have a lot of batteries or a very powerful reactor before purchasing one of these.
+end module
+
+
+begin module
+type=pds
+id=sds55l
+name=SDS 55L
+shortname=PDL
+manufacturer=Stillwater
+description=A PDS system.
+
+hitchance=1d3
+reloadtime=2.6
+range=11
+
+normalpowerusage=0
+highpowerusage=5.4
+emissionfrequency=1500
+emissionhighstrength=84
+emissionstrength=0
+
+computer=true
+
+soundhigh=PDLActivated
+
+boottime=3
+
+
+
+basevalue=3850
+#ORIGINAL
+configuration=new,60,-1,20,10,50,60,20,50,30,20,20,50,50
+#stealth
+configuration=stealth,-1,-1,-1,15,-1,60,24,54,35,24,-1,54,-1
+#PowerDraw
+configuration=lowpoweruse,-1,-1,-1,11,-1,61,22,52,33,22,-1,52,-1
+#Efficiency
+configuration=boost,-1,-1,-1,13,-1,63,22,52,33,22,-1,52,-1
+#Sturdiness
+configuration=defence,-1,-1,-1,14,-1,60,23,53,34,23,-1,53,-1
+
+email=Thank you for purchasing your Stillwater SDS 55L point defence system.^^Point defence is a module you turn on or off via the weapons screen on your bridge (one of the tabs of your helm screen). It chews up power but is a rapid-fire system which will keep on shooting at any incoming torpedoes until you ask it to stop. It requires no ammunition, but be sure to have a lot of batteries or a very powerful reactor before purchasing one of these.
+end module

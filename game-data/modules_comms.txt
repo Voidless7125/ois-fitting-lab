@@ -1,0 +1,524 @@
+begin module
+type=comms
+id=ae35
+name=AE-35
+shortname=Comms
+manufacturer=Dal Pozzo
+description=A standard Communications Computer.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=22
+
+synctime=10
+
+emissionstrength=8
+emissionhighstrength=40
+emissionfrequency=686
+
+normalpowerusage=0.2
+highpowerusage=5
+computer=true
+
+boot=0,`0Dal Pozzo `2Communications Unit v1.11
+boot=5,`2  module: DocView.mp
+boot=14,`2  module: Email.mp
+boot=20,`2  module: ArticleMgr.mp
+boot=21,`2User Storage: `!2048kb
+boot=21-28,`2Loading articles...
+boot=29,`2Loading articles... `$complete
+boot=29-37,`2Loading emails...
+boot=38,`2Loading emails... `$complete
+boot=38-40,`2Preparing PT/SYNC... |
+boot=41-45,`2Preparing PT/SYNC... /
+boot=46-50,`2Preparing PT/SYNC... -
+boot=51-55,`2Preparing PT/SYNC... \
+boot=56-60,`2Preparing PT/SYNC... |
+boot=61-65,`2Preparing PT/SYNC... /
+boot=66-70,`2Preparing PT/SYNC... -
+boot=71-75,`2Preparing PT/SYNC... \
+boot=76-80,`2Preparing PT/SYNC... |
+boot=81-85,`2Preparing PT/SYNC... /
+boot=86,`0Data and Sync Complete
+boot=87-95,`2Engaging interface...
+boot=96,`2Engaging interface... `$done
+
+basevalue=1685
+#base
+configuration=new,80,30,10,10,50,20,20,-1
+#stealth
+configuration=stealth,80,35,15,15,54,24,24,-1
+#health
+configuration=defence,83,34,14,14,53,23,23,73
+#p.draw
+configuration=lowpoweruse,81,33,11,11,52,22,22,-1
+#eff.
+configuration=boost,80,33,13,13,52,22,22,-1
+
+email=Welcome to the world!^^By purchasing your communications module, you've opened yourself up to a new range of experiences and new ways to connect with people.^^Your comms terminal comes with two monitors: a syncing screen and a functional screen.^^The syncing screen allows you to either manually download news and messages or to set an auto-sync option, although this can give away your ship's position, so use with caution in uninhabited star systems.^^Your functional screen has a text prompt with two features auto-installed - type 'MAIL' or 'NEWS' to access each program respectively.^^Happy communications, and thank you again for your purchase!
+end module
+
+begin module
+type=comms
+id=ae38
+name=AE-38
+shortname=Comms
+manufacturer=Dal Pozzo
+description=A standard Communications Computer.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=24
+
+emissionstrength=7
+emissionhighstrength=36
+emissionfrequency=685
+
+synctime=9
+
+normalpowerusage=0.1
+highpowerusage=6
+computer=true
+
+boot=0,`0Dal Pozzo `2Communications Unit v1.86
+boot=5,`2  mod: DocView.mp
+boot=14,`2  mod: Email.mp
+boot=20,`2  mod: ArticleMgr.mp
+boot=21,`2User Storage: `!3096kb
+boot=21-28,`2Loading articles...
+boot=29,`2Loading articles... `$complete
+boot=29-37,`2Loading emails...
+boot=38,`2Loading emails... `$complete
+boot=38-40,`2Preparing PT/SYNC... |
+boot=41-45,`2Preparing PT/SYNC... /
+boot=46-50,`2Preparing PT/SYNC... -
+boot=51-55,`2Preparing PT/SYNC... \
+boot=56-60,`2Preparing PT/SYNC... |
+boot=61-65,`2Preparing PT/SYNC... /
+boot=66-70,`2Preparing PT/SYNC... -
+boot=71-75,`2Preparing PT/SYNC... \
+boot=76-80,`2Preparing PT/SYNC... |
+boot=81-85,`2Preparing PT/SYNC... /
+boot=86,`0Data and Sync Complete
+boot=87-95,`2Engaging interface...
+boot=96,`2Engaging interface... `$done
+
+basevalue=1685
+#base
+configuration=new,80,30,10,10,50,20,-1,10
+#stealth
+configuration=stealth,80,35,15,15,54,24,-1,15
+#health
+configuration=defence,83,34,14,14,53,23,73,14
+#p.draw
+configuration=lowpoweruse,81,33,11,11,52,22,-1,11
+#eff.
+configuration=boost,80,33,13,13,52,22,-1,13
+email=Welcome to the world!^^By purchasing your communications module, you've opened yourself up to a new range of experiences and new ways to connect with people.^^Your comms terminal comes with two monitors: a syncing screen and a functional screen.^^The syncing screen allows you to either manually download news and messages or to set an auto-sync option, although this can give away your ship's position, so use with caution in uninhabited star systems.^^Your functional screen has a text prompt with two features auto-installed - type 'MAIL' or 'NEWS' to access each program respectively.^^Happy communications, and thank you again for your purchase!
+end module
+
+begin module
+type=comms
+id=ar20
+name=AR-20
+shortname=Comms
+manufacturer=Dal Pozzo
+description=A standard Communications Computer.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=28
+
+emissionstrength=6
+emissionhighstrength=32
+emissionfrequency=683
+
+synctime=9
+normalpowerusage=0.3
+highpowerusage=8
+computer=true
+
+boot=0,`0Purchase Tech `2Communications Unit v1.11
+boot=5,`2  module: DocView.mp
+boot=14,`2  module: Email.mp
+boot=20,`2  module: ArticleMgr.mp
+boot=21,`2User Storage: `!2048kb
+boot=21-28,`2Loading articles...
+boot=29,`2Loading articles... `$complete
+boot=29-37,`2Loading emails...
+boot=38,`2Loading emails... `$complete
+boot=38-40,`2Preparing PT/SYNC... |
+boot=41-45,`2Preparing PT/SYNC... /
+boot=46-50,`2Preparing PT/SYNC... -
+boot=51-55,`2Preparing PT/SYNC... \
+boot=56-60,`2Preparing PT/SYNC... |
+boot=61-65,`2Preparing PT/SYNC... /
+boot=66-70,`2Preparing PT/SYNC... -
+boot=71-75,`2Preparing PT/SYNC... \
+boot=76-80,`2Preparing PT/SYNC... |
+boot=81-85,`2Preparing PT/SYNC... /
+boot=86,`0Data and Sync Complete
+boot=87-95,`2Engaging interface...
+boot=96,`2Engaging interface... `$done
+
+basevalue=1685
+#base
+configuration=new,80,30,10,10,50,20,-1,50
+#stealth
+configuration=stealth,80,35,15,15,54,24,-1,54
+#health
+configuration=defence,83,34,14,14,53,23,73,53
+#p.draw
+configuration=lowpoweruse,81,33,11,11,52,22,-1,52
+#eff.
+configuration=boost,80,33,13,13,52,22,-1,52
+email=Welcome to the world!^^By purchasing your communications module, you've opened yourself up to a new range of experiences and new ways to connect with people.^^Your comms terminal comes with two monitors: a syncing screen and a functional screen.^^The syncing screen allows you to either manually download news and messages or to set an auto-sync option, although this can give away your ship's position, so use with caution in uninhabited star systems.^^Your functional screen has a text prompt with two features auto-installed - type 'MAIL' or 'NEWS' to access each program respectively.^^Happy communications, and thank you again for your purchase!
+end module
+
+begin module
+type=comms
+id=mk11
+name=MK-11
+shortname=Comms
+manufacturer=Omega
+description=A standard Communications Computer.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=30
+
+emissionstrength=3
+emissionhighstrength=27
+emissionfrequency=688
+
+synctime=8
+normalpowerusage=0.2
+highpowerusage=2
+computer=true
+
+boot=0,`0Purchase Tech `2Communications Unit v1.11
+boot=5,`2  module: DocView.mp
+boot=14,`2  module: Email.mp
+boot=20,`2  module: ArticleMgr.mp
+boot=21,`2User Storage: `!2048kb
+boot=21-28,`2Loading articles...
+boot=29,`2Loading articles... `$complete
+boot=29-37,`2Loading emails...
+boot=38,`2Loading emails... `$complete
+boot=38-40,`2Preparing PT/SYNC... |
+boot=41-45,`2Preparing PT/SYNC... /
+boot=46-50,`2Preparing PT/SYNC... -
+boot=51-55,`2Preparing PT/SYNC... \
+boot=56-60,`2Preparing PT/SYNC... |
+boot=61-65,`2Preparing PT/SYNC... /
+boot=66-70,`2Preparing PT/SYNC... -
+boot=71-75,`2Preparing PT/SYNC... \
+boot=76-80,`2Preparing PT/SYNC... |
+boot=81-85,`2Preparing PT/SYNC... /
+boot=86,`0Data and Sync Complete
+boot=87-95,`2Engaging interface...
+boot=96,`2Engaging interface... `$done
+
+basevalue=2574
+#base
+configuration=new,80,80,30,30,50,50,20,20,-1
+#stealth
+configuration=stealth,80,-1,35,-1,-1,54,-1,24,-1
+#health
+configuration=defence,83,83,34,34,53,53,23,23,73
+#p.draw
+configuration=lowpoweruse,81,-1,33,-1,-1,52,-1,22,-1
+#eff.
+configuration=boost,80,80,33,33,52,52,22,22,-1
+email=Welcome to the world!^^By purchasing your communications module, you've opened yourself up to a new range of experiences and new ways to connect with people.^^Your comms terminal comes with two monitors: a syncing screen and a functional screen.^^The syncing screen allows you to either manually download news and messages or to set an auto-sync option, although this can give away your ship's position, so use with caution in uninhabited star systems.^^Your functional screen has a text prompt with two features auto-installed - type 'MAIL' or 'NEWS' to access each program respectively.^^Happy communications, and thank you again for your purchase!
+end module
+
+begin module
+type=comms
+id=ol08
+name=OL-08
+shortname=Comms
+manufacturer=Omega
+description=A standard Communications Computer.
+damagethreshold=80
+destroyedthreshold=10
+
+synctime=8
+boottime=30
+
+emissionstrength=4
+emissionhighstrength=28
+emissionfrequency=687
+
+normalpowerusage=0.3
+highpowerusage=3.5
+computer=true
+
+boot=0,`0Purchase Tech `2Communications Unit v1.11
+boot=5,`2  module: DocView.mp
+boot=14,`2  module: Email.mp
+boot=20,`2  module: ArticleMgr.mp
+boot=21,`2User Storage: `!2048kb
+boot=21-28,`2Loading articles...
+boot=29,`2Loading articles... `$complete
+boot=29-37,`2Loading emails...
+boot=38,`2Loading emails... `$complete
+boot=38-40,`2Preparing PT/SYNC... |
+boot=41-45,`2Preparing PT/SYNC... /
+boot=46-50,`2Preparing PT/SYNC... -
+boot=51-55,`2Preparing PT/SYNC... \
+boot=56-60,`2Preparing PT/SYNC... |
+boot=61-65,`2Preparing PT/SYNC... /
+boot=66-70,`2Preparing PT/SYNC... -
+boot=71-75,`2Preparing PT/SYNC... \
+boot=76-80,`2Preparing PT/SYNC... |
+boot=81-85,`2Preparing PT/SYNC... /
+boot=86,`0Data and Sync Complete
+boot=87-95,`2Engaging interface...
+boot=96,`2Engaging interface... `$done
+
+basevalue=2574
+#base
+configuration=new,80,80,50,50,20,20,-1,50,50,20,20
+#stealth
+configuration=stealth,80,-1,-1,54,-1,24,-1,-1,54,24,-1
+#health
+configuration=defence,83,83,53,53,23,23,73,53,53,23,23
+#p.draw
+configuration=lowpoweruse,81,-1,-1,52,-1,22,-1,-1,52,22,-1
+#eff.
+configuration=boost,80,80,52,52,22,22,-1,52,52,22,22
+email=Welcome to the world!^^By purchasing your communications module, you've opened yourself up to a new range of experiences and new ways to connect with people.^^Your comms terminal comes with two monitors: a syncing screen and a functional screen.^^The syncing screen allows you to either manually download news and messages or to set an auto-sync option, although this can give away your ship's position, so use with caution in uninhabited star systems.^^Your functional screen has a text prompt with two features auto-installed - type 'MAIL' or 'NEWS' to access each program respectively.^^Happy communications, and thank you again for your purchase!
+end module
+
+begin module
+type=comms
+id=mk22
+name=MK-22
+shortname=Comms
+manufacturer=Omega
+description=A standard Communications Computer.
+damagethreshold=80
+destroyedthreshold=10
+
+synctime=7
+boottime=34
+
+emissionstrength=5
+emissionhighstrength=29
+emissionfrequency=689
+
+normalpowerusage=0.6
+highpowerusage=3
+computer=true
+
+boot=0,`0Purchase Tech `2Communications Unit v1.11
+boot=5,`2  module: DocView.mp
+boot=14,`2  module: Email.mp
+boot=20,`2  module: ArticleMgr.mp
+boot=21,`2User Storage: `!2048kb
+boot=21-28,`2Loading articles...
+boot=29,`2Loading articles... `$complete
+boot=29-37,`2Loading emails...
+boot=38,`2Loading emails... `$complete
+boot=38-40,`2Preparing PT/SYNC... |
+boot=41-45,`2Preparing PT/SYNC... /
+boot=46-50,`2Preparing PT/SYNC... -
+boot=51-55,`2Preparing PT/SYNC... \
+boot=56-60,`2Preparing PT/SYNC... |
+boot=61-65,`2Preparing PT/SYNC... /
+boot=66-70,`2Preparing PT/SYNC... -
+boot=71-75,`2Preparing PT/SYNC... \
+boot=76-80,`2Preparing PT/SYNC... |
+boot=81-85,`2Preparing PT/SYNC... /
+boot=86,`0Data and Sync Complete
+boot=87-95,`2Engaging interface...
+boot=96,`2Engaging interface... `$done
+
+basevalue=2574
+#base
+configuration=new,80,80,50,50,20,20,-1,20,30,30,20
+#stealth
+configuration=stealth,80,-1,-1,54,-1,24,-1,-1,-1,35,24
+#health
+configuration=defence,83,83,53,53,23,23,73,23,34,34,23
+#p.draw
+configuration=lowpoweruse,81,-1,-1,52,-1,22,-1,-1,-1,33,22
+#eff.
+configuration=boost,80,80,52,52,22,22,-1,22,33,33,22
+email=Welcome to the world!^^By purchasing your communications module, you've opened yourself up to a new range of experiences and new ways to connect with people.^^Your comms terminal comes with two monitors: a syncing screen and a functional screen.^^The syncing screen allows you to either manually download news and messages or to set an auto-sync option, although this can give away your ship's position, so use with caution in uninhabited star systems.^^Your functional screen has a text prompt with two features auto-installed - type 'MAIL' or 'NEWS' to access each program respectively.^^Happy communications, and thank you again for your purchase!
+end module
+
+begin module
+type=comms
+id=lp02
+name=LP-02
+shortname=Comms
+manufacturer=Purchase Tech
+description=A standard Communications Computer.
+damagethreshold=80
+destroyedthreshold=10
+
+synctime=6
+boottime=32
+
+emissionstrength=2
+emissionhighstrength=26
+emissionfrequency=690
+
+normalpowerusage=0.8
+highpowerusage=1
+computer=true
+
+boot=0,`0Purchase Tech `2Communications Unit v1.11
+boot=5,`2  module: DocView.mp
+boot=14,`2  module: Email.mp
+boot=20,`2  module: ArticleMgr.mp
+boot=21,`2User Storage: `!2048kb
+boot=21-28,`2Loading articles...
+boot=29,`2Loading articles... `$complete
+boot=29-37,`2Loading emails...
+boot=38,`2Loading emails... `$complete
+boot=38-40,`2Preparing PT/SYNC... |
+boot=41-45,`2Preparing PT/SYNC... /
+boot=46-50,`2Preparing PT/SYNC... -
+boot=51-55,`2Preparing PT/SYNC... \
+boot=56-60,`2Preparing PT/SYNC... |
+boot=61-65,`2Preparing PT/SYNC... /
+boot=66-70,`2Preparing PT/SYNC... -
+boot=71-75,`2Preparing PT/SYNC... \
+boot=76-80,`2Preparing PT/SYNC... |
+boot=81-85,`2Preparing PT/SYNC... /
+boot=86,`0Data and Sync Complete
+boot=87-95,`2Engaging interface...
+boot=96,`2Engaging interface... `$done
+
+basevalue=2600
+#base
+configuration=new,80,50,50,20,20,-1,30
+#stealth
+configuration=stealth,80,54,-1,24,-1,-1,35
+#health
+configuration=defence,83,53,53,23,23,73,34
+#p.draw
+configuration=lowpoweruse,81,52,-1,22,-1,-1,33
+#eff.
+configuration=boost,80,52,52,22,22,-1,32
+email=Welcome to the world!^^By purchasing your communications module, you've opened yourself up to a new range of experiences and new ways to connect with people.^^Your comms terminal comes with two monitors: a syncing screen and a functional screen.^^The syncing screen allows you to either manually download news and messages or to set an auto-sync option, although this can give away your ship's position, so use with caution in uninhabited star systems.^^Your functional screen has a text prompt with two features auto-installed - type 'MAIL' or 'NEWS' to access each program respectively.^^Happy communications, and thank you again for your purchase!
+end module
+
+begin module
+type=comms
+id=lp04
+name=LP-04
+shortname=Comms
+manufacturer=Purchase Tech
+description=A standard Communications Computer.
+damagethreshold=80
+destroyedthreshold=10
+
+synctime=5
+boottime=34
+
+emissionstrength=4
+emissionhighstrength=30
+emissionfrequency=692
+
+normalpowerusage=0.9
+highpowerusage=1.5
+computer=true
+
+boot=0,`0Purchase Tech `2Communications Unit v1.11
+boot=5,`2  module: DocView.mp
+boot=14,`2  module: Email.mp
+boot=20,`2  module: ArticleMgr.mp
+boot=21,`2User Storage: `!2048kb
+boot=21-28,`2Loading articles...
+boot=29,`2Loading articles... `$complete
+boot=29-37,`2Loading emails...
+boot=38,`2Loading emails... `$complete
+boot=38-40,`2Preparing PT/SYNC... |
+boot=41-45,`2Preparing PT/SYNC... /
+boot=46-50,`2Preparing PT/SYNC... -
+boot=51-55,`2Preparing PT/SYNC... \
+boot=56-60,`2Preparing PT/SYNC... |
+boot=61-65,`2Preparing PT/SYNC... /
+boot=66-70,`2Preparing PT/SYNC... -
+boot=71-75,`2Preparing PT/SYNC... \
+boot=76-80,`2Preparing PT/SYNC... |
+boot=81-85,`2Preparing PT/SYNC... /
+boot=86,`0Data and Sync Complete
+boot=87-95,`2Engaging interface...
+boot=96,`2Engaging interface... `$done
+
+basevalue=2600
+#base
+configuration=new,80,50,50,20,20,-1,30,20,20
+#stealth
+configuration=stealth,80,54,-1,24,-1,-1,35,24,-1
+#health
+configuration=defence,83,53,53,23,23,73,34,23,23
+#p.draw
+configuration=lowpoweruse,81,52,-1,22,-1,-1,33,22,-1
+#eff.
+configuration=boost,80,52,52,22,22,-1,33,22,22
+email=Welcome to the world!^^By purchasing your communications module, you've opened yourself up to a new range of experiences and new ways to connect with people.^^Your comms terminal comes with two monitors: a syncing screen and a functional screen.^^The syncing screen allows you to either manually download news and messages or to set an auto-sync option, although this can give away your ship's position, so use with caution in uninhabited star systems.^^Your functional screen has a text prompt with two features auto-installed - type 'MAIL' or 'NEWS' to access each program respectively.^^Happy communications, and thank you again for your purchase!
+end module
+
+begin module
+type=comms
+id=lps
+name=LP-S
+shortname=Comms
+manufacturer=Purchase Tech
+description=A standard Communications Computer.
+damagethreshold=80
+destroyedthreshold=10
+
+synctime=5
+boottime=36
+
+emissionstrength=6
+emissionhighstrength=33
+emissionfrequency=694
+
+normalpowerusage=1
+highpowerusage=2.25
+computer=true
+
+boot=0,`0Purchase Tech `2Communications Unit v1.11
+boot=5,`2  module: DocView.mp
+boot=14,`2  module: Email.mp
+boot=20,`2  module: ArticleMgr.mp
+boot=21,`2User Storage: `!2048kb
+boot=21-28,`2Loading articles...
+boot=29,`2Loading articles... `$complete
+boot=29-37,`2Loading emails...
+boot=38,`2Loading emails... `$complete
+boot=38-40,`2Preparing PT/SYNC... |
+boot=41-45,`2Preparing PT/SYNC... /
+boot=46-50,`2Preparing PT/SYNC... -
+boot=51-55,`2Preparing PT/SYNC... \
+boot=56-60,`2Preparing PT/SYNC... |
+boot=61-65,`2Preparing PT/SYNC... /
+boot=66-70,`2Preparing PT/SYNC... -
+boot=71-75,`2Preparing PT/SYNC... \
+boot=76-80,`2Preparing PT/SYNC... |
+boot=81-85,`2Preparing PT/SYNC... /
+boot=86,`0Data and Sync Complete
+boot=87-95,`2Engaging interface...
+boot=96,`2Engaging interface... `$done
+
+basevalue=2600
+#base
+configuration=new,80,50,50,20,20,-1,20,20,40
+#stealth
+configuration=stealth,80,54,-1,24,-1,-1,24,-1,44
+#health
+configuration=defence,83,53,53,23,23,73,23,23,43
+#p.draw
+configuration=lowpoweruse,81,52,-1,22,-1,-1,22,-1,43
+#eff.
+configuration=boost,80,52,52,22,22,-1,22,22,43
+email=Welcome to the world!^^By purchasing your communications module, you've opened yourself up to a new range of experiences and new ways to connect with people.^^Your comms terminal comes with two monitors: a syncing screen and a functional screen.^^The syncing screen allows you to either manually download news and messages or to set an auto-sync option, although this can give away your ship's position, so use with caution in uninhabited star systems.^^Your functional screen has a text prompt with two features auto-installed - type 'MAIL' or 'NEWS' to access each program respectively.^^Happy communications, and thank you again for your purchase!
+end module

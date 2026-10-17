@@ -1,0 +1,101 @@
+begin shipclass
+    id=coleman
+    types=ship
+    name=Coleman FRT
+    shortname=Coleman
+    manufacturer=Harris-Wilson
+    description=A sturdy, reliable but slightly slower freighter designed to carry heavier loads.
+    maxspeed=1.1
+
+    hullmaxtemperature=1200
+
+    hulldamagechance=bow,90,0,0,0,10
+    hulldamagechance=port,0,0,40,0,60
+    hulldamagechance=starboard,0,0,0,40,60
+    hulldamagechance=stern,0,95,0,0,5
+
+    hullstrength=bow,110,critical
+    hullstrength=port,45
+    hullstrength=starboard,45
+    hullstrength=stern,90
+    hullstrength=primary,140,critical
+
+    batteryslots=4
+
+    engineeringunderlay=Ceres_EngineOverlay.png
+
+modulelocation=major,0,107,18,primary
+modulelocation=major,1,317,53,stern
+modulelocation=engine,2,317,0,stern
+
+modulelocation=ext,3,0,124,port
+modulelocation=ext,4,0,83,port
+modulelocation=ext,5,0,42,port
+
+modulelocation=ext,6,233,124,starboard
+modulelocation=ext,7,233,83,starboard
+modulelocation=ext,8,233,42,starboard
+
+modulelocation=ext,9,147,308,bow
+modulelocation=ext,10,87,308,bow
+
+modulelocation=comp,11,93,264,bow
+modulelocation=comp,12,141,264,bow
+modulelocation=comp,13,141,222,bow
+modulelocation=comp,14,92,222,bow
+
+modulelocation=comp,15,92,130,primary
+modulelocation=comp,16,141,130,primary
+modulelocation=comp,17,141,86,primary
+modulelocation=comp,18,92,86,primary
+
+	configuration=stock,mkiv,t100,t100,t100,cnm1,c1sns,chlm1,react2,gxone,ae35,pl900
+
+    cargoslots=6
+end shipclass
+
+begin shipclass
+    id=ryeland
+    types=ship
+    name=Ryeland TUG
+    shortname=Ryeland
+    manufacturer=Harris-Wilson
+    description=An ultra-light tug.
+    maxspeed=1.5
+
+    hullmaxtemperature=800
+
+    hulldamagechance=bow,95,0,0,0,5
+    hulldamagechance=port,0,0,25,0,75
+    hulldamagechance=starboard,0,0,0,25,75
+    hulldamagechance=stern,0,95,0,0,5
+
+    hullstrength=bow,40,critical
+    hullstrength=port,30
+    hullstrength=starboard,30
+    hullstrength=stern,60
+    hullstrength=primary,90,critical
+
+    batteryslots=2
+
+    engineeringunderlay=Ceres_EngineOverlay.png
+
+    modulelocation=generator,0,107,18,primary
+    modulelocation=nav,0,107,300,bow
+    modulelocation=sensor,0,107,245,bow
+    modulelocation=helm,0,107,190,bow
+    #modulelocation=pds,0,18,125
+    modulelocation=rcs,0,233,80,starboard
+    #modulelocation=solar,0,18,35,port
+    modulelocation=jumpdrive,0,318,70,stern
+    modulelocation=maindrive,0,318,12,stern
+    modulelocation=weapon,0,233,125,starboard
+    modulelocation=comms,0,1,80,port
+
+    modulelocation=battery,0,73,130,primary
+    modulelocation=battery,1,118,130,primary
+
+    configuration=stock,mkiv,t100,t100,cnm1,c1sns,chlm1,react2,gxone,ae35,pl900
+
+    cargoslots=1
+end shipclass

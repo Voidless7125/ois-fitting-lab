@@ -1,0 +1,403 @@
+begin shipclass
+    id=leander
+    types=ship
+    name=Leander-class FRT
+    shortname=Leander
+    manufacturer=Ventarii
+    description=A mid-range bulk freighter, generally not equipped with a jump drive
+
+    maxspeed=1.0
+
+    hullmaxtemperature=880
+
+
+    hulldamagechance=bow,90,0,0,0,10
+    hulldamagechance=port,0,0,40,0,60
+    hulldamagechance=starboard,0,0,0,40,60
+    hulldamagechance=stern,0,95,0,0,5
+
+    hullstrength=bow,100,critical
+    hullstrength=port,30
+    hullstrength=starboard,30
+    hullstrength=stern,80
+    hullstrength=primary,80,critical
+
+    batteryslots=6
+
+    engineeringunderlay=Ceres_EngineOverlay.png
+
+modulelocation=major,0,107,18,primary
+modulelocation=major,1,317,53,stern
+modulelocation=engine,2,317,0,stern
+
+modulelocation=ext,3,0,124,port
+modulelocation=ext,4,0,83,port
+modulelocation=ext,5,0,42,port
+
+modulelocation=ext,6,233,124,starboard
+modulelocation=ext,7,233,83,starboard
+modulelocation=ext,8,233,42,starboard
+
+modulelocation=ext,9,147,308,bow
+modulelocation=ext,10,87,308,bow
+
+modulelocation=comp,11,93,264,bow
+modulelocation=comp,12,141,264,bow
+modulelocation=comp,13,141,222,bow
+modulelocation=comp,14,92,222,bow
+
+modulelocation=comp,15,92,130,primary
+modulelocation=comp,16,141,130,primary
+modulelocation=comp,17,141,86,primary
+modulelocation=comp,18,92,86,primary
+
+	configuration=stock,mkiv,t100,t100,t100,t100,t100,cnm1,c1sns,chlm1,react2,gxone,ae35,pl900
+
+    cargoslots=6
+end shipclass
+
+begin shipclass
+    id=akula
+    types=ship
+    name=Akula GNB
+    shortname=Akula
+    manufacturer=Ventarii
+    description=Small military patrol vessel, crew of 12 (6 for boarding operations).
+
+    maxspeed=1.4
+
+    hullmaxtemperature=920
+
+
+    hulldamagechance=bow,90,0,0,0,10
+    hulldamagechance=port,0,0,40,0,60
+    hulldamagechance=starboard,0,0,0,40,60
+    hulldamagechance=stern,0,95,0,0,5
+
+    hullstrength=bow,100,critical
+    hullstrength=port,30
+    hullstrength=starboard,30
+    hullstrength=stern,80
+    hullstrength=primary,80,critical
+
+    batteryslots=6
+
+    engineeringunderlay=Ceres_EngineOverlay.png
+
+modulelocation=major,0,107,18,primary
+modulelocation=major,1,317,53,stern
+modulelocation=engine,2,317,0,stern
+
+modulelocation=ext,3,0,124,port
+modulelocation=ext,4,0,83,port
+modulelocation=ext,5,0,42,port
+
+modulelocation=ext,6,233,124,starboard
+modulelocation=ext,7,233,83,starboard
+modulelocation=ext,8,233,42,starboard
+
+modulelocation=ext,9,147,308,bow
+modulelocation=ext,10,87,308,bow
+
+modulelocation=comp,11,93,264,bow
+modulelocation=comp,12,141,264,bow
+modulelocation=comp,13,141,222,bow
+modulelocation=comp,14,92,222,bow
+
+modulelocation=comp,15,92,130,primary
+modulelocation=comp,16,141,130,primary
+modulelocation=comp,17,141,86,primary
+modulelocation=comp,18,92,86,primary
+
+    configuration=stock,mkiv,t100,t100,t100,t100,t100,t100,cnm1,c1sns,chlm1,react2,gxone,ae35,pl940
+
+    cargoslots=2
+end shipclass
+
+begin shipclass
+    id=headliner
+    types=ship
+    name=Headliner CUT
+    shortname=Headliner
+    manufacturer=Ventarii
+    description=Larger patrol vessel, crew of 40.
+
+    maxspeed=1.4
+
+    hullmaxtemperature=1220
+
+
+    hulldamagechance=bow,90,0,0,0,10
+    hulldamagechance=port,0,0,40,0,60
+    hulldamagechance=starboard,0,0,0,40,60
+    hulldamagechance=stern,0,95,0,0,5
+
+    hullstrength=bow,160,critical
+    hullstrength=port,90
+    hullstrength=starboard,90
+    hullstrength=stern,160
+    hullstrength=primary,240,critical
+
+    batteryslots=6
+
+    engineeringunderlay=Ceres_EngineOverlay.png
+
+modulelocation=major,0,107,18,primary
+modulelocation=major,1,317,53,stern
+modulelocation=engine,2,317,0,stern
+
+modulelocation=ext,3,0,124,port
+modulelocation=ext,4,0,83,port
+modulelocation=ext,5,0,42,port
+
+modulelocation=ext,6,233,124,starboard
+modulelocation=ext,7,233,83,starboard
+modulelocation=ext,8,233,42,starboard
+
+modulelocation=ext,9,147,308,bow
+modulelocation=ext,10,87,308,bow
+
+modulelocation=comp,11,93,264,bow
+modulelocation=comp,12,141,264,bow
+modulelocation=comp,13,141,222,bow
+modulelocation=comp,14,92,222,bow
+
+modulelocation=comp,15,92,130,primary
+modulelocation=comp,16,141,130,primary
+modulelocation=comp,17,141,86,primary
+modulelocation=comp,18,92,86,primary
+
+    configuration=stock,mkiv,t100,t100,t100,t100,t100,t100,cnm1,c1sns,chlm1,react2,gxone,ae35,pl940
+
+    cargoslots=4
+end shipclass
+
+begin shipclass
+id=walnut
+types=ship
+name=Walnut
+category=Light Freighter
+shortname=Walnut
+manufacturer=Ventarii
+description=A mid-range bulk freighter, generally not equipped with a jump drive
+defaultstructure=ceres3
+airlockroom=4
+maxspeed=1.2
+
+value=12000
+
+uidefaultcolour=0,99,50
+uiprefix=C
+textcolour=2
+boldtextcolour=0
+
+ac=AC_Bad
+
+hullmaxtemperature=1000
+
+systemfrequency=22
+systemstrength=6
+
+# hull damage chance is broken down as bow,stern,port,starboard,primary
+hulldamagechance=bow,90,0,0,0,10
+hulldamagechance=port,0,0,40,0,60
+hulldamagechance=starboard,0,0,0,40,60
+hulldamagechance=stern,0,95,0,0,5
+
+hullstrength=bow,70,critical
+hullstrength=port,20
+hullstrength=starboard,20
+hullstrength=stern,55
+hullstrength=primary,65,critical
+
+batteryslots=4
+
+engineeringunderlay=EngineOverlay_Ceres.png
+modulelocation=major,0,107,18,primary
+modulelocation=major,1,317,53,stern
+modulelocation=engine,2,317,0,stern
+
+modulelocation=ext,3,0,124,port
+modulelocation=ext,4,0,83,port
+modulelocation=ext,5,0,42,port
+
+modulelocation=ext,6,233,124,starboard
+modulelocation=ext,7,233,83,starboard
+modulelocation=ext,8,233,42,starboard
+
+modulelocation=ext,9,147,308,bow
+modulelocation=ext,10,87,308,bow
+
+modulelocation=comp,11,93,264,bow
+modulelocation=comp,12,141,264,bow
+modulelocation=comp,13,141,222,bow
+modulelocation=comp,14,92,222,bow
+
+modulelocation=comp,15,92,130,primary
+modulelocation=comp,16,141,130,primary
+modulelocation=comp,17,141,86,primary
+modulelocation=comp,18,92,86,primary
+
+
+configuration=stock,v7,gg10,gg10,cnm1,d4sns,dh30,kiorchid,ae35,3:reactgss
+configuration=easypirate,v7,gg10,gg10,gg10,cnm1,d4sns,dh30,mpl040,kiorchid,ae35,3:reactgss
+configuration=mediumpirate,v7,eb20,eb20,cnm1,d4sns,dh30,pl900,kiorchid,ae35,3:reactgss
+configuration=hardpirate,v7,eb20,eb20,eb20,cnm1,d4sns,dh30,spl9s,kiorchid,ae35,3:reactgss
+
+cargoslots=8
+defaultcargoslots=2
+end shipclass
+
+begin shipclass
+id=archer
+types=ship
+name=Archer
+category=Medium Freighter
+shortname=Archer
+manufacturer=Harris-Wilson
+description=A medium-size freighter of a modern design.
+defaultstructure=proxima
+airlockroom=4
+maxspeed=1.1
+
+uidefaultcolour=135,172,222
+uiprefix=P
+
+ac=AC_Okay
+
+value=18000
+
+hullmaxtemperature=1400
+
+systemfrequency=18
+systemstrength=5
+
+# hull damage chance is broken down as bow,stern,port,starboard,primary
+hulldamagechance=bow,90,0,0,0,10
+hulldamagechance=port,0,0,40,0,60
+hulldamagechance=starboard,0,0,0,40,60
+hulldamagechance=stern,0,95,0,0,5
+
+hullstrength=bow,70,critical
+hullstrength=port,20
+hullstrength=starboard,20
+hullstrength=stern,55
+hullstrength=primary,65,critical
+
+batteryslots=2
+
+engineeringunderlay=EngineOverlay_Proxima.png
+modulelocation=major,0,226,127,stern
+modulelocation=major,1,296,127,stern
+modulelocation=engine,2,261,71,stern
+
+modulelocation=ext,3,168,191,port
+modulelocation=ext,4,168,131,port
+modulelocation=ext,5,168,69,port
+
+modulelocation=ext,6,374,191,starboard
+modulelocation=ext,7,374,131,starboard
+modulelocation=ext,8,374,69,starboard
+
+modulelocation=ext,9,43,294,bow
+modulelocation=ext,10,86,294,bow
+
+modulelocation=comp,11,22,224,bow
+modulelocation=comp,12,65,224,bow
+modulelocation=comp,13,107,224,bow
+
+modulelocation=comp,14,22,182,bow
+modulelocation=comp,15,65,182,bow
+modulelocation=comp,16,107,182,bow
+
+modulelocation=major,17,55,84,primary
+
+modulelocation=comp,18,43,141,bow
+modulelocation=comp,19,85,141,bow
+
+configuration=stock,17:mkv,gg8,gg8,gg8,cnm1,d4sns,chlm1,pl900,gsmpd2,ae35,reactg9s
+configuration=easypirate,17:mkv,gg8,gg8,gg8,cnm1,d4sns,chlm1,mpl100,gsmpd2,ae35,reactg9s
+configuration=mediumpirate,17:mkv,rs8,rs8,rs8,cnm1,d4sns,chlm1,psp440,gsmpd2,ae35,reactg9s
+configuration=hardpirate,17:mkv,eb30,eb30,eb30,cnm1,d4sns,chlm1,spl6s,gsmpd2,ae35,reactg9s
+
+cargoslots=10
+defaultcargoslots=4
+end shipclass
+
+begin shipclass
+id=shark
+types=ship
+name=Shark
+category=Corvette
+shortname=Shark
+manufacturer=Ventarii
+description=If you have one of these, you know you've really made it!
+defaultstructure=enceladus
+maxspeed=1.3
+
+airlockroom=5
+
+ac=AC_Good
+
+value=20000
+
+textcolour=7
+boldtextcolour=%
+
+uidefaultcolour=255,255,255
+uiprefix=E
+
+hullmaxtemperature=1400
+
+systemfrequency=29
+systemstrength=3
+
+batteryslots=4
+
+hulldamagechance=bow,90,0,0,0,10
+hulldamagechance=port,0,0,40,0,60
+hulldamagechance=starboard,0,0,0,40,60
+hulldamagechance=stern,0,95,0,0,5
+
+hullstrength=bow,90,critical
+hullstrength=port,30
+hullstrength=starboard,30
+hullstrength=stern,80
+hullstrength=primary,75,critical
+
+engineeringunderlay=EngineOverlay_Enceladus.png
+
+modulelocation=major,0,87,67,primary
+modulelocation=major,1,294,56,stern
+modulelocation=engine,2,294,0,stern
+
+modulelocation=comp,3,72,253,bow
+modulelocation=comp,4,122,253,bow
+
+modulelocation=comp,5,48,207,bow
+modulelocation=comp,6,97,207,bow
+modulelocation=comp,7,146,207,bow
+
+modulelocation=ext,8,76,298,bow
+modulelocation=ext,9,118,298,bow
+
+modulelocation=ext,10,240,303,port
+modulelocation=ext,11,240,260,port
+modulelocation=ext,12,367,303,starboard
+modulelocation=ext,13,367,260,starboard
+
+modulelocation=ext,14,39,72,primary
+modulelocation=ext,15,154,72,primary
+
+modulelocation=comp,16,48,161,bow
+modulelocation=comp,17,97,161,bow
+modulelocation=comp,18,146,161,bow
+
+configuration=stock,mkiv,t100,t100,t100,t100,cnm1,c5sns,chlm1,react2,gxone,ae35,pl900,dvjd400,mtlc100,pdl400,cml3
+configuration=easypirate,mkiv,t100,t100,t100,t100,cnm1,c5sns,chlm1,react2,gxone,ae35,spl5s,dvjd400,mtlc100,pdl400,cml3
+configuration=mediumpirate,mkiv,r100,r100,r100,r100,cnm1,c5sns,chlm1,react2,gxone,ae35,spl7,dvjd400,mtlc100,pdl400,cml3
+configuration=hardpirate,mkiv,eb30,eb30,eb30,eb30,cnm1,c5sns,chlm1,react2,gxone,ae35,spl9s,dvjd400,mtlc100,pdl400,cml3
+
+cargoslots=6
+defaultcargoslots=4
+end shipclass

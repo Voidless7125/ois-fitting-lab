@@ -1,0 +1,640 @@
+begin module
+type=nav
+id=cnm1
+name=CNM/1
+shortname=NavCom
+manufacturer=Cosmos
+description=An advanced Navigational Computer suite, with far superior graphics and functionality.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=24
+
+normalpowerusage=0.4
+emissionstrength=2
+emissionfrequency=832
+computer=true
+plottime=10
+
+uiprefix=NavMap3
+softwareversion=2
+
+#Our boot sequence
+boot=0,`2NavMap v2.01
+boot=0,`2(c) Tribalt Precision Systems
+boot=5,Memory: `03096kb
+boot=6,`2MemTest() begin...
+boot=26, 0 ECC errors
+boot=38, 0 errors
+boot=42,MemTest() complete
+boot=43,MapLoad() called
+boot=50,`2Module: `0nav_glyphs
+boot=58,`2Module: `0if_buttons
+boot=67,`2Module: `0obj_tracker
+boot=78,`2Module: `0obj_status
+boot=85,`2Module: `0nav_glyphs
+boot=90,`2Boot-up complete
+
+
+basevalue=3480
+#ORIGINAL
+configuration=new,60,50,20,30,-1,40,-1,-1
+#STEALTH/EMISSION
+configuration=stealth,60,54,24,35,-1,44,-1,-1
+#POWER DRAW
+configuration=lowpoweruse,60,52,22,33,-1,43,-1,-1
+#Efficiency
+configuration=boost,60,50,20,30,-1,40,-1,-1
+#STURDINESS
+configuration=defence,60,50,20,30,-1,40,-1,73
+end module
+
+
+begin module
+type=nav
+id=cnm2
+name=CNM/2
+shortname=NavCom
+manufacturer=Cosmos
+description=An advanced Navigational Computer suite, with far superior graphics and functionality.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=24
+
+normalpowerusage=0.7
+emissionstrength=1.2
+emissionfrequency=832
+computer=true
+plottime=10
+
+uiprefix=NavMap3
+softwareversion=2
+
+#Our boot sequence
+boot=0,`2NavMap v2.01
+boot=0,`2(c) Tribalt Precision Systems
+boot=5,Memory: `03096kb
+boot=6,`2MemTest() begin...
+boot=26, 0 ECC errors
+boot=38, 0 errors
+boot=42,MemTest() complete
+boot=43,MapLoad() called
+boot=50,`2Module: `0nav_glyphs
+boot=58,`2Module: `0if_buttons
+boot=67,`2Module: `0obj_tracker
+boot=78,`2Module: `0obj_status
+boot=85,`2Module: `0nav_glyphs
+boot=90,`2Boot-up complete
+
+
+basevalue=3480
+
+#ORIGINAL
+configuration=new,60,30,30,40,40,-1
+#STEALTH/EMISSION
+configuration=stealth,60,35,-1,44,-1,-1
+#POWER DRAW
+configuration=lowpoweruse,61,33,-1,43,-1,-1
+#Efficiency
+configuration=boost,61,33,33,43,43,-1
+#STURDINESS
+configuration=defence,60,34,34,42,42,73
+end module
+
+
+begin module
+type=nav
+id=cnmr
+name=CNM/R
+shortname=NavCom
+manufacturer=Cosmos
+description=An advanced Navigational Computer suite, with far superior graphics and functionality.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=24
+
+normalpowerusage=0.5
+emissionstrength=2.4
+emissionfrequency=826
+computer=true
+plottime=10
+
+uiprefix=NavMap3
+softwareversion=2
+
+#Our boot sequence
+boot=0,`2NavMap v2.01
+boot=0,`2(c) Tribalt Precision Systems
+boot=5,Memory: `03096kb
+boot=6,`2MemTest() begin...
+boot=26, 0 ECC errors
+boot=38, 0 errors
+boot=42,MemTest() complete
+boot=43,MapLoad() called
+boot=50,`2Module: `0nav_glyphs
+boot=58,`2Module: `0if_buttons
+boot=67,`2Module: `0obj_tracker
+boot=78,`2Module: `0obj_status
+boot=85,`2Module: `0nav_glyphs
+boot=90,`2Boot-up complete
+
+
+basevalue=3190
+
+#ORIGINAL
+configuration=new,60,30,30,40,40,-1,50,50,20,20
+#STEALTH/EMISSION
+configuration=stealth,60,35,-1,44,-1,-1,-1,54,-1,20
+#POWER DRAW
+configuration=lowpoweruse,61,33,-1,43,-1,-1,-1,52,-1,20
+#Efficiency
+configuration=boost,61,33,33,43,43,-1,52,52,22,22
+#STURDINESS
+configuration=defence,60,34,34,42,42,73,53,53,23,23
+
+end module
+
+
+begin module
+type=nav
+id=nm60
+name=NM/60
+shortname=NavCom
+manufacturer=Dal Pozzo
+description=An advanced Navigational Computer suite, with far superior graphics and functionality.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=25
+
+normalpowerusage=0.6
+emissionstrength=6
+emissionfrequency=830
+computer=true
+plottime=10
+
+uiprefix=NavMap2
+softwareversion=1
+
+#Our boot sequence
+boot=0,`2NavMap v2.01
+boot=0,`2(c) Tribalt Precision Systems
+boot=5,Memory: `03096kb
+boot=6,`2MemTest() begin...
+boot=26, 0 ECC errors
+boot=38, 0 errors
+boot=42,MemTest() complete
+boot=43,MapLoad() called
+boot=50,`2Module: `0nav_glyphs
+boot=58,`2Module: `0if_buttons
+boot=67,`2Module: `0obj_tracker
+boot=78,`2Module: `0obj_status
+boot=85,`2Module: `0nav_glyphs
+boot=90,`2Boot-up complete
+
+
+basevalue=2088
+
+#ORIGINAL
+configuration=new,60,30,30,-1,50,50,20,20
+#STEALTH/EMISSION
+configuration=stealth,60,35,35,-1,54,54,24,24
+#POWER DRAW
+configuration=lowpoweruse,61,33,33,-1,52,52,22,22
+#Efficiency
+configuration=boost,61,33,33,-1,52,52,22,22
+#STURDINESS
+configuration=defence,60,34,34,73,53,53,23,23
+
+end module
+
+
+begin module
+type=nav
+id=nm80
+name=NM/80
+shortname=NavCom
+manufacturer=Dal Pozzo
+description=An advanced Navigational Computer suite, with far superior graphics and functionality.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=28
+
+normalpowerusage=1
+emissionstrength=10
+emissionfrequency=831
+computer=true
+plottime=10
+
+uiprefix=NavMap1
+softwareversion=0
+
+#Our boot sequence
+boot=0,`2NavMap v2.01
+boot=0,`2(c) Tribalt Precision Systems
+boot=5,Memory: `03096kb
+boot=6,`2MemTest() begin...
+boot=26, 0 ECC errors
+boot=38, 0 errors
+boot=42,MemTest() complete
+boot=43,MapLoad() called
+boot=50,`2Module: `0nav_glyphs
+boot=58,`2Module: `0if_buttons
+boot=67,`2Module: `0obj_tracker
+boot=78,`2Module: `0obj_status
+boot=85,`2Module: `0nav_glyphs
+boot=90,`2Boot-up complete
+
+
+basevalue=2088
+
+#ORIGINAL
+configuration=new,60,30,30,-1,50,50,20,20,30
+#STEALTH/EMISSION
+configuration=stealth,60,35,35,-1,54,54,24,24,35
+#POWER DRAW
+configuration=lowpoweruse,61,33,33,-1,52,52,22,22,33
+#Efficiency
+configuration=boost,61,33,33,-1,52,52,22,22,33
+#STURDINESS
+configuration=defence,60,34,34,73,53,53,23,23,34
+
+end module
+
+
+begin module
+type=nav
+id=nm99
+name=NM/99
+shortname=NavCom
+manufacturer=Dal Pozzo
+description=An advanced Navigational Computer suite, with far superior graphics and functionality.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=30
+
+normalpowerusage=0.6
+emissionstrength=8
+emissionfrequency=829
+computer=true
+plottime=10
+
+uiprefix=NavMap1
+softwareversion=0
+
+#Our boot sequence
+boot=0,`2NavMap v2.01
+boot=0,`2(c) Tribalt Precision Systems
+boot=5,Memory: `03096kb
+boot=6,`2MemTest() begin...
+boot=26, 0 ECC errors
+boot=38, 0 errors
+boot=42,MemTest() complete
+boot=43,MapLoad() called
+boot=50,`2Module: `0nav_glyphs
+boot=58,`2Module: `0if_buttons
+boot=67,`2Module: `0obj_tracker
+boot=78,`2Module: `0obj_status
+boot=85,`2Module: `0nav_glyphs
+boot=90,`2Boot-up complete
+
+
+basevalue=2610
+
+#ORIGINAL
+configuration=new,60,30,30,-1,50,50,20,20,50,20
+#STEALTH/EMISSION
+configuration=stealth,60,35,35,-1,54,54,24,24,-1,-1
+#POWER DRAW
+configuration=lowpoweruse,61,33,33,-1,52,52,22,22,52,22
+#Efficiency
+configuration=boost,61,33,33,-1,52,52,22,22,52,22
+#STURDINESS
+configuration=defence,60,34,34,73,53,53,23,23,53,23
+end module
+
+
+begin module
+type=nav
+id=snm40
+name=SNM/40
+shortname=NavCom
+manufacturer=Signals
+description=An advanced Navigational Computer suite, with far superior graphics and functionality.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=26
+
+normalpowerusage=0.5
+emissionstrength=4
+emissionfrequency=834
+computer=true
+plottime=10
+
+uiprefix=NavMap1
+softwareversion=0
+
+#Our boot sequence
+boot=0,`2NavMap v2.01
+boot=0,`2(c) Tribalt Precision Systems
+boot=5,Memory: `03096kb
+boot=6,`2MemTest() begin...
+boot=26, 0 ECC errors
+boot=38, 0 errors
+boot=42,MemTest() complete
+boot=43,MapLoad() called
+boot=50,`2Module: `0nav_glyphs
+boot=58,`2Module: `0if_buttons
+boot=67,`2Module: `0obj_tracker
+boot=78,`2Module: `0obj_status
+boot=85,`2Module: `0nav_glyphs
+boot=90,`2Boot-up complete
+
+
+basevalue=2784
+
+#ORIGINAL
+configuration=new,60,30,30,-1,50,20,50,20,40
+#STEALTH/EMISSION
+configuration=stealth,60,-1,35,-1,54,24,54,24,44
+#POWER DRAW
+configuration=lowpoweruse,61,-1,33,-1,52,22,52,22,43
+#Efficiency
+configuration=boost,61,33,33,-1,52,22,52,22,43
+#STURDINESS
+configuration=defence,60,34,34,73,53,23,53,23,42
+
+end module
+
+
+begin module
+type=nav
+id=snm50
+name=SNM/50
+shortname=NavCom
+manufacturer=Signals
+description=An advanced Navigational Computer suite, with far superior graphics and functionality.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=30
+
+normalpowerusage=0.4
+emissionstrength=5
+emissionfrequency=835
+computer=true
+plottime=10
+
+uiprefix=NavMap2
+softwareversion=1
+
+#Our boot sequence
+boot=0,`2NavMap v2.01
+boot=0,`2(c) Tribalt Precision Systems
+boot=5,Memory: `03096kb
+boot=6,`2MemTest() begin...
+boot=26, 0 ECC errors
+boot=38, 0 errors
+boot=42,MemTest() complete
+boot=43,MapLoad() called
+boot=50,`2Module: `0nav_glyphs
+boot=58,`2Module: `0if_buttons
+boot=67,`2Module: `0obj_tracker
+boot=78,`2Module: `0obj_status
+boot=85,`2Module: `0nav_glyphs
+boot=90,`2Boot-up complete
+
+
+basevalue=3480
+#ORIGINAL
+configuration=new,60,30,30,-1,50,20,50,20,40
+#STEALTH/EMISSION
+configuration=stealth,60,-1,35,-1,54,24,54,24,44
+#POWER DRAW
+configuration=lowpoweruse,61,-1,33,-1,52,22,52,24,43
+#Efficiency
+configuration=boost,61,33,33,-1,52,22,52,22,43
+#STURDINESS
+configuration=defence,60,34,34,73,53,23,53,23,42
+end module
+
+
+begin module
+type=nav
+id=snm66
+name=SNM/66
+shortname=NavCom
+manufacturer=Signals
+description=An advanced Navigational Computer suite, with far superior graphics and functionality.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=34
+
+normalpowerusage=0.2
+emissionstrength=4
+emissionfrequency=834
+computer=true
+plottime=10
+
+uiprefix=NavMap1
+softwareversion=0
+
+#Our boot sequence
+boot=0,`2NavMap v2.01
+boot=0,`2(c) Tribalt Precision Systems
+boot=5,Memory: `03096kb
+boot=6,`2MemTest() begin...
+boot=26, 0 ECC errors
+boot=38, 0 errors
+boot=42,MemTest() complete
+boot=43,MapLoad() called
+boot=50,`2Module: `0nav_glyphs
+boot=58,`2Module: `0if_buttons
+boot=67,`2Module: `0obj_tracker
+boot=78,`2Module: `0obj_status
+boot=85,`2Module: `0nav_glyphs
+boot=90,`2Boot-up complete
+
+
+basevalue=3480
+
+#ORIGINAL
+configuration=new,60,-1,30,-1,50,20,50,20,50,-1,-1,-1
+#STEALTH/EMISSION
+configuration=stealth,60,35,35,-1,54,24,54,24,54,-1,-1,-1
+#POWER DRAW
+configuration=lowpoweruse,61,33,33,-1,52,22,52,22,52,-1,-1,-1
+#Efficiency
+configuration=boost,61,33,33,-1,52,22,52,22,52,52,22,52
+#STURDINESS
+configuration=defence,60,34,34,73,53,23,53,23,53,53,23,53
+
+end module
+
+
+begin module
+type=nav
+id=nvt1
+name=NV/T1
+shortname=NavCom
+manufacturer=Tribalt
+description=An advanced Navigational Computer suite, with far superior graphics and functionality.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=18
+
+normalpowerusage=0.4
+emissionstrength=4
+emissionfrequency=837
+computer=true
+plottime=10
+
+uiprefix=NavMap3
+softwareversion=2
+
+#Our boot sequence
+boot=0,`2NavMap v2.01
+boot=0,`2(c) Tribalt Precision Systems
+boot=5,Memory: `03096kb
+boot=6,`2MemTest() begin...
+boot=26, 0 ECC errors
+boot=38, 0 errors
+boot=42,MemTest() complete
+boot=43,MapLoad() called
+boot=50,`2Module: `0nav_glyphs
+boot=58,`2Module: `0if_buttons
+boot=67,`2Module: `0obj_tracker
+boot=78,`2Module: `0obj_status
+boot=85,`2Module: `0nav_glyphs
+boot=90,`2Boot-up complete
+
+
+basevalue=3190
+
+#ORIGINAL
+configuration=new,60,30,30,-1,20,50,20,50,50,20,50,20,60,40,40
+#STEALTH/EMISSION
+configuration=stealth,60,-1,35,-1,24,54,24,54,-1,-1,-1,-1,-1,44,-1
+#POWER DRAW
+configuration=lowpoweruse,61,-1,33,-1,22,52,22,52,-1,-1,-1,-1,-1,43,-1
+#Efficiency
+configuration=boost,61,33,33,-1,22,52,22,52,52,22,52,22,62,43,43
+#STURDINESS
+configuration=defence,60,34,34,73,23,53,23,53,53,23,53,23,60,42,42
+
+end module
+
+
+begin module
+type=nav
+id=nvt2
+name=NV/T2
+shortname=NavCom
+manufacturer=Dal Pozzo
+description=An advanced Navigational Computer suite, with far superior graphics and functionality.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=16
+
+normalpowerusage=0.3
+emissionstrength=3.6
+emissionfrequency=837
+computer=true
+plottime=10
+
+uiprefix=NavMap3
+softwareversion=2
+
+#Our boot sequence
+boot=0,`2NavMap v2.01
+boot=0,`2(c) Tribalt Precision Systems
+boot=5,Memory: `03096kb
+boot=6,`2MemTest() begin...
+boot=26, 0 ECC errors
+boot=38, 0 errors
+boot=42,MemTest() complete
+boot=43,MapLoad() called
+boot=50,`2Module: `0nav_glyphs
+boot=58,`2Module: `0if_buttons
+boot=67,`2Module: `0obj_tracker
+boot=78,`2Module: `0obj_status
+boot=85,`2Module: `0nav_glyphs
+boot=90,`2Boot-up complete
+
+
+basevalue=3190
+
+#ORIGINAL
+configuration=new,60,30,30,-1,20,50,20,50,50,20,50,20,60
+#STEALTH/EMISSION
+configuration=stealth,60,-1,35,-1,24,54,24,54,-1,-1,-1,-1,-1
+#POWER DRAW
+configuration=lowpoweruse,61,-1,33,-1,22,52,22,52,-1,-1,-1,-1,-1
+#Efficiency
+configuration=boost,61,33,33,-1,22,52,22,52,52,22,52,22,61
+#STURDINESS
+configuration=defence,60,34,34,73,23,53,23,53,53,23,53,23,60
+
+end module
+
+
+begin module
+type=nav
+id=nvt4
+name=NV/T4
+shortname=NavCom
+manufacturer=Dal Pozzo
+description=An advanced Navigational Computer suite, with far superior graphics and functionality.
+damagethreshold=80
+destroyedthreshold=10
+
+boottime=20
+
+normalpowerusage=0.2
+emissionstrength=3.2
+emissionfrequency=838
+computer=true
+plottime=10
+
+uiprefix=NavMap3
+softwareversion=2
+
+#Our boot sequence
+boot=0,`2NavMap v2.01
+boot=0,`2(c) Tribalt Precision Systems
+boot=5,Memory: `03096kb
+boot=6,`2MemTest() begin...
+boot=26, 0 ECC errors
+boot=38, 0 errors
+boot=42,MemTest() complete
+boot=43,MapLoad() called
+boot=50,`2Module: `0nav_glyphs
+boot=58,`2Module: `0if_buttons
+boot=67,`2Module: `0obj_tracker
+boot=78,`2Module: `0obj_status
+boot=85,`2Module: `0nav_glyphs
+boot=90,`2Boot-up complete
+
+
+basevalue=3190
+
+#ORIGINAL
+configuration=new,60,30,30,-1,20,50,50,20,60,40,40,10,10
+#STEALTH/EMISSION
+configuration=stealth,60,-1,35,-1,24,54,-1,-1,-1,44,-1,15,-1
+#POWER DRAW
+configuration=lowpoweruse,61,-1,33,-1,22,52,-1,-1,-1,43,-1,11,-1
+#Efficiency
+configuration=boost,61,33,33,-1,22,52,52,22,61,43,43,13,13
+#STURDINESS
+configuration=defence,60,34,34,73,23,53,53,23,60,42,42,14,14
+
+end module
